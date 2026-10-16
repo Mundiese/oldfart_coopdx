@@ -1,0 +1,5 @@
+#include "levels/of_splinteryard/area_1/collision.inc.c"
+#include "levels/of_splinteryard/area_1/macro.inc.c"
+#include "levels/of_splinteryard/area_1/spline.inc.c"
+#include "levels/of_splinteryard/model.inc.c"
+#include "levels/of_splinteryard/static.inc.c"

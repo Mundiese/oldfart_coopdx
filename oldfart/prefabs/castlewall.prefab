@@ -1,0 +1,36 @@
+{
+  "name": "Castle wall",
+  "tags": [
+    "wall",
+    "castle"
+  ],
+  "roles": {
+    "wall": "brickdarkgrey"
+  },
+  "connectors": [
+    {
+      "at": [
+        0,
+        0,
+        0
+      ],
+      "face": "-x",
+      "kind": "wall"
+    },
+    {
+      "at": [
+        4,
+        0,
+        0
+      ],
+      "face": "+x",
+      "kind": "wall"
+    }
+  ],
+  "pieces": [
+    [0, 0, 0, "cube", "@wall", 0, false, [5, 2, 1]],
+    [0, 2, 0, "cube", "@wall", 0, false],
+    [2, 2, 0, "cube", "@wall", 0, false],
+    [4, 2, 0, "cube", "@wall", 0, false]
+  ]
+}

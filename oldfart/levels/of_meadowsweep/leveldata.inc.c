@@ -1,0 +1,5 @@
+#include "levels/of_meadowsweep/area_1/collision.inc.c"
+#include "levels/of_meadowsweep/area_1/macro.inc.c"
+#include "levels/of_meadowsweep/area_1/spline.inc.c"
+#include "levels/of_meadowsweep/model.inc.c"
+#include "levels/of_meadowsweep/static.inc.c"

@@ -1,0 +1,12 @@
+extern const GeoLayout the_studio_area_1_geo[];
+extern const GeoLayout the_studio_area_1[];
+extern const Collision the_studio_area_1_collision[];
+extern const MacroObject the_studio_area_1_macro_objs[];
+extern Vtx the_studio_dl_Cube_001_mesh_layer_1_vtx_0[14];
+extern Gfx the_studio_dl_Cube_001_mesh_layer_1_tri_0[];
+extern Vtx the_studio_dl_Cube_002_mesh_layer_1_vtx_0[14];
+extern Gfx the_studio_dl_Cube_002_mesh_layer_1_tri_0[];
+extern Gfx mat_the_studio_dl_f3dlite_material_003[];
+extern Gfx mat_revert_the_studio_dl_f3dlite_material_003[];
+extern Gfx the_studio_dl_Cube_001_mesh_layer_1[];
+extern Gfx the_studio_dl_Cube_002_mesh_layer_1_with_revert[];

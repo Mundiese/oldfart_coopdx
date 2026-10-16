@@ -1,0 +1,18 @@
+extern const GeoLayout empty_area_1_geo[];
+extern const GeoLayout empty_area_1[];
+extern const Collision empty_area_1_collision[];
+extern const MacroObject empty_area_1_macro_objs[];
+extern Lights1 empty_dl_f3dlite_material_lights;
+extern Lights1 empty_dl_grass_layer1_area1_lights;
+extern u8 empty_dl_Texture0322_RGB_ci8[];
+extern u8 empty_dl_Texture0322_RGB_pal_rgba16[];
+extern Vtx empty_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx empty_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Vtx empty_dl_Ground_mesh_layer_1_vtx_0[4];
+extern Gfx empty_dl_Ground_mesh_layer_1_tri_0[];
+extern Gfx mat_empty_dl_f3dlite_material[];
+extern Gfx mat_revert_empty_dl_f3dlite_material[];
+extern Gfx mat_empty_dl_grass_layer1_area1[];
+extern Gfx mat_revert_empty_dl_grass_layer1_area1[];
+extern Gfx empty_dl_Death_Plane_mesh_layer_5_with_revert[];
+extern Gfx empty_dl_Ground_mesh_layer_1_with_revert[];

@@ -1,0 +1,12 @@
+extern const GeoLayout of_cinderswitchback_area_1_geo[];
+extern const GeoLayout of_cinderswitchback_area_1[];
+extern const Collision of_cinderswitchback_area_1_collision[];
+extern const MacroObject of_cinderswitchback_area_1_macro_objs[];
+extern Lights1 of_cinderswitchback_dl_f3dlite_material_lights;
+extern Vtx of_cinderswitchback_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx of_cinderswitchback_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Gfx mat_of_cinderswitchback_dl_f3dlite_material[];
+extern Gfx mat_revert_of_cinderswitchback_dl_f3dlite_material[];
+extern Gfx of_cinderswitchback_dl_Death_Plane_mesh_layer_5_with_revert[];
+extern const GeoLayout of_cinderswitchback_bake_geo[];
+extern Gfx of_cinderswitchback_static_dl[];

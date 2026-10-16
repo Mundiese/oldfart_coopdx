@@ -1,0 +1,18 @@
+extern const GeoLayout desert_cage_area_1_geo[];
+extern const GeoLayout desert_cage_area_1[];
+extern const Collision desert_cage_area_1_collision[];
+extern const MacroObject desert_cage_area_1_macro_objs[];
+extern Lights1 desert_cage_dl_death_plane_lights;
+extern Lights1 desert_cage_dl_f3dlite_material_layer1_area1_lights;
+extern u8 desert_cage_dl_Texture0250_RGB_ci8[];
+extern u8 desert_cage_dl_Texture0250_RGB_pal_rgba16[];
+extern Vtx desert_cage_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx desert_cage_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Vtx desert_cage_dl_Ground_mesh_layer_1_vtx_0[88];
+extern Gfx desert_cage_dl_Ground_mesh_layer_1_tri_0[];
+extern Gfx mat_desert_cage_dl_death_plane[];
+extern Gfx mat_revert_desert_cage_dl_death_plane[];
+extern Gfx mat_desert_cage_dl_f3dlite_material_layer1_area1[];
+extern Gfx mat_revert_desert_cage_dl_f3dlite_material_layer1_area1[];
+extern Gfx desert_cage_dl_Death_Plane_mesh_layer_5_with_revert[];
+extern Gfx desert_cage_dl_Ground_mesh_layer_1_with_revert[];

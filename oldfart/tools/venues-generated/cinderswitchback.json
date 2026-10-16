@@ -1,0 +1,2790 @@
+{
+ "_walk": {
+  "cells": 22250,
+  "reached": 20163
+ },
+ "blurb": "a generated race loop for sixteen shells",
+ "budget": 128,
+ "critic": {
+  "groups": {
+   "build": 0.9434,
+   "looks": 0.8821,
+   "play": 1.0
+  },
+  "line": 58,
+  "looks": true,
+  "pass": true,
+  "repairs": [],
+  "rows": {
+   "away_side": {
+    "note": "the shady side is 32 % of a sunny top (want 35-50 %)",
+    "score": 0.884,
+    "value": 0.315
+   },
+   "calm": {
+    "note": "27 % of the picture is calm (want 50 % or more)",
+    "score": 0.347,
+    "value": 0.271
+   },
+   "composition": {
+    "note": "dress.backdrop.landmark seen from the spawn; relief 1400; focal points in 4 of 4 quarters",
+    "score": 0.958,
+    "value": 0.958
+   },
+   "contrast": {
+    "note": "median floor 0.36, wall 0.07 on screen",
+    "score": 1.0,
+    "value": 0.288
+   },
+   "emitter_without_light": {
+    "note": "every glowing part is a light",
+    "score": 1.0,
+    "value": 0
+   },
+   "emptiness": {
+    "note": "65% empty ground",
+    "score": 0.0,
+    "value": 0.646
+   },
+   "floating": {
+    "note": "none",
+    "score": 1.0,
+    "value": 0,
+    "where": []
+   },
+   "focal": {
+    "note": "the landmark stands out more than 100 % of the picture (want 60 %)",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "glow_on_structure": {
+    "note": "only small parts glow",
+    "score": 1.0,
+    "value": 0,
+    "where": []
+   },
+   "ground_calm": {
+    "note": "basalttop covers 71 % of the ground (calm: 30-80 %)",
+    "score": 1.0,
+    "value": 0.713
+   },
+   "grounding": {
+    "note": "every big block stands on something",
+    "score": 1.0,
+    "value": 0
+   },
+   "hero_seen": {
+    "note": "dress.backdrop.landmark seen from 16 of 16 spawns",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "light_height": {
+    "note": "height and light go together +0.28 (want +0.20 or more)",
+    "score": 1.0,
+    "value": 0.281
+   },
+   "light_leaks": {
+    "note": "every light stands in the open",
+    "score": 1.0,
+    "value": 0,
+    "where": []
+   },
+   "liminal": {
+    "note": "has things to steer by, texture and light variety",
+    "score": 1.0,
+    "signs": [],
+    "value": 0
+   },
+   "live_budget": {
+    "note": "at most 4 live lights near one spot (the engine burns the nearest 16)",
+    "score": 1.0,
+    "value": 4
+   },
+   "mode_fit": {
+    "misses": [],
+    "note": "carries what 1 of 1 modes need",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "monotony": {
+    "note": "basalttop covers 58% (9 textures); 34% of the 16 m squares one texture",
+    "score": 0.726,
+    "value": 0.581
+   },
+   "mud": {
+    "note": "densest 8 m square: 0 props",
+    "score": 1.0,
+    "value": 0
+   },
+   "overlaps": {
+    "note": "none",
+    "score": 1.0,
+    "value": 0,
+    "where": []
+   },
+   "palette": {
+    "note": "colours 69 / 28 / 3 % on screen (the rule: 60 / 30 / 10)",
+    "score": 0.873,
+    "value": [
+     0.69,
+     0.28,
+     0.03
+    ]
+   },
+   "reach": {
+    "note": "0 pickups out of reach; difficulty curve -",
+    "score": 1.0,
+    "value": 0
+   },
+   "saturation": {
+    "note": "colour strength 16 % on average (soft: up to 45 %), bright colours on 0 % (up to 10 %)",
+    "score": 1.0,
+    "value": [
+     0.161,
+     0.0
+    ]
+   },
+   "shadow_colour": {
+    "note": "shadows bluer than the sunny side by 0.11 (want 0.05)",
+    "score": 1.0,
+    "value": 0.113
+   },
+   "silhouette": {
+    "note": "Mario (value 0.27) against a background of contrast 0.09, sd 0.10",
+    "score": 0.6,
+    "value": 0.09
+   },
+   "surroundings": {
+    "note": "something to look at in 5 of 8 directions round the map; 16 rises over the horizon",
+    "score": 1.0,
+    "value": 5
+   },
+   "texture_count": {
+    "note": "9 textures (up to 16 is plenty)",
+    "score": 1.0,
+    "value": 9
+   },
+   "value_bands": {
+    "note": "bands at 0.11 / 0.31 / 0.44 holding 42 / 26 / 32 %",
+    "score": 1.0,
+    "value": 0.132
+   },
+   "value_curve": {
+    "iqr": 0.27,
+    "note": "dark 0.04, middle 0.29, bright 0.48 (want 0.05-0.35, 0.25-0.65, 0.75+)",
+    "score": 0.2,
+    "value": [
+     0.04,
+     0.29,
+     0.48
+    ]
+   },
+   "vista": {
+    "note": "a framed long view from 0 of 2 arrivals",
+    "score": 0.6,
+    "value": 0.6
+   },
+   "weenies": {
+    "note": "something tall to walk toward in 8 of 8 parts",
+    "score": 1.0,
+    "value": 1.0
+   }
+  },
+  "score": 83.7,
+  "tier": "full",
+  "warnings": [],
+  "weights": {
+   "away_side": 0.3,
+   "calm": 0.5,
+   "composition": 1.0,
+   "contrast": 0.8,
+   "emitter_without_light": 0.5,
+   "emptiness": 0.3,
+   "floating": 1.5,
+   "focal": 0.6,
+   "glow_on_structure": 0.5,
+   "ground_calm": 0.4,
+   "grounding": 1.0,
+   "hero_seen": 1.0,
+   "light_height": 0.3,
+   "light_leaks": 0.5,
+   "liminal": 0.8,
+   "live_budget": 0.5,
+   "mode_fit": 1.5,
+   "monotony": 0.6,
+   "mud": 1.0,
+   "overlaps": 1.5,
+   "palette": 0.6,
+   "reach": 1.0,
+   "saturation": 0.4,
+   "shadow_colour": 0.2,
+   "silhouette": 0.8,
+   "surroundings": 0.8,
+   "texture_count": 0.4,
+   "value_bands": 0.6,
+   "value_curve": 0.6,
+   "vista": 0.4,
+   "weenies": 0.5
+  },
+  "worst": "emptiness"
+ },
+ "face": {
+  "bottom": "ofmap_pnt_cinderswitchback_bottom",
+  "top": "ofmap_pnt_cinderswitchback_top"
+ },
+ "family": "race",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 3,
+  "family": "race",
+  "modules": {
+   "boosts": 1,
+   "chicanes": 0,
+   "elevation": "climb",
+   "item_rows": 3,
+   "shortcut": "bump jump",
+   "start": "straight 15",
+   "track": "loop"
+  },
+  "params": {
+   "B": 0,
+   "C": 3600,
+   "G": 0,
+   "H": 600,
+   "I": 9903,
+   "W": 2000,
+   "base": 0,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "centre": "loop",
+   "chicanes": 0,
+   "corner": "pads 14",
+   "gates": 16,
+   "heights": [
+    0,
+    100,
+    600
+   ],
+   "lane": "road 2000",
+   "lap_estimate_s": 37.5,
+   "lap_length": 72000,
+   "lap_target_s": 33,
+   "nodes": 20,
+   "origin": [
+    -7200,
+    -9000
+   ],
+   "shape": "loop",
+   "shield": "-",
+   "shortcut": true,
+   "shortcut_saves_s": 3.8
+  },
+  "quality": 1.0,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 23,
+  "version": "mapgen 2"
+ },
+ "key": "cinderswitchback",
+ "level": "empty2",
+ "look": {
+  "bake": {
+   "gnd": [
+    0.5,
+    0.3,
+    0.22
+   ],
+   "hi": [
+    1.0,
+    0.84,
+    0.62
+   ],
+   "lo": [
+    0.72,
+    0.62,
+    0.68
+   ],
+   "sky": [
+    0.44,
+    0.37,
+    0.38
+   ],
+   "sun": [
+    -0.7,
+    1.05,
+    -0.78
+   ],
+   "sun0": [
+    0.2,
+    0.7,
+    -0.68
+   ],
+   "sunc": [
+    1.0,
+    0.8,
+    0.6
+   ]
+  },
+  "hourBaked": [
+   -0.9,
+   0.35,
+   -0.1
+  ],
+  "light": {
+   "dir": [
+    0,
+    0,
+    0
+   ],
+   "name": "none"
+  },
+  "mood": {
+   "fog": "a pink evening",
+   "hour": "late, from the west",
+   "light": "a sunset",
+   "preset": "sunset"
+  },
+  "music": "SEQ_LEVEL_BOSS_KOOPA_FINAL",
+  "sky": "BACKGROUND_FLAMING_SKY",
+  "visuals": [
+   [
+    "shading",
+    "a sunset"
+   ]
+  ]
+ },
+ "markers": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": -1000
+  },
+  {
+   "a": 45,
+   "b": 0,
+   "kind": 3,
+   "label": "info",
+   "num": 3,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -1300
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -7200
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": -1800,
+   "y": 0,
+   "yaw": 270,
+   "z": -9000
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": -5400,
+   "y": 69,
+   "yaw": 270,
+   "z": -9000
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": -7200,
+   "y": 350,
+   "yaw": 0,
+   "z": -7200
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": -5400,
+   "y": 600,
+   "yaw": 90,
+   "z": -5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": -3600,
+   "y": 600,
+   "yaw": 0,
+   "z": -3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": -5400,
+   "y": 600,
+   "yaw": 270,
+   "z": -1800
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -7200,
+   "y": 600,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -7200,
+   "y": 185,
+   "yaw": 0,
+   "z": 3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -5400,
+   "y": 0,
+   "yaw": 90,
+   "z": 5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": 5400,
+   "y": 0,
+   "yaw": 90,
+   "z": 5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": 7200,
+   "y": 0,
+   "yaw": 180,
+   "z": 3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": 5400,
+   "y": 0,
+   "yaw": 270,
+   "z": 1800
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G15",
+   "num": 15,
+   "x": 1800,
+   "y": 0,
+   "yaw": 270,
+   "z": 1800
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -4650
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -4950
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -5250
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -5550
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -5850
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -5600,
+   "y": 700,
+   "yaw": 0,
+   "z": -6150
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -7950,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -7650,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -7350,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -7050,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6750,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6450,
+   "y": 700,
+   "yaw": 0,
+   "z": 1000
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 6150
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 5850
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 5550
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 5250
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 4950
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 5200,
+   "y": 100,
+   "yaw": 0,
+   "z": 4650
+  },
+  {
+   "a": 6,
+   "b": 4,
+   "kind": 64,
+   "label": "boost",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 200
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -500,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -300,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -100,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 100,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 300,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 500,
+   "y": 300,
+   "yaw": 0,
+   "z": 5400
+  }
+ ],
+ "marks": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": -1000
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -1300
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": -7200
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": -1800,
+   "y": 0,
+   "yaw": 270,
+   "z": -9000
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": -5400,
+   "y": 69,
+   "yaw": 270,
+   "z": -9000
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": -7200,
+   "y": 350,
+   "yaw": 0,
+   "z": -7200
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": -5400,
+   "y": 600,
+   "yaw": 90,
+   "z": -5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": -3600,
+   "y": 600,
+   "yaw": 0,
+   "z": -3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": -5400,
+   "y": 600,
+   "yaw": 270,
+   "z": -1800
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -7200,
+   "y": 600,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -7200,
+   "y": 185,
+   "yaw": 0,
+   "z": 3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -5400,
+   "y": 0,
+   "yaw": 90,
+   "z": 5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": 5400,
+   "y": 0,
+   "yaw": 90,
+   "z": 5400
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": 7200,
+   "y": 0,
+   "yaw": 180,
+   "z": 3600
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": 5400,
+   "y": 0,
+   "yaw": 270,
+   "z": 1800
+  },
+  {
+   "a": 23,
+   "b": 2,
+   "kind": 16,
+   "label": "G15",
+   "num": 15,
+   "x": 1800,
+   "y": 0,
+   "yaw": 270,
+   "z": 1800
+  }
+ ],
+ "name": "Cinder Switchback",
+ "note": "a 720 m lap with 14 corners: a climb to 600, a gap to jump or drive round",
+ "onlyFor": [
+  "shellrace"
+ ],
+ "pieces": [
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.18",
+   "tex": "basalttop",
+   "w": 2600,
+   "x": -2300,
+   "y": -200,
+   "yaw": 0,
+   "z": -9000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.14",
+   "tex": "basalttop",
+   "w": 5200,
+   "x": 3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 1800
+  },
+  {
+   "d": 1600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.12",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": 7200,
+   "y": -200,
+   "yaw": 0,
+   "z": 3600
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.6",
+   "tex": "basalttop",
+   "w": 1600,
+   "x": -5400,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "chord.road",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -1600,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.11",
+   "tex": "basalttop",
+   "w": 1600,
+   "x": 5400,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 1600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.7",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 7200
+  },
+  {
+   "d": 1600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.10",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": 3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 7200
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.8",
+   "tex": "basalttop",
+   "w": 5200,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 9000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "pad.7",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "pad.11",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 200,
+   "h": 800,
+   "kind": "box",
+   "tag": "wall.7",
+   "tex": "obsidianbrick",
+   "w": 2400,
+   "x": -3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 4300
+  },
+  {
+   "d": 200,
+   "h": 800,
+   "kind": "box",
+   "tag": "wall.11",
+   "tex": "obsidianbrick",
+   "w": 2400,
+   "x": 3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 4300
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.1",
+   "tex": "basalttop",
+   "w": 1600,
+   "x": -5400,
+   "y": 400,
+   "yaw": 0,
+   "z": -5400
+  },
+  {
+   "d": 1600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.2",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -3600,
+   "y": 400,
+   "yaw": 0,
+   "z": -3600
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.3",
+   "tex": "basalttop",
+   "w": 1600,
+   "x": -5400,
+   "y": 400,
+   "yaw": 0,
+   "z": -1800
+  },
+  {
+   "d": 2600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.4",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -7200,
+   "y": 400,
+   "yaw": 0,
+   "z": 500
+  },
+  {
+   "d": 2600,
+   "h": 100,
+   "kind": "ramp",
+   "tag": "ramp.19",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -4900,
+   "y": 0,
+   "yaw": 90,
+   "z": -9000
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "ramp",
+   "tag": "chord.kicker",
+   "tex": "diamondplate",
+   "w": 1200,
+   "x": -1000,
+   "y": 0,
+   "yaw": 270,
+   "z": 5400
+  },
+  {
+   "d": 2600,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "ramp.5",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -7200,
+   "y": 0,
+   "yaw": 0,
+   "z": 3100
+  },
+  {
+   "d": 1600,
+   "h": 500,
+   "kind": "ramp",
+   "tag": "ramp.0",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -7200,
+   "y": 100,
+   "yaw": 180,
+   "z": -7200
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.0",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -7200,
+   "y": -100,
+   "yaw": 180,
+   "z": -9000
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.0",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -7866.5,
+   "y": -100,
+   "yaw": 180,
+   "z": -9666.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.0",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": -8051.5,
+   "y": -100,
+   "yaw": 180,
+   "z": -9851.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.2",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -3600,
+   "y": 400,
+   "yaw": 90,
+   "z": -5400
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.2",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -2933.5,
+   "y": 400,
+   "yaw": 90,
+   "z": -6066.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.2",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": -2748.5,
+   "y": 400,
+   "yaw": 90,
+   "z": -6251.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.3",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -3600,
+   "y": 400,
+   "yaw": 0,
+   "z": -1800
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.3",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -2933.5,
+   "y": 400,
+   "yaw": 0,
+   "z": -1133.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.3",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": -2748.5,
+   "y": 400,
+   "yaw": 0,
+   "z": -948.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.6",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -7200,
+   "y": -200,
+   "yaw": 270,
+   "z": 5400
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.6",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -7866.5,
+   "y": -200,
+   "yaw": 270,
+   "z": 6066.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.8",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -3600,
+   "y": -200,
+   "yaw": 270,
+   "z": 9000
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.8",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -4266.5,
+   "y": -200,
+   "yaw": 270,
+   "z": 9666.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.10",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 3600,
+   "y": -200,
+   "yaw": 0,
+   "z": 9000
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.10",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": 4266.5,
+   "y": -200,
+   "yaw": 0,
+   "z": 9666.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.12",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 7200,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.12",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": 7866.5,
+   "y": -200,
+   "yaw": 0,
+   "z": 6066.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.13",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 7200,
+   "y": -200,
+   "yaw": 90,
+   "z": 1800
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.13",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": 7866.5,
+   "y": -200,
+   "yaw": 90,
+   "z": 1133.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.13",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": 8051.5,
+   "y": -200,
+   "yaw": 90,
+   "z": 948.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.15",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 0,
+   "y": -200,
+   "yaw": 270,
+   "z": 1800
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.15",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -666.5,
+   "y": -200,
+   "yaw": 270,
+   "z": 2466.5
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.18",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": 0,
+   "y": -200,
+   "yaw": 90,
+   "z": -9000
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.18",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": 666.5,
+   "y": -200,
+   "yaw": 90,
+   "z": -9666.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.18",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": 851.5,
+   "y": -200,
+   "yaw": 90,
+   "z": -9851.5
+  },
+  {
+   "d": 6200,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.17",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -4900
+  },
+  {
+   "d": 2600,
+   "h": 200,
+   "kind": "box",
+   "tag": "road.16",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -500
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "tag": "chord.landing",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": 1600,
+   "y": -200,
+   "yaw": 0,
+   "z": 5400
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.1",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -7200,
+   "y": 400,
+   "yaw": 270,
+   "z": -5400
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "tag": "pad.4",
+   "tex": "diamondplate",
+   "w": 2000,
+   "x": -7200,
+   "y": 400,
+   "yaw": 180,
+   "z": -1800
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.6",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": -8051.5,
+   "y": -200,
+   "yaw": 270,
+   "z": 6251.5
+  },
+  {
+   "d": 3703,
+   "h": 1000,
+   "kind": "arcwall",
+   "tag": "wall.10",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": 4451.5,
+   "y": -200,
+   "yaw": 0,
+   "z": 9851.5
+  },
+  {
+   "d": 3703,
+   "h": 800,
+   "kind": "arcwall",
+   "tag": "wall.15",
+   "tex": "obsidianbrick",
+   "w": 3703,
+   "x": -851.5,
+   "y": 0,
+   "yaw": 270,
+   "z": 2651.5
+  },
+  {
+   "d": 3333,
+   "h": 400,
+   "kind": "bank",
+   "tag": "bank.1",
+   "tex": "basalttop",
+   "w": 3333,
+   "x": -7866.5,
+   "y": 400,
+   "yaw": 270,
+   "z": -4733.5
+  },
+  {
+   "d": 5400,
+   "h": 200,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 200,
+    "body": "basaltrough",
+    "depth": 2700,
+    "r": 1900,
+    "rz": 1900,
+    "seed": 6206,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop isle top",
+   "tex": "basalttop",
+   "w": 5400,
+   "x": 9900.0,
+   "y": -100,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 2400,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.tier",
+   "tex": "obsidianbrick",
+   "w": 2400,
+   "x": 9900.0,
+   "y": 100,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 1600,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.tier",
+   "tex": "steeldark",
+   "w": 1600,
+   "x": 9900.0,
+   "y": 700,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 800,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.tier",
+   "tex": "obsidianbrick",
+   "w": 800,
+   "x": 9900.0,
+   "y": 1300,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 1200,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "dress.backdrop.landmark.fortress.ramp",
+   "tex": "diamondplate",
+   "w": 340,
+   "x": 9900.0,
+   "y": 100,
+   "yaw": 270,
+   "z": -9730.0
+  },
+  {
+   "d": 60,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.cheek",
+   "tex": "steeldark",
+   "w": 1200,
+   "x": 9900.0,
+   "y": 100,
+   "yaw": 0,
+   "z": -9530.0
+  },
+  {
+   "d": 1200,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "dress.backdrop.landmark.fortress.ramp",
+   "tex": "diamondplate",
+   "w": 340,
+   "x": 10870.0,
+   "y": 700,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 1200,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.cheek",
+   "tex": "steeldark",
+   "w": 60,
+   "x": 11070.0,
+   "y": 700,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 800,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "dress.backdrop.landmark.fortress.ramp",
+   "tex": "diamondplate",
+   "w": 340,
+   "x": 9900.0,
+   "y": 1300,
+   "yaw": 90,
+   "z": -11670.0
+  },
+  {
+   "d": 60,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.cheek",
+   "tex": "steeldark",
+   "w": 800,
+   "x": 9900.0,
+   "y": 1300,
+   "yaw": 0,
+   "z": -11870.0
+  },
+  {
+   "d": 400,
+   "h": 800,
+   "kind": "box",
+   "tag": "dress.backdrop.landmark.fortress.crown",
+   "tex": "obsidianbrick",
+   "w": 400,
+   "x": 9900.0,
+   "y": 1900,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 500,
+   "h": 300,
+   "kind": "pyramid",
+   "tag": "dress.backdrop.landmark.fortress.roof",
+   "tex": "rfclaydark",
+   "w": 500,
+   "x": 9900.0,
+   "y": 2700,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 100,
+   "h": 200,
+   "kind": "pillar",
+   "tag": "dress.backdrop.landmark.fortress.accent",
+   "tex": "goldplate",
+   "w": 100,
+   "x": 9900.0,
+   "y": 3000,
+   "yaw": 0,
+   "z": -11100.0
+  },
+  {
+   "d": 2800,
+   "h": 180,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 180,
+    "body": "basaltrough",
+    "depth": 1100,
+    "r": 900,
+    "rz": 1000,
+    "seed": 1490,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop isle top",
+   "tex": "basalttop",
+   "w": 2600,
+   "x": -14600.0,
+   "y": 420,
+   "yaw": 0,
+   "z": -11600.0
+  },
+  {
+   "d": 300,
+   "h": 10,
+   "kind": "box",
+   "tag": "dress.backdrop waterfall stream",
+   "tex": "lava",
+   "w": 840,
+   "x": -14180.0,
+   "y": 600,
+   "yaw": 0,
+   "z": -11200.0
+  },
+  {
+   "d": 300,
+   "h": 2410,
+   "kind": "box",
+   "sculpt": {
+    "out": [
+     1,
+     0
+    ],
+    "seed": 808,
+    "shape": "sheet"
+   },
+   "tag": "dress.backdrop waterfall fall",
+   "tex": "lava",
+   "w": 20,
+   "x": -13750.0,
+   "y": -1800,
+   "yaw": 0,
+   "z": -11200.0
+  },
+  {
+   "d": 100,
+   "h": 600,
+   "kind": "box",
+   "tag": "dress.backdrop tree.trunk",
+   "tex": "barkdark",
+   "w": 100,
+   "x": -14200.0,
+   "y": 600,
+   "yaw": 0,
+   "z": -11500.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "dress.backdrop tree.branch",
+   "tex": "barkdark",
+   "w": 100,
+   "x": -14200.0,
+   "y": 1000,
+   "yaw": 0,
+   "z": -11650.0
+  },
+  {
+   "d": 1600,
+   "h": 120,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 120,
+    "body": "basaltrough",
+    "depth": 700,
+    "r": 700,
+    "rz": 600,
+    "seed": 3722,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop isle top",
+   "tex": "basalttop",
+   "w": 2000,
+   "x": -14200.0,
+   "y": 480,
+   "yaw": 0,
+   "z": 11000.0
+  },
+  {
+   "d": 100,
+   "h": 500,
+   "kind": "box",
+   "tag": "dress.backdrop tree.trunk",
+   "tex": "barkdark",
+   "w": 100,
+   "x": -14300.0,
+   "y": 600,
+   "yaw": 0,
+   "z": 11100.0
+  },
+  {
+   "d": 100,
+   "h": 100,
+   "kind": "box",
+   "tag": "dress.backdrop tree.branch",
+   "tex": "barkdark",
+   "w": 200,
+   "x": -14450.0,
+   "y": 900,
+   "yaw": 0,
+   "z": 11100.0
+  },
+  {
+   "d": 2600,
+   "h": 160,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 160,
+    "body": "basaltrough",
+    "depth": 1000,
+    "r": 800,
+    "rz": 900,
+    "seed": 24556,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop isle top",
+   "tex": "basalttop",
+   "w": 2200,
+   "x": 13700.0,
+   "y": -560,
+   "yaw": 0,
+   "z": 14300.0
+  },
+  {
+   "d": 100,
+   "h": 500,
+   "kind": "box",
+   "tag": "dress.backdrop tree.trunk",
+   "tex": "barkdark",
+   "w": 100,
+   "x": 13700.0,
+   "y": -400,
+   "yaw": 0,
+   "z": 14200.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "dress.backdrop tree.branch",
+   "tex": "barkdark",
+   "w": 100,
+   "x": 13700.0,
+   "y": -100,
+   "yaw": 0,
+   "z": 14350.0
+  },
+  {
+   "d": 600,
+   "h": 40,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 40,
+    "body": "basaltrough",
+    "depth": 200,
+    "r": 200,
+    "rz": 200,
+    "seed": 9949,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop rock top",
+   "tex": "basalttop",
+   "w": 600,
+   "x": 11700.0,
+   "y": -1440,
+   "yaw": 0,
+   "z": -15500.0
+  },
+  {
+   "d": 800,
+   "h": 60,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 60,
+    "body": "basaltrough",
+    "depth": 400,
+    "r": 300,
+    "rz": 300,
+    "seed": 6870,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop rock top",
+   "tex": "basalttop",
+   "w": 800,
+   "x": -13800.0,
+   "y": -460,
+   "yaw": 0,
+   "z": -7300.0
+  },
+  {
+   "d": 600,
+   "h": 40,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 40,
+    "body": "basaltrough",
+    "depth": 200,
+    "r": 200,
+    "rz": 200,
+    "seed": 169,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop rock top",
+   "tex": "basalttop",
+   "w": 600,
+   "x": -13400.0,
+   "y": -1040,
+   "yaw": 0,
+   "z": -5900.0
+  },
+  {
+   "d": 1200,
+   "h": 80,
+   "kind": "pillar",
+   "sculpt": {
+    "band": 80,
+    "body": "basaltrough",
+    "depth": 400,
+    "r": 400,
+    "rz": 400,
+    "seed": 11159,
+    "shape": "isle",
+    "under": "volcanicred"
+   },
+   "tag": "dress.backdrop rock top",
+   "tex": "basalttop",
+   "w": 1200,
+   "x": 8400.0,
+   "y": 720,
+   "yaw": 0,
+   "z": 15500.0
+  },
+  {
+   "d": 1100,
+   "h": 400,
+   "kind": "box",
+   "sculpt": {
+    "seed": 14032,
+    "shape": "cloud",
+    "tone": [
+     244,
+     246,
+     250
+    ]
+   },
+   "tag": "dress.backdrop cloud",
+   "tex": "snowfresh",
+   "w": 1600,
+   "x": -14500.0,
+   "y": -2200,
+   "yaw": 0,
+   "z": 13200.0
+  },
+  {
+   "d": 1000,
+   "h": 500,
+   "kind": "box",
+   "sculpt": {
+    "seed": 15206,
+    "shape": "cloud",
+    "tone": [
+     244,
+     246,
+     250
+    ]
+   },
+   "tag": "dress.backdrop cloud",
+   "tex": "snowfresh",
+   "w": 1600,
+   "x": -14400.0,
+   "y": 550,
+   "yaw": 0,
+   "z": -1400.0
+  }
+ ],
+ "playable": {
+  "curve": null,
+  "unreached": 0
+ },
+ "report": {
+  "about": null,
+  "anchors_solved": {},
+  "beauty": {
+   "rules": {
+    "C3 diorama": 30
+   }
+  },
+  "beauty_score": 0.543,
+  "candidate": 3,
+  "defaulted": [
+   "name",
+   "key",
+   "modes",
+   "players",
+   "pace",
+   "symmetry",
+   "sides",
+   "verticality",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "objects",
+   "budget",
+   "candidates",
+   "locks",
+   "reseed",
+   "reference",
+   "dials",
+   "ground",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts",
+   "boundary",
+   "course"
+  ],
+  "detail": {
+   "allowance": 120,
+   "by_rule": {},
+   "cap": 0,
+   "ceiling": 1250,
+   "dress_before": 0,
+   "off": "a race map's pieces are its play",
+   "pieces": 0,
+   "skipped": {},
+   "used_before": 98
+  },
+  "done": [],
+  "escapes": [],
+  "fill": null,
+  "fit": [],
+  "gameplay": [],
+  "guards": {
+   "counts": {
+    "contract_refused": 0,
+    "contract_warn": 1,
+    "cuts": 0,
+    "floating": 0,
+    "joins": 0,
+    "lava": 0,
+    "lava_decor": 0,
+    "movement": 12,
+    "movers": 0,
+    "overlaps": 0,
+    "pockets": 0,
+    "prop_solids": 0,
+    "stairs": 0,
+    "stairs_soft": 9
+   },
+   "repaired": {},
+   "warns": [
+    "contract: box obsidianbrick at (9900, 1900, -11100) is a foliage in obsidianbrick (masonry), which lava may not wear",
+    "ST6: the ramp ramp basalttop at (-4900, 0, -9000) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp basalttop at (-4900, 0, -9000) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp basalttop at (-7200, 0, 3100) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp basalttop at (-7200, 0, 3100) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp basalttop at (-7200, 100, -7200) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp basalttop at (-7200, 100, -7200) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST3: the ramp ramp diamondplate at (9900, 100, -9730) - its approach is not on the walk graph",
+    "ST3: the ramp ramp diamondplate at (10870, 700, -11100) - its approach is not on the walk graph",
+    "ST3: the ramp ramp diamondplate at (9900, 1300, -11670) - its approach is not on the walk graph",
+    "G4 chimney: box obsidianbrick at (9900, 100, -11100) and box steeldark at (9900, 100, -9530) face each other 340 apart (a wall-kick ladder, 101-1050)",
+    "G4 chimney: box steeldark at (9900, 700, -11100) and box steeldark at (11070, 700, -11100) face each other 340 apart (a wall-kick ladder, 101-1050)"
+   ]
+  },
+  "kit": null,
+  "locks": [],
+  "modules": {
+   "boosts": 1,
+   "chicanes": 0,
+   "elevation": "climb",
+   "item_rows": 3,
+   "shortcut": "bump jump",
+   "start": "straight 15",
+   "track": "loop"
+  },
+  "moved": [],
+  "not_possible": [],
+  "not_understood": [],
+  "notes": [
+   "track found on attempt 3",
+   "the diorama round the map: 10 isles and rocks (30 pieces)",
+   "a fortress on a floating isle beyond the edge, seen from 16 of 16 spawns",
+   "critic 83/100 (pass, line 58; weakest: emptiness - 65% empty ground)"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 23,
+  "skeleton": null,
+  "spawns": null,
+  "style": {},
+  "symmetry_solved": "none"
+ },
+ "script": "of_cinderswitchback",
+ "spawns": [
+  {
+   "x": 750,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "x": 250,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "x": -250,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "x": -750,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "x": 750,
+   "y": 0,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "x": 250,
+   "y": 0,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "x": -250,
+   "y": 0,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "x": -750,
+   "y": 0,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "x": 750,
+   "y": 0,
+   "yaw": 180,
+   "z": 200
+  },
+  {
+   "x": 250,
+   "y": 0,
+   "yaw": 180,
+   "z": 200
+  },
+  {
+   "x": -250,
+   "y": 0,
+   "yaw": 180,
+   "z": 200
+  },
+  {
+   "x": -750,
+   "y": 0,
+   "yaw": 180,
+   "z": 200
+  },
+  {
+   "x": 750,
+   "y": 0,
+   "yaw": 180,
+   "z": 600
+  },
+  {
+   "x": 250,
+   "y": 0,
+   "yaw": 180,
+   "z": 600
+  },
+  {
+   "x": -250,
+   "y": 0,
+   "yaw": 180,
+   "z": 600
+  },
+  {
+   "x": -750,
+   "y": 0,
+   "yaw": 180,
+   "z": 600
+  }
+ ],
+ "stars": [],
+ "survey": {},
+ "track": {
+  "gates": [
+   {
+    "x": 0,
+    "y": 0,
+    "yaw": 180,
+    "z": -1300
+   },
+   {
+    "x": 0,
+    "y": 0,
+    "yaw": 180,
+    "z": -3600
+   },
+   {
+    "x": 0,
+    "y": 0,
+    "yaw": 180,
+    "z": -7200
+   },
+   {
+    "x": -1800,
+    "y": 0,
+    "yaw": 270,
+    "z": -9000
+   },
+   {
+    "x": -5400,
+    "y": 69,
+    "yaw": 270,
+    "z": -9000
+   },
+   {
+    "x": -7200,
+    "y": 350,
+    "yaw": 0,
+    "z": -7200
+   },
+   {
+    "x": -5400,
+    "y": 600,
+    "yaw": 90,
+    "z": -5400
+   },
+   {
+    "x": -3600,
+    "y": 600,
+    "yaw": 0,
+    "z": -3600
+   },
+   {
+    "x": -5400,
+    "y": 600,
+    "yaw": 270,
+    "z": -1800
+   },
+   {
+    "x": -7200,
+    "y": 600,
+    "yaw": 0,
+    "z": 0
+   },
+   {
+    "x": -7200,
+    "y": 185,
+    "yaw": 0,
+    "z": 3600
+   },
+   {
+    "x": -5400,
+    "y": 0,
+    "yaw": 90,
+    "z": 5400
+   },
+   {
+    "after_skip": true,
+    "x": 5400,
+    "y": 0,
+    "yaw": 90,
+    "z": 5400
+   },
+   {
+    "x": 7200,
+    "y": 0,
+    "yaw": 180,
+    "z": 3600
+   },
+   {
+    "x": 5400,
+    "y": 0,
+    "yaw": 270,
+    "z": 1800
+   },
+   {
+    "x": 1800,
+    "y": 0,
+    "yaw": 270,
+    "z": 1800
+   }
+  ],
+  "loop": [
+   [
+    0,
+    0,
+    -1000
+   ],
+   [
+    0,
+    0,
+    -1800
+   ],
+   [
+    0,
+    0,
+    -5400
+   ],
+   [
+    0,
+    0,
+    -9000
+   ],
+   [
+    -3600,
+    0,
+    -9000
+   ],
+   [
+    -7200,
+    100,
+    -9000
+   ],
+   [
+    -7200,
+    600,
+    -5400
+   ],
+   [
+    -3600,
+    600,
+    -5400
+   ],
+   [
+    -3600,
+    600,
+    -1800
+   ],
+   [
+    -7200,
+    600,
+    -1800
+   ],
+   [
+    -7200,
+    600,
+    1800
+   ],
+   [
+    -7200,
+    0,
+    5400
+   ],
+   [
+    -3600,
+    0,
+    5400
+   ],
+   [
+    -3600,
+    0,
+    9000
+   ],
+   [
+    0,
+    0,
+    9000
+   ],
+   [
+    3600,
+    0,
+    9000
+   ],
+   [
+    3600,
+    0,
+    5400
+   ],
+   [
+    7200,
+    0,
+    5400
+   ],
+   [
+    7200,
+    0,
+    1800
+   ],
+   [
+    3600,
+    0,
+    1800
+   ],
+   [
+    0,
+    0,
+    1800
+   ]
+  ],
+  "shortcuts": [
+   [
+    [
+     0,
+     0,
+     -1000
+    ],
+    [
+     0,
+     0,
+     -1800
+    ],
+    [
+     0,
+     0,
+     -5400
+    ],
+    [
+     0,
+     0,
+     -9000
+    ],
+    [
+     -3600,
+     0,
+     -9000
+    ],
+    [
+     -7200,
+     100,
+     -9000
+    ],
+    [
+     -7200,
+     600,
+     -5400
+    ],
+    [
+     -3600,
+     600,
+     -5400
+    ],
+    [
+     -3600,
+     600,
+     -1800
+    ],
+    [
+     -7200,
+     600,
+     -1800
+    ],
+    [
+     -7200,
+     600,
+     1800
+    ],
+    [
+     -7200,
+     0,
+     5400
+    ],
+    [
+     -3600,
+     0,
+     5400
+    ],
+    [
+     3600,
+     0,
+     5400
+    ],
+    [
+     7200,
+     0,
+     5400
+    ],
+    [
+     7200,
+     0,
+     1800
+    ],
+    [
+     3600,
+     0,
+     1800
+    ],
+    [
+     0,
+     0,
+     1800
+    ]
+   ]
+  ],
+  "width": 2000
+ },
+ "venue": {
+  "blocking": {},
+  "modes": [
+   "shellrace"
+  ],
+  "share": 1.0,
+  "warnings": {}
+ },
+ "world": {
+  "x": 0,
+  "y": 0,
+  "yaw": 180,
+  "z": -1000
+ }
+}

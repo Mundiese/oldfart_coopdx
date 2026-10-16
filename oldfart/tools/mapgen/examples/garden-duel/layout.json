@@ -1,0 +1,1440 @@
+{
+ "_walk": {
+  "cells": 3852,
+  "reached": 3520
+ },
+ "budget": 120,
+ "family": "shooter",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 0,
+  "family": "shooter",
+  "modules": {
+   "centre": "crossing",
+   "jog": 800,
+   "rim": 400,
+   "segments": 2,
+   "skeleton": "canyon"
+  },
+  "params": {
+   "B": 1400,
+   "Dh": 0,
+   "G": 1800,
+   "I": 3200,
+   "Lw": 600,
+   "Ph": 400,
+   "across": 8000,
+   "centre": "canyon crossing",
+   "corner": "rim",
+   "high": 800,
+   "lane": "canyon + rims",
+   "shield": "spawn shields",
+   "skeleton": "canyon",
+   "stairs": false,
+   "step": 400
+  },
+  "quality": 0.9464,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 3,
+  "version": "mapgen 2"
+ },
+ "key": "generated",
+ "level": "empty2",
+ "look": {
+  "light": {
+   "dir": [
+    0.9,
+    0.35,
+    0.1
+   ],
+   "name": "early, from the east"
+  },
+  "music": "SEQ_LEVEL_GRASS",
+  "sky": "BACKGROUND_OCEAN_SKY"
+ },
+ "name": "Garden Duel",
+ "pieces": [
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_grassblock_box_1600_200_1000_geo",
+   "tag": "canyon floor",
+   "tex": "grassblock",
+   "w": 1600,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -1300
+  },
+  {
+   "d": 1600,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_grassblock_box_1600_200_1600_geo",
+   "tag": "canyon floor",
+   "tex": "grassblock",
+   "w": 1600,
+   "x": 800,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_grassblock_box_1600_200_1000_geo",
+   "tag": "canyon floor",
+   "tex": "grassblock",
+   "w": 1600,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 1300
+  },
+  {
+   "d": 1400,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_flagstone_box_3800_300_1400_geo",
+   "tag": "base1.floor",
+   "tex": "flagstone",
+   "w": 3800,
+   "x": 0,
+   "y": 100,
+   "yaw": 0,
+   "z": -3300
+  },
+  {
+   "d": 1400,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_grass_box_3800_300_1400_geo",
+   "tag": "base0.floor",
+   "tex": "grass",
+   "w": 3800,
+   "x": 0,
+   "y": 100,
+   "yaw": 0,
+   "z": 3300
+  },
+  {
+   "d": 800,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_woodenplank1_box_400_100_800_geo",
+   "tag": "rim bridge",
+   "tex": "woodenplank1",
+   "w": 400,
+   "x": -1600,
+   "y": 300,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 800,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_woodenplank1_box_400_100_800_geo",
+   "tag": "rim bridge",
+   "tex": "woodenplank1",
+   "w": 400,
+   "x": 1600,
+   "y": 300,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 1200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_woodenplank1_box_1600_100_1200_geo",
+   "tag": "canyon bridge",
+   "tex": "woodenplank1",
+   "w": 1600,
+   "x": 800,
+   "y": 300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 800,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_woodenplank1_box_400_100_800_geo",
+   "tag": "rim bridge",
+   "tex": "woodenplank1",
+   "w": 400,
+   "x": -1600,
+   "y": 300,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 800,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_woodenplank1_box_400_100_800_geo",
+   "tag": "rim bridge",
+   "tex": "woodenplank1",
+   "w": 400,
+   "x": 1600,
+   "y": 300,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 800,
+   "h": 400,
+   "kind": "ramp",
+   "model": "of_ak_dirt_ramp_600_400_800_geo",
+   "tag": "canyon ramp",
+   "tex": "dirt",
+   "w": 600,
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": 2200
+  },
+  {
+   "d": 800,
+   "h": 400,
+   "kind": "ramp",
+   "model": "of_ak_dirt_ramp_600_400_800_geo",
+   "tag": "canyon ramp",
+   "tex": "dirt",
+   "w": 600,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": -1350,
+   "y": 400,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": -450,
+   "y": 400,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": 450,
+   "y": 400,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": 1350,
+   "y": 400,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": -1350,
+   "y": 400,
+   "yaw": 0,
+   "z": 3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": -450,
+   "y": 400,
+   "yaw": 0,
+   "z": 3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": 450,
+   "y": 400,
+   "yaw": 0,
+   "z": 3100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "greenplanks",
+   "w": 700,
+   "x": 1350,
+   "y": 400,
+   "yaw": 0,
+   "z": 3100
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_400_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 400,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": -1700
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -900,
+   "y": 400,
+   "yaw": 0,
+   "z": -1600
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate",
+   "tex": "crate",
+   "w": 200,
+   "x": 900,
+   "y": 400,
+   "yaw": 0,
+   "z": -1700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate",
+   "tex": "crate",
+   "w": 200,
+   "x": -3100,
+   "y": 400,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -700,
+   "y": 400,
+   "yaw": 0,
+   "z": -600
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -700,
+   "y": 400,
+   "yaw": 0,
+   "z": 600
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate",
+   "tex": "crate",
+   "w": 200,
+   "x": -3100,
+   "y": 400,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -900,
+   "y": 400,
+   "yaw": 0,
+   "z": 1600
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_400_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 400,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": 1700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate",
+   "tex": "crate",
+   "w": 200,
+   "x": 900,
+   "y": 400,
+   "yaw": 0,
+   "z": 1700
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -3100,
+   "y": 400,
+   "yaw": 0,
+   "z": -1500
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 2500,
+   "y": 400,
+   "yaw": 0,
+   "z": -1500
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 3100,
+   "y": 400,
+   "yaw": 0,
+   "z": -1100
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 3100,
+   "y": 400,
+   "yaw": 0,
+   "z": 1100
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -3100,
+   "y": 400,
+   "yaw": 0,
+   "z": 1500
+  },
+  {
+   "d": 600,
+   "h": 250,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_250_600_geo",
+   "tag": "fill.low_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 2500,
+   "y": 400,
+   "yaw": 0,
+   "z": 1500
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_400_200_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -500,
+   "y": 400,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_400_200_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -500,
+   "y": 400,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -2300,
+   "y": 600,
+   "yaw": 0,
+   "z": -1700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -900,
+   "y": 600,
+   "yaw": 0,
+   "z": -1700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -2300,
+   "y": 600,
+   "yaw": 0,
+   "z": 1700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -900,
+   "y": 600,
+   "yaw": 0,
+   "z": 1700
+  },
+  {
+   "d": 1000,
+   "h": 150,
+   "kind": "box",
+   "model": "of_ak_grass_box_1000_150_1000_geo",
+   "tag": "centre.landmark cap",
+   "tex": "grass",
+   "w": 1000,
+   "x": -2800,
+   "y": 2200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "prism",
+   "model": "of_ak_mossyrock_prism_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -3000,
+   "y": 400,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "prism",
+   "model": "of_ak_mossyrock_prism_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -2600,
+   "y": 400,
+   "yaw": 90,
+   "z": -200
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "prism",
+   "model": "of_ak_mossyrock_prism_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -3000,
+   "y": 400,
+   "yaw": 270,
+   "z": 200
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "prism",
+   "model": "of_ak_mossyrock_prism_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -2600,
+   "y": 400,
+   "yaw": 0,
+   "z": 200
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": -3160,
+   "y": 400,
+   "yaw": 90,
+   "z": 300
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": -3160,
+   "y": 400,
+   "yaw": 90,
+   "z": -300
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": 3160,
+   "y": 400,
+   "yaw": 90,
+   "z": 300
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": 3160,
+   "y": 400,
+   "yaw": 90,
+   "z": -300
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": 2900,
+   "y": 400,
+   "yaw": 0,
+   "z": 1760
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "model": "of_ak_woodenplank1_rail_600_160_60_geo",
+   "tag": "dress.fence",
+   "tex": "woodenplank1",
+   "w": 600,
+   "x": 2900,
+   "y": 400,
+   "yaw": 0,
+   "z": -1760
+  },
+  {
+   "d": 3600,
+   "h": 600,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_2400_600_3600_geo",
+   "tag": "rim",
+   "tex": "mossyrock",
+   "w": 2400,
+   "x": -2000,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1000,
+   "h": 600,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_800_600_1000_geo",
+   "tag": "rim",
+   "tex": "mossyrock",
+   "w": 800,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -1300
+  },
+  {
+   "d": 3600,
+   "h": 600,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_1600_600_3600_geo",
+   "tag": "rim",
+   "tex": "mossyrock",
+   "w": 1600,
+   "x": 2400,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1600,
+   "h": 600,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_800_600_1600_geo",
+   "tag": "rim",
+   "tex": "mossyrock",
+   "w": 800,
+   "x": -400,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1000,
+   "h": 600,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_800_600_1000_geo",
+   "tag": "rim",
+   "tex": "mossyrock",
+   "w": 800,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 1300
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -2300,
+   "y": 400,
+   "yaw": 0,
+   "z": -1100
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_400_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 400,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": -900
+  },
+  {
+   "d": 400,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_400_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -1700,
+   "y": 400,
+   "yaw": 0,
+   "z": -600
+  },
+  {
+   "d": 400,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_400_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 2500,
+   "y": 400,
+   "yaw": 0,
+   "z": -600
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -1500,
+   "y": 400,
+   "yaw": 0,
+   "z": -500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 2300,
+   "y": 400,
+   "yaw": 0,
+   "z": -500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_400_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 400,
+   "x": -1600,
+   "y": 400,
+   "yaw": 0,
+   "z": 500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_400_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 400,
+   "x": 2400,
+   "y": 400,
+   "yaw": 0,
+   "z": 500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -1700,
+   "y": 400,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": 2500,
+   "y": 400,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_400_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 400,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": 900
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_greenplanks_box_200_450_200_geo",
+   "tag": "fill.corner_wall",
+   "tex": "greenplanks",
+   "w": 200,
+   "x": -2300,
+   "y": 400,
+   "yaw": 0,
+   "z": 1100
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -2800,
+   "y": 400,
+   "yaw": 0,
+   "z": -200
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_600_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 600,
+   "x": -2800,
+   "y": 400,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 1800,
+   "kind": "box",
+   "model": "of_ak_mossyrock_box_200_1800_200_geo",
+   "tag": "centre.landmark",
+   "tex": "mossyrock",
+   "w": 200,
+   "x": -2800,
+   "y": 400,
+   "yaw": 0,
+   "z": 200
+  }
+ ],
+ "report": {
+  "about": "about towers (boosted); heaps of twin bases, crates, a landmark, low walls; no columns, sunken floors, stairs",
+  "anchors_solved": {},
+  "beauty": {
+   "accents": [
+    "grass",
+    "flagstone",
+    "carpet",
+    "woodenplank2"
+   ],
+   "cap": 18,
+   "dress_pieces": 8,
+   "palette": {
+    "bridge": "woodenplank1",
+    "cover": "greenplanks",
+    "deck": "hexpaving",
+    "floor": "grassblock",
+    "keel": "dirt",
+    "ramp": "dirt",
+    "trim": "flagstone",
+    "wall": "mossyrock"
+   },
+   "rules": {
+    "R3 rails": 6,
+    "R6 landmark": 2
+   },
+   "theme": "garden"
+  },
+  "beauty_score": 0.828,
+  "candidate": 0,
+  "defaulted": [
+   "family",
+   "key",
+   "modes",
+   "players",
+   "size",
+   "pace",
+   "sides",
+   "verticality",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "features",
+   "objects",
+   "budget",
+   "candidates",
+   "locks",
+   "reseed",
+   "reference",
+   "wish",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts"
+  ],
+  "done": [],
+  "fill": {
+   "backtracks": 0,
+   "before": 0.111,
+   "budget_left": 75,
+   "kinds": {
+    "corner_wall": 3,
+    "crate": 2,
+    "crate_pile": 1,
+    "crate_stack": 2,
+    "low_wall": 3
+   },
+   "lane_walls": 0,
+   "modules": 11,
+   "options": 745,
+   "pieces": 34,
+   "reached": 0.497,
+   "steps": 12,
+   "stop": "no option left",
+   "target": 0.76
+  },
+  "fit": [
+   {
+    "name": "spawn_points",
+    "ok": true,
+    "value": 16,
+    "want": ">= 16",
+    "why": "a free-for-all shooter: a point per player"
+   }
+  ],
+  "gameplay": [
+   {
+    "id": "spawns",
+    "note": "spawn points 1029 apart at the median (SPAWNS' ideal for a free-for-all is 3000, with cover between)",
+    "status": "noted"
+   }
+  ],
+  "kit": {
+   "knobs": {
+    "arches": 2,
+    "buildings": 1,
+    "colonnades": 1,
+    "corners": 1,
+    "diagonals": 1,
+    "fences": 2,
+    "slabs": 2,
+    "stairs": 0
+   },
+   "left": 39,
+   "not_placed": [],
+   "rules": {
+    "K2 fences": 6,
+    "K6 diagonals (octagon)": 4
+   }
+  },
+  "locks": [],
+  "modules": {
+   "centre": "crossing",
+   "jog": 800,
+   "rim": 400,
+   "segments": 2,
+   "skeleton": "canyon"
+  },
+  "moved": [],
+  "not_possible": [
+   "band: floor with cover within 300 is 0.54, the family's target is 0.6-0.8",
+   "band: floor pairs open past 2400 is 0.145, the family's target is <= 0.08"
+  ],
+  "not_understood": [],
+  "notes": [
+   "skeleton canyon (mirror) from twin 2.2, archipelago 1, canyon 1, keep 0.8",
+   "style: about towers (boosted); heaps of twin bases, crates, a landmark, low walls; no columns, sunken floors, stairs",
+   "survey points spread for a free-for-all: 16, 1029 apart at the median (was 500)"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 3,
+  "skeleton": "canyon",
+  "spawns": {
+   "bases": 2,
+   "field": {
+    "candidates": 16,
+    "chosen": 8,
+    "exposure_max": 0.1833,
+    "rule": "<= 12, least exposed orbits first (<= 0.15, then <= 0.22), 1000 apart, 1200 from base spawns",
+    "where": [
+     "field",
+     "lee of corner_wall",
+     "perch"
+    ]
+   },
+   "per_base": 8,
+   "rule": "cover 450 tall 300-500 ahead, nothing tall 500 behind",
+   "shields": 8,
+   "spread": {
+    "median_gap": 1029,
+    "median_gap_before": 500,
+    "points": 16,
+    "rule": "2 leaders kept, then farthest first; past 16 only 1000 apart"
+   }
+  },
+  "style": {
+   "about": "about towers (boosted); heaps of twin bases, crates, a landmark, low walls; no columns, sunken floors, stairs",
+   "boosted": [
+    "towers"
+   ],
+   "forced": {
+    "cover": "some (dense)"
+   },
+   "rolled": {
+    "arches": "some",
+    "bases": "heaps",
+    "bridges": "few",
+    "buildings": "few",
+    "bunkers": "some",
+    "canyons": "some",
+    "colonnades": "few",
+    "columns": "none",
+    "corners": "few",
+    "cover": "some",
+    "crates": "heaps",
+    "crenels": "none",
+    "crossings": "few",
+    "daises": "some",
+    "diagonals": "few",
+    "fences": "some",
+    "height": "some",
+    "hills": "none",
+    "hubs": "some",
+    "islands": "some",
+    "keels": "few",
+    "keeps": "some",
+    "landmark": "heaps",
+    "lanes": "few",
+    "low_walls": "heaps",
+    "perches": "few",
+    "pillars": "some",
+    "pits": "none",
+    "rails": "few",
+    "ramps": "heaps",
+    "rings": "some",
+    "side_colours": "some",
+    "slabs": "some",
+    "stairs": "none",
+    "towers": "heaps",
+    "trims": "few",
+    "void_gaps": "few",
+    "walls": "none",
+    "width": "some"
+   }
+  },
+  "symmetry_solved": "mirror"
+ },
+ "spawns": [
+  {
+   "x": -1600,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": -1600,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": -1100,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": -1100,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": -700,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": -700,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": -200,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": -200,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": 200,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": 200,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": 700,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": 700,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": 1100,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": 1100,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  },
+  {
+   "x": 1600,
+   "y": 400,
+   "yaw": 180,
+   "z": 3500
+  },
+  {
+   "x": 1600,
+   "y": 400,
+   "yaw": 0,
+   "z": -3500
+  }
+ ],
+ "stars": [],
+ "survey": {
+  "points": [
+   {
+    "x": -1600,
+    "y": 400,
+    "yaw": 180,
+    "z": 3500
+   },
+   {
+    "x": -1600,
+    "y": 400,
+    "yaw": 0,
+    "z": -3500
+   },
+   {
+    "x": 2800,
+    "y": 400,
+    "yaw": 270,
+    "z": 600
+   },
+   {
+    "x": 1600,
+    "y": 400,
+    "yaw": 0,
+    "z": -3500
+   },
+   {
+    "x": 1600,
+    "y": 400,
+    "yaw": 180,
+    "z": 3500
+   },
+   {
+    "x": -2000,
+    "y": 400,
+    "yaw": 90,
+    "z": 600
+   },
+   {
+    "x": -500,
+    "y": 0,
+    "yaw": 45,
+    "z": -1100
+   },
+   {
+    "x": -2900,
+    "y": 400,
+    "yaw": 90,
+    "z": -1100
+   },
+   {
+    "x": -500,
+    "y": 0,
+    "yaw": 135,
+    "z": 1100
+   },
+   {
+    "x": -200,
+    "y": 400,
+    "yaw": 180,
+    "z": 3500
+   },
+   {
+    "x": -200,
+    "y": 400,
+    "yaw": 0,
+    "z": -3500
+   },
+   {
+    "x": 2800,
+    "y": 400,
+    "yaw": 270,
+    "z": -600
+   },
+   {
+    "x": -2900,
+    "y": 400,
+    "yaw": 90,
+    "z": 1100
+   },
+   {
+    "x": -2000,
+    "y": 400,
+    "yaw": 90,
+    "z": -600
+   },
+   {
+    "x": 700,
+    "y": 400,
+    "yaw": 180,
+    "z": 3500
+   },
+   {
+    "x": 700,
+    "y": 400,
+    "yaw": 0,
+    "z": -3500
+   }
+  ]
+ }
+}

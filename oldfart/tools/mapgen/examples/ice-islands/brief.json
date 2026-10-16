@@ -1,0 +1,93 @@
+{
+  "brief": 1,
+  "name": "Ice Islands",
+  "key": null,
+  "family": "objective",
+  "modes": [],
+  "players": 16,
+  "size": "medium",
+  "pace": "normal",
+  "symmetry": "mirror",
+  "sides": "2",
+  "verticality": "medium",
+  "density": "medium",
+  "difficulty": "normal",
+  "edge": "walled",
+  "theme": "ice",
+  "palette": null,
+  "style": "auto",
+  "sky": "auto",
+  "music": "auto",
+  "level": "empty2",
+  "features": {
+    "want": [
+      "bridge"
+    ],
+    "avoid": []
+  },
+  "anchors": [
+    {
+      "id": "blue",
+      "what": "spawns",
+      "where": {
+        "compass": "w"
+      },
+      "hard": true,
+      "once": false,
+      "tolerance": 400
+    },
+    {
+      "id": "red",
+      "what": "spawns",
+      "where": {
+        "compass": "e"
+      },
+      "hard": true,
+      "once": false,
+      "tolerance": 400
+    }
+  ],
+  "objects": [],
+  "budget": 120,
+  "seed": 77,
+  "candidates": 4,
+  "locks": [],
+  "reseed": {},
+  "reference": null,
+  "wish": null,
+  "dials": {},
+  "dna": {},
+  "ground": "auto",
+  "visuals": [],
+  "prefabs": [],
+  "preset": null,
+  "defaulted": [
+    "key",
+    "modes",
+    "players",
+    "size",
+    "pace",
+    "symmetry",
+    "sides",
+    "verticality",
+    "density",
+    "difficulty",
+    "edge",
+    "palette",
+    "style",
+    "sky",
+    "music",
+    "objects",
+    "budget",
+    "locks",
+    "reseed",
+    "reference",
+    "wish",
+    "dials",
+    "dna",
+    "ground",
+    "visuals",
+    "prefabs",
+    "preset"
+  ]
+}

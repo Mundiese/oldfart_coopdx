@@ -1,0 +1,16 @@
+Oldfart Studio - third-party data
+
+tools/mapgen/dict/common_guard.txt
+    A list of everyday German and English words, derived from the word
+    frequency lists of wordfreq by Robyn Speer
+    (https://github.com/rspeer/wordfreq), licensed under CC BY-SA 4.0
+    (https://creativecommons.org/licenses/by-sa/4.0/). The list is a
+    selection of those words and is shared under the same licence.
+
+tools/mapgen/dict/de_openthesaurus.json
+    Synonyms from OpenThesaurus, Copyright (C) 2003-2025 Daniel Naber,
+    www.openthesaurus.de. Licence: tools/mapgen/dict/OPENTHESAURUS-LICENSE.txt
+
+tools/mapgen/dict/en_wordnet.json
+    Synonyms from Princeton WordNet 3.0, Copyright 2006 by Princeton
+    University. Licence: tools/mapgen/dict/WORDNET-LICENSE.txt

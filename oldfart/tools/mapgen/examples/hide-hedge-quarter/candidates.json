@@ -1,0 +1,53 @@
+[
+ {
+  "candidate": 0,
+  "ok": true,
+  "quality": 1.0,
+  "family": "hide",
+  "pieces": 113,
+  "skeleton": "walled ground",
+  "shape": "walled ground",
+  "across": 9600,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.89,
+  "centre": "walled ground",
+  "lane": "lanes 400",
+  "corner": "2 perches"
+ },
+ {
+  "candidate": 1,
+  "ok": true,
+  "quality": 1.0,
+  "family": "hide",
+  "pieces": 113,
+  "skeleton": "walled ground",
+  "shape": "walled ground",
+  "across": 9600,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.69,
+  "centre": "walled ground",
+  "lane": "lanes 400",
+  "corner": "2 perches"
+ },
+ {
+  "candidate": 2,
+  "ok": true,
+  "quality": 1.0,
+  "family": "hide",
+  "pieces": 115,
+  "skeleton": "walled ground",
+  "shape": "walled ground",
+  "across": 9600,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.86,
+  "centre": "walled ground",
+  "lane": "lanes 400",
+  "corner": "2 perches"
+ }
+]

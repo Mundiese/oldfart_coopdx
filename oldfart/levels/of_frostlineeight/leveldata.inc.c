@@ -1,0 +1,5 @@
+#include "levels/of_frostlineeight/area_1/collision.inc.c"
+#include "levels/of_frostlineeight/area_1/macro.inc.c"
+#include "levels/of_frostlineeight/area_1/spline.inc.c"
+#include "levels/of_frostlineeight/model.inc.c"
+#include "levels/of_frostlineeight/static.inc.c"

@@ -1,0 +1,2 @@
+needs: anyio docstring-parser httpx2 jiter pydantic sniffio typing-extensions
+anthropic==1.11.0 anthropic-1.11.0-py3-none-any.whl 52f97b2c485cca7ac66058374f5073a3febb7e6849b16989c145d602a3efee21 https://files.pythonhosted.org/packages/ab/6f/20edcd2956cac68042b1bcdd13ab3311447519f86b26929ff268dc74c650/anthropic-1.11.0-py3-none-any.whl

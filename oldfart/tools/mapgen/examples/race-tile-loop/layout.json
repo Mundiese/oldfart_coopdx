@@ -1,0 +1,1589 @@
+{
+ "_walk": {
+  "cells": 35690,
+  "reached": 34738
+ },
+ "blurb": "a generated race loop for sixteen shells",
+ "budget": 120,
+ "family": "race",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 1,
+  "family": "race",
+  "modules": {
+   "boosts": 1,
+   "chicanes": 1,
+   "elevation": "climb",
+   "item_rows": 3,
+   "shortcut": null,
+   "start": "straight 5",
+   "track": "loop"
+  },
+  "params": {
+   "B": 0,
+   "C": 4000,
+   "G": 0,
+   "H": 600,
+   "I": 7222,
+   "W": 2000,
+   "base": 400,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "centre": "loop",
+   "chicanes": 1,
+   "corner": "pads 12",
+   "gates": 16,
+   "heights": [
+    400,
+    1000
+   ],
+   "lane": "road 2000",
+   "lap_estimate_s": 33.3,
+   "lap_length": 64000,
+   "lap_target_s": 38,
+   "nodes": 16,
+   "origin": [
+    -6000,
+    -6000
+   ],
+   "shape": "loop",
+   "shield": "-",
+   "shortcut": false,
+   "shortcut_saves_s": null
+  },
+  "quality": 1.0,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 12,
+  "version": "mapgen 2"
+ },
+ "key": "generated",
+ "level": "empty",
+ "look": {
+  "light": {
+   "dir": [
+    0,
+    1,
+    0
+   ],
+   "name": "overhead"
+  },
+  "music": "SEQ_LEVEL_HOT",
+  "sky": "BACKGROUND_DESERT"
+ },
+ "markers": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": -3200,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 40,
+   "b": 0,
+   "kind": 3,
+   "label": "info",
+   "num": 3,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 255,
+   "b": 2,
+   "kind": 80,
+   "label": "out zone",
+   "num": 0,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": -2900,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": 2000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -2000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -7200
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -6000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": -2000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": -2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G15",
+   "num": 15,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 2750,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 2450,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 2150,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 1850,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 1550,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 1250,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -6750
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -6450
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -6150
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -5850
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -5550
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -400,
+   "y": 1100,
+   "yaw": 0,
+   "z": -5250
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -2750,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -2450,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -2150,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -1850,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -1550,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": -1250,
+   "y": 500,
+   "yaw": 0,
+   "z": 400
+  },
+  {
+   "a": 6,
+   "b": 4,
+   "kind": 64,
+   "label": "boost",
+   "num": 0,
+   "x": -4400,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -4800,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -4600,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -4400,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -4200,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -4000,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": -3800,
+   "y": 450,
+   "yaw": 0,
+   "z": -2700
+  }
+ ],
+ "marks": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": -3200,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": -2900,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": 2000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": 6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": 2000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -2000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -7200
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -6000,
+   "y": 1000,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": -2000,
+   "y": 400,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": -2000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G15",
+   "num": 15,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": 6000
+  }
+ ],
+ "name": "Tile Loop",
+ "note": "a 640 m lap with 12 corners: a climb to 600, a chicane",
+ "onlyFor": [
+  "shellrace"
+ ],
+ "pieces": [
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.12",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.1",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -4000,
+   "y": 200,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.11",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 4000,
+   "y": 200,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.2",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -2000,
+   "y": 200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.10",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 2000,
+   "y": 200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.3",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -4000,
+   "y": 200,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.9",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 4000,
+   "y": 200,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.4",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -6000,
+   "y": 200,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.8",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "d": 200,
+   "h": 800,
+   "kind": "box",
+   "model": "of_ak_brickpyramid_box_3200_800_200_geo",
+   "tag": "chicane.wall.15",
+   "tex": "brickpyramid",
+   "w": 3200,
+   "x": -2000,
+   "y": 800,
+   "yaw": 0,
+   "z": -8300
+  },
+  {
+   "d": 1200,
+   "h": 400,
+   "kind": "ramp",
+   "model": "of_ak_hexpaving_ramp_800_400_1200_geo",
+   "tag": "walkback.1",
+   "tex": "hexpaving",
+   "w": 800,
+   "x": -4000,
+   "y": 0,
+   "yaw": 180,
+   "z": -3600
+  },
+  {
+   "d": 1200,
+   "h": 400,
+   "kind": "ramp",
+   "model": "of_ak_hexpaving_ramp_800_400_1200_geo",
+   "tag": "walkback.2",
+   "tex": "hexpaving",
+   "w": 800,
+   "x": -400,
+   "y": 0,
+   "yaw": 90,
+   "z": 0
+  },
+  {
+   "d": 3000,
+   "h": 600,
+   "kind": "ramp",
+   "model": "of_ak_bricklightgrey_ramp_2000_600_3000_geo",
+   "tag": "ramp.13",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": 3500,
+   "y": 400,
+   "yaw": 90,
+   "z": -6000
+  },
+  {
+   "d": 2000,
+   "h": 600,
+   "kind": "ramp",
+   "model": "of_ak_bricklightgrey_ramp_2000_600_2000_geo",
+   "tag": "ramp.0",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -6000,
+   "y": 400,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.0",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -6000,
+   "y": 800,
+   "yaw": 180,
+   "z": -6000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.0",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -6111,
+   "y": 800,
+   "yaw": 180,
+   "z": -6111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.1",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -6000,
+   "y": 200,
+   "yaw": 270,
+   "z": -2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.1",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -6111,
+   "y": 200,
+   "yaw": 270,
+   "z": -1889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.2",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -2000,
+   "y": 200,
+   "yaw": 90,
+   "z": -2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.2",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -1889,
+   "y": 200,
+   "yaw": 90,
+   "z": -2111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.3",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -2000,
+   "y": 200,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.3",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -1889,
+   "y": 200,
+   "yaw": 0,
+   "z": 2111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.4",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -6000,
+   "y": 200,
+   "yaw": 180,
+   "z": 2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.4",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -6111,
+   "y": 200,
+   "yaw": 180,
+   "z": 1889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.5",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": -6000,
+   "y": 200,
+   "yaw": 270,
+   "z": 6000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.5",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": -6111,
+   "y": 200,
+   "yaw": 270,
+   "z": 6111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.8",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.8",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 6111,
+   "y": 200,
+   "yaw": 0,
+   "z": 6111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.9",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 90,
+   "z": 2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.9",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 6111,
+   "y": 200,
+   "yaw": 90,
+   "z": 1889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.10",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 2000,
+   "y": 200,
+   "yaw": 270,
+   "z": 2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.10",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 1889,
+   "y": 200,
+   "yaw": 270,
+   "z": 2111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.11",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 2000,
+   "y": 200,
+   "yaw": 180,
+   "z": -2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.11",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 1889,
+   "y": 200,
+   "yaw": 180,
+   "z": -2111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.12",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.12",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 6111,
+   "y": 200,
+   "yaw": 0,
+   "z": -1889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_hexpaving_curve_2000_200_2000_geo",
+   "tag": "pad.13",
+   "tex": "hexpaving",
+   "w": 2000,
+   "x": 6000,
+   "y": 200,
+   "yaw": 90,
+   "z": -6000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_brickpyramid_arcwall_2222_800_2222_geo",
+   "tag": "wall.13",
+   "tex": "brickpyramid",
+   "w": 2222,
+   "x": 6111,
+   "y": 200,
+   "yaw": 90,
+   "z": -6111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_6000_200_2000_geo",
+   "tag": "road.5",
+   "tex": "bricklightgrey",
+   "w": 6000,
+   "x": -2000,
+   "y": 200,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_4000_200_2000_geo",
+   "tag": "road.6",
+   "tex": "bricklightgrey",
+   "w": 4000,
+   "x": 3000,
+   "y": 200,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2000_200_2000_geo",
+   "tag": "road.15",
+   "tex": "bricklightgrey",
+   "w": 2000,
+   "x": -4000,
+   "y": 800,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_2600_200_2000_geo",
+   "tag": "road.14",
+   "tex": "bricklightgrey",
+   "w": 2600,
+   "x": 700,
+   "y": 800,
+   "yaw": 0,
+   "z": -6000
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_bricklightgrey_box_400_200_1200_geo",
+   "tag": "road.14",
+   "tex": "bricklightgrey",
+   "w": 400,
+   "x": -800,
+   "y": 800,
+   "yaw": 0,
+   "z": -5600
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_hexpaving_box_400_200_1200_geo",
+   "tag": "chicane.15",
+   "tex": "hexpaving",
+   "w": 400,
+   "x": -3200,
+   "y": 800,
+   "yaw": 0,
+   "z": -7600
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_hexpaving_box_2400_200_2000_geo",
+   "tag": "chicane.15",
+   "tex": "hexpaving",
+   "w": 2400,
+   "x": -1800,
+   "y": 800,
+   "yaw": 0,
+   "z": -7200
+  }
+ ],
+ "report": {
+  "about": null,
+  "anchors_solved": {},
+  "beauty": null,
+  "beauty_score": 0.735,
+  "candidate": 1,
+  "defaulted": [
+   "key",
+   "modes",
+   "players",
+   "size",
+   "pace",
+   "symmetry",
+   "sides",
+   "verticality",
+   "density",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "features",
+   "objects",
+   "budget",
+   "locks",
+   "reseed",
+   "reference",
+   "wish",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts"
+  ],
+  "done": [],
+  "fill": null,
+  "fit": [],
+  "gameplay": [],
+  "kit": null,
+  "locks": [],
+  "modules": {
+   "boosts": 1,
+   "chicanes": 1,
+   "elevation": "climb",
+   "item_rows": 3,
+   "shortcut": null,
+   "start": "straight 5",
+   "track": "loop"
+  },
+  "moved": [],
+  "not_possible": [],
+  "not_understood": [],
+  "notes": [
+   "track found on attempt 11"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 12,
+  "skeleton": null,
+  "spawns": null,
+  "style": {},
+  "symmetry_solved": "none"
+ },
+ "spawns": [
+  {
+   "x": -3600,
+   "y": 400,
+   "yaw": 90,
+   "z": 6750
+  },
+  {
+   "x": -3600,
+   "y": 400,
+   "yaw": 90,
+   "z": 6250
+  },
+  {
+   "x": -3600,
+   "y": 400,
+   "yaw": 90,
+   "z": 5750
+  },
+  {
+   "x": -3600,
+   "y": 400,
+   "yaw": 90,
+   "z": 5250
+  },
+  {
+   "x": -4000,
+   "y": 400,
+   "yaw": 90,
+   "z": 6750
+  },
+  {
+   "x": -4000,
+   "y": 400,
+   "yaw": 90,
+   "z": 6250
+  },
+  {
+   "x": -4000,
+   "y": 400,
+   "yaw": 90,
+   "z": 5750
+  },
+  {
+   "x": -4000,
+   "y": 400,
+   "yaw": 90,
+   "z": 5250
+  },
+  {
+   "x": -4400,
+   "y": 400,
+   "yaw": 90,
+   "z": 6750
+  },
+  {
+   "x": -4400,
+   "y": 400,
+   "yaw": 90,
+   "z": 6250
+  },
+  {
+   "x": -4400,
+   "y": 400,
+   "yaw": 90,
+   "z": 5750
+  },
+  {
+   "x": -4400,
+   "y": 400,
+   "yaw": 90,
+   "z": 5250
+  },
+  {
+   "x": -4800,
+   "y": 400,
+   "yaw": 90,
+   "z": 6750
+  },
+  {
+   "x": -4800,
+   "y": 400,
+   "yaw": 90,
+   "z": 6250
+  },
+  {
+   "x": -4800,
+   "y": 400,
+   "yaw": 90,
+   "z": 5750
+  },
+  {
+   "x": -4800,
+   "y": 400,
+   "yaw": 90,
+   "z": 5250
+  }
+ ],
+ "stars": [],
+ "survey": {}
+}

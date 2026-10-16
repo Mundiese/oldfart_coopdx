@@ -1,0 +1,110 @@
+[
+ {
+  "candidate": 0,
+  "ok": true,
+  "quality": 0.7591,
+  "family": "shooter",
+  "pieces": 110,
+  "skeleton": "courtyard",
+  "shape": "courtyard",
+  "across": 8000,
+  "about": "about towers and cross links (boosted); heaps of bridges, battlements, fences, trims; no stairs",
+  "faults": [],
+  "repairs": [],
+  "seconds": 1.12,
+  "centre": "keep",
+  "lane": "gates + ramparts",
+  "corner": "rampart"
+ },
+ {
+  "candidate": 1,
+  "ok": true,
+  "quality": 0.7084,
+  "family": "shooter",
+  "pieces": 51,
+  "skeleton": "terraces",
+  "shape": "terraces",
+  "across": 8000,
+  "about": "heaps of bridges; no bunkers, sunken floors, stairs",
+  "faults": [],
+  "repairs": [
+   "removed 24 cover pieces"
+  ],
+  "seconds": 0.87,
+  "centre": "bowl",
+  "lane": "terraces",
+  "corner": "-"
+ },
+ {
+  "candidate": 2,
+  "ok": true,
+  "quality": 0.7532,
+  "family": "shooter",
+  "pieces": 66,
+  "skeleton": "courtyard",
+  "shape": "courtyard",
+  "across": 8000,
+  "about": "heaps of canyons, height, a landmark, side colours; no raised daises, perches, ramps",
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.88,
+  "centre": "keep",
+  "lane": "gates + ramparts",
+  "corner": "rampart"
+ },
+ {
+  "candidate": 3,
+  "ok": true,
+  "quality": 0.6971,
+  "family": "shooter",
+  "pieces": 94,
+  "skeleton": "courtyard",
+  "shape": "courtyard",
+  "across": 8000,
+  "about": "heaps of corner stairs, cross links, height, island keeps; no ramps, stairs",
+  "faults": [],
+  "repairs": [],
+  "seconds": 1.08,
+  "centre": "keep",
+  "lane": "gates + ramparts",
+  "corner": "rampart"
+ },
+ {
+  "candidate": 4,
+  "ok": true,
+  "quality": 0.7147,
+  "family": "shooter",
+  "pieces": 75,
+  "skeleton": "terraces",
+  "shape": "terraces",
+  "across": 8000,
+  "about": "about rock keels (boosted); heaps of twin bases, colonnades, islands, sunken floors; no columns, raised daises, height",
+  "faults": [],
+  "repairs": [
+   "removed 1 dress pieces"
+  ],
+  "seconds": 0.64,
+  "centre": "bowl",
+  "lane": "terraces",
+  "corner": "-"
+ },
+ {
+  "candidate": 5,
+  "ok": true,
+  "quality": 0.7247,
+  "family": "shooter",
+  "pieces": 47,
+  "skeleton": "terraces",
+  "shape": "terraces",
+  "across": 8000,
+  "about": "about stairs (boosted); heaps of cover, a landmark, low walls, slabs and steps; no bunkers, raised daises, ramps",
+  "faults": [],
+  "repairs": [
+   "removed 16 cover pieces"
+  ],
+  "seconds": 0.42,
+  "centre": "summit",
+  "lane": "terraces",
+  "corner": "-"
+ }
+]

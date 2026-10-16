@@ -1,0 +1,18 @@
+extern const GeoLayout ice_donut_area_1_geo[];
+extern const GeoLayout ice_donut_area_1[];
+extern const Collision ice_donut_area_1_collision[];
+extern const MacroObject ice_donut_area_1_macro_objs[];
+extern Lights1 ice_donut_dl_death_plane_lights;
+extern Lights1 ice_donut_dl_inside_layer1_area1_lights;
+extern u8 ice_donut_dl_Texture0443_RGB_ci8[];
+extern u8 ice_donut_dl_Texture0443_RGB_pal_rgba16[];
+extern Vtx ice_donut_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx ice_donut_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Vtx ice_donut_dl_Ground_mesh_layer_1_vtx_0[544];
+extern Gfx ice_donut_dl_Ground_mesh_layer_1_tri_0[];
+extern Gfx mat_ice_donut_dl_death_plane[];
+extern Gfx mat_revert_ice_donut_dl_death_plane[];
+extern Gfx mat_ice_donut_dl_inside_layer1_area1[];
+extern Gfx mat_revert_ice_donut_dl_inside_layer1_area1[];
+extern Gfx ice_donut_dl_Death_Plane_mesh_layer_5_with_revert[];
+extern Gfx ice_donut_dl_Ground_mesh_layer_1_with_revert[];

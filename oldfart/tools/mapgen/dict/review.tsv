@@ -1,0 +1,478 @@
+verdict	concept	word	source	seed	sense	senses	freq	reason
+accepted	family.course	hibbeln	openthesaurus	huepfen	set of 6	1	-1	
+accepted	family.course	hoppeln	openthesaurus	huepfen	set of 6	1	-1	
+accepted	family.course	hopsen	openthesaurus	huepfen	set of 6	2	-2	
+accepted	family.course	jumpen	openthesaurus	huepfen	set of 6	2	-2	
+accepted	family.knockoff	stupsen	openthesaurus	rempeln	set of 4	2	-2	
+accepted	family.race	racecourse	wordnet	raceway	n.04037625#2	1	0	
+accepted	family.race	wettlaufen	openthesaurus	wettrennen	set of 5	1	-1	
+accepted	family.shooter	ballerei	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	beschuss	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	geschiesse	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	gewehrfeuer	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	gunplay	wordnet	gunfight	n.00124617#1	1	1	
+accepted	family.shooter	kugelhagel	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	kugelregen	openthesaurus	geballer	set of 10	1	-1	
+accepted	family.shooter	kugelwechsel	openthesaurus	geballer	set of 10	1	-1	
+accepted	obj.tweester	grosstrombe	openthesaurus	windhose	set of 10	1	-1	
+accepted	obj.tweester	trombe	openthesaurus	windhose	set of 10	1	-1	
+accepted	obj.tweester	wasserhose	openthesaurus	windhose	set of 10	1	-1	
+accepted	preset.ruins	schuttfeld	openthesaurus	ruinenfeld	set of 9	1	-1	
+accepted	preset.ruins	truemmerwueste	openthesaurus	ruinenfeld	set of 9	2	-2	
+accepted	preset.town	central city	wordnet	city center	n.08524130#1	1	13	
+accepted	preset.town	city centre	wordnet	city center	n.08524130#1	1	0	
+accepted	preset.town	kraehwinkel	openthesaurus	staedtchen	set of 5	1	-1	
+accepted	preset.town	marktflecken	openthesaurus	staedtchen	set of 5	3	-3	
+accepted	size.gigantic	elephantine	wordnet	gargantuan	a.01385773#1	1	0	
+accepted	size.huge	brobdingnagian	wordnet	vast	a.01387319#1	2	0	
+accepted	size.huge	prodigious	wordnet	colossal	a.01384730#1	3	4	
+accepted	size.huge	stupendous	wordnet	colossal	a.01384730#1	1	2	
+accepted	size.huge	tremendous	wordnet	enormous	a.01385255#1	3	29	
+accepted	size.large	ample	wordnet	sizeable	a.01383394#1	3	10	
+accepted	size.large	goodly	wordnet	sizeable	a.00624576#2	1	0	
+accepted	size.large	hefty	wordnet	sizeable	a.00624576#2	3	1	
+accepted	size.large	largish	wordnet	biggish	a.01383857#1	1	0	
+accepted	size.tiny	bittie	wordnet	teeny	a.01392633#1	1	0	
+accepted	size.tiny	teensy	wordnet	teeny	a.01392633#1	1	1	
+accepted	size.tiny	teentsy	wordnet	teeny	a.01392633#1	1	0	
+accepted	size.tiny	wee	wordnet	teeny	a.01392633#1	4	3	
+accepted	size.tiny	weensy	wordnet	teeny	a.01392633#1	1	0	
+accepted	size.tiny	weeny	wordnet	teeny	a.01392633#1	1	0	
+accepted	sky.haunted	burial ground	wordnet	graveyard	n.08521623#1	1	0	
+accepted	sky.haunted	burial site	wordnet	graveyard	n.08521623#1	1	0	
+accepted	sky.haunted	burying ground	wordnet	graveyard	n.08521623#1	1	0	
+accepted	sky.haunted	memorial park	wordnet	graveyard	n.08521623#1	1	0	
+accepted	sky.haunted	necropolis	wordnet	graveyard	n.08521623#1	1	0	
+accepted	sky.haunted	zum erschrecken	openthesaurus	unheimlich	set of 6	1	-1	
+accepted	sky.haunted	zum fuerchten	openthesaurus	unheimlich	set of 6	2	-2	
+accepted	sky.ocean	azur	openthesaurus	himmelblau	set of 4	1	-1	
+accepted	sky.underwater	ocean bottom	wordnet	ocean floor	n.09376526#1	1	0	
+accepted	sky.underwater	sea bottom	wordnet	ocean floor	n.09376526#1	1	1	
+accepted	sky.underwater	sea floor	wordnet	ocean floor	n.09376526#1	1	0	
+accepted	theme.castle	donjon	wordnet	dungeon	n.03610098#1	1	0	
+accepted	theme.castle	fastness	wordnet	stronghold	n.04340935#1	3	0	
+accepted	theme.desert	dust storm	wordnet	sandstorm	n.11448153#1	1	0	
+accepted	theme.desert	sirocco	wordnet	sandstorm	n.11448153#1	1	0	
+accepted	theme.garden	blumenhaft	openthesaurus	blumenreich	set of 3	1	-1	
+accepted	theme.garden	busch	openthesaurus	urwald	set of 4	3	-3	
+accepted	theme.garden	gruene hoelle	openthesaurus	dschungel	set of 4	1	-1	
+accepted	theme.garden	gruenflaeche	openthesaurus	weide	set of 7	1	-1	
+accepted	theme.garden	gruenland	openthesaurus	weide	set of 7	2	-2	
+accepted	theme.garden	hayfield	wordnet	meadow	n.08570634#1	1	1	
+accepted	theme.garden	rain forest	wordnet	rainforest	n.08439126#1	1	1	
+accepted	theme.garden	rasenflaeche	openthesaurus	weide	set of 7	1	-1	
+accepted	theme.garden	tropischer regenwald	openthesaurus	dschungel	set of 4	1	-1	
+accepted	theme.garden	viehweide	openthesaurus	grasland	set of 4	1	-1	
+accepted	theme.garden	weideland	openthesaurus	grasland	set of 4	2	-2	
+accepted	theme.garden	wildnis	openthesaurus	urwald	set of 4	2	-2	
+accepted	theme.ice	glitschig	openthesaurus	rutschig	set of 6	1	-1	
+accepted	theme.ice	schluepfrig	openthesaurus	rutschig	set of 6	2	-2	
+accepted	theme.ice	spiegelglatt	openthesaurus	rutschig	set of 6	1	-1	
+accepted	theme.lava	infernalisch	openthesaurus	hoellisch	set of 4	2	-2	
+accepted	theme.lava	native sulfur	wordnet	brimstone	n.14785325#1	1	0	
+accepted	theme.lava	native sulphur	wordnet	brimstone	n.14785325#1	1	0	
+accepted	theme.sky	dirigible	wordnet	airship	n.02692877#1	2	0	
+accepted	theme.wood	seaport	wordnet	harbour	n.08639058#1	1	0	
+accepted	thing.bridge	lift bridge	wordnet	drawbridge	n.03233744#1	1	0	
+accepted	thing.bridge	paseo	wordnet	walkway	n.04544979#1	1	0	
+accepted	thing.bridge	querung	openthesaurus	uebergang	set of 5	1	-1	
+accepted	thing.bridge	ueberfuehrung	openthesaurus	uebergang	set of 5	3	-3	
+accepted	thing.caves	grot	wordnet	grotto	n.09294877#1	1	0	
+accepted	thing.hill	aufschuettung	openthesaurus	erdhuegel	set of 7	3	-3	
+accepted	thing.hill	erdwall	openthesaurus	erdhuegel	set of 7	1	-1	
+accepted	thing.hill	hummock	wordnet	mound	n.09326662#2	1	0	
+accepted	thing.hill	koppe	openthesaurus	erdhuegel	set of 7	1	-1	
+accepted	thing.jump_pads	launch area	wordnet	launch pad	n.03647691#1	1	0	
+accepted	thing.jump_pads	launching pad	wordnet	launch pad	n.03647691#1	1	0	
+accepted	thing.mountains	berggruppe	openthesaurus	hochgebirge	set of 3	1	-1	
+accepted	thing.mountains	bergiges land	openthesaurus	bergland	set of 5	1	-1	
+accepted	thing.mountains	bergreiches land	openthesaurus	bergland	set of 5	1	-1	
+accepted	thing.mountains	gebirgiges land	openthesaurus	bergland	set of 5	1	-1	
+accepted	thing.mountains	gebirgsformation	openthesaurus	bergkette	set of 10	1	-1	
+accepted	thing.mountains	gebirgskette	openthesaurus	bergkette	set of 10	1	-1	
+accepted	thing.mountains	gebirgsruecken	openthesaurus	bergkette	set of 10	1	-1	
+accepted	thing.mountains	hoehenruecken	openthesaurus	bergkette	set of 10	2	-2	
+accepted	thing.mountains	hoehenzug	openthesaurus	bergkette	set of 10	1	-1	
+accepted	thing.mountains	kordillere	openthesaurus	bergkette	set of 10	1	-1	
+accepted	thing.mountains	montan	openthesaurus	gebirgig	set of 4	1	-1	
+accepted	thing.mountains	mountain chain	wordnet	mountain range	n.09403734#1	1	0	
+accepted	thing.nooks	hideaway	wordnet	hideout	n.08584218#1	2	1	
+accepted	thing.pit	swallow hole	wordnet	sinkhole	n.09435739#1	1	0	
+accepted	thing.rails	balusters	wordnet	balustrade	n.02788148#1	1	0	
+accepted	thing.rails	banister	wordnet	balustrade	n.02788148#1	1	2	
+accepted	thing.rails	bannister	wordnet	balustrade	n.02788148#1	2	0	
+accepted	thing.rails	safety rail	wordnet	guardrail	n.04127395#1	1	0	
+accepted	thing.ramp	zufahrt	openthesaurus	auffahrt	set of 4	2	-2	
+accepted	thing.river	waesserchen	openthesaurus	rinnsal	set of 3	2	-2	
+accepted	thing.roads	steig	openthesaurus	pfad	set of 5	1	-1	
+accepted	thing.stairs	stairway	wordnet	staircase	n.04298308#1	1	3	
+accepted	thing.start	scratch line	wordnet	starting line	n.08653873#1	1	0	
+accepted	thing.terrain	buckelig	openthesaurus	huegelig	set of 7	1	-1	
+accepted	thing.terrain	bucklig	openthesaurus	huegelig	set of 7	1	-1	
+accepted	thing.terrain	felsblock	openthesaurus	fels	set of 5	2	-2	
+accepted	thing.terrain	gestein	openthesaurus	fels	set of 5	2	-2	
+accepted	thing.terrain	gewellt	openthesaurus	huegelig	set of 7	2	-2	
+accepted	thing.terrain	wellig	openthesaurus	huegelig	set of 7	3	-3	
+accepted	thing.tower	beacon light	wordnet	lighthouse	n.02814860#1	1	1	
+accepted	thing.tower	pharos	wordnet	lighthouse	n.02814860#1	1	0	
+accepted	thing.tower	steeple	wordnet	spire	n.04312432#1	1	12	
+accepted	thing.tunnel	puett	openthesaurus	stollen	set of 6	1	-1	
+accepted	thing.valley	vale	wordnet	valley	n.09468604#1	1	0	
+accepted	thing.walls	bulwark	wordnet	rampart	n.04051825#1	4	0	
+accepted	thing.water	fosse	wordnet	moat	n.03776050#1	1	0	
+accepted	thing.water	gestade	openthesaurus	kueste	set of 4	1	-1	
+accepted	thing.water	laguna	wordnet	lagune	n.09328746#1	1	0	
+accepted	thing.water	lakeside	wordnet	lakeshore	n.09332890#1	1	0	
+accepted	thing.water	pfuhl	openthesaurus	sumpf	set of 3	1	-1	
+accepted	thing.water	weltmeer	openthesaurus	ozean	set of 4	1	-1	
+accepted	vert.high	multistoried	wordnet	multistorey	a.01218548#1	1	0	
+accepted	vert.high	soaring	wordnet	towering	a.01205473#1	3	2	
+refused	family.course	huepfen	openthesaurus	huepfen	set of 6	2	-2	already a form of the concept
+refused	family.course	springen	openthesaurus	huepfen	set of 6	5	-5	already a form of the concept
+refused	family.explore	rubber-necking	wordnet	sightseeing	n.00879607#1	1	0	generic, a stop word or not a plain word
+refused	family.explore	sightseeing	wordnet	sightseeing	n.00879607#1	1	2	already a form of the concept
+refused	family.knockoff	clone	wordnet	knockoff	n.03626925#1	4	0	reviewed: wrong sense
+refused	family.knockoff	knockoff	wordnet	knockoff	n.03626925#1	1	0	already a form of the concept
+refused	family.knockoff	rempeln	openthesaurus	rempeln	set of 4	1	-1	already a form of the concept
+refused	family.knockoff	schubsen	openthesaurus	rempeln	set of 4	1	-1	already a form of the concept
+refused	family.knockoff	stossen	openthesaurus	rempeln	set of 4	5	-5	too many senses (5)
+refused	family.party	party game	wordnet	party game	n.00458800#1	1	1	already a form of the concept
+refused	family.race	gokart	openthesaurus	kart	set of 2	1	-1	already a form of the concept
+refused	family.race	grand prix	wordnet	grand prix	n.07459066#1	1	0	already a form of the concept
+refused	family.race	kart	openthesaurus	kart	set of 2	1	-1	already a form of the concept
+refused	family.race	lauf	openthesaurus	wettrennen	set of 5	7	-7	too many senses (7)
+refused	family.race	racetrack	wordnet	raceway	n.04037625#2	1	0	already a form of the concept
+refused	family.race	raceway	wordnet	raceway	n.04037625#2	2	0	already a form of the concept
+refused	family.race	rennen	openthesaurus	wettrennen	set of 5	2	-2	collision: the reader already reads it
+refused	family.race	track	wordnet	raceway	n.04037625#2	16	13	collision: the reader already reads it
+refused	family.race	wettlauf	openthesaurus	wettrennen	set of 5	1	-1	already a form of the concept
+refused	family.race	wettrennen	openthesaurus	wettrennen	set of 5	1	-1	already a form of the concept
+refused	family.shooter	federal protective service	wordnet	fps	n.08351777#1	1	0	generic, a stop word or not a plain word
+refused	family.shooter	feuergefecht	openthesaurus	geballer	set of 10	1	-1	already a form of the concept
+refused	family.shooter	fps	wordnet	fps	n.08351777#1	1	0	already a form of the concept
+refused	family.shooter	geballer	openthesaurus	geballer	set of 10	1	-1	already a form of the concept
+refused	family.shooter	gunfight	wordnet	gunfight	n.00124617#1	1	0	already a form of the concept
+refused	family.shooter	kugeln pfeifen um die ohren	openthesaurus	geballer	set of 10	1	-1	generic, a stop word or not a plain word
+refused	family.shooter	shootout	wordnet	gunfight	n.00124617#1	1	0	already a form of the concept
+refused	obj.ferris	ferris wheel	wordnet	ferris wheel	n.03329302#1	1	0	already a form of the concept
+refused	obj.thwomp	crusher	wordnet	crusher	n.03141702#1	1	2	already a form of the concept
+refused	obj.tweester	taifun	openthesaurus	windhose	set of 10	2	-2	reviewed: wrong sense
+refused	obj.tweester	tornado	openthesaurus	windhose	set of 10	1	-1	already a form of the concept
+refused	obj.tweester	twister	openthesaurus	windhose	set of 10	1	-1	also a word of the other language
+refused	obj.tweester	windhose	openthesaurus	windhose	set of 10	1	-1	already a form of the concept
+refused	obj.tweester	wirbelsturm	openthesaurus	windhose	set of 10	1	-1	already a form of the concept
+refused	obj.tweester	wirbelwind	openthesaurus	windhose	set of 10	4	-4	too many senses (4)
+refused	obj.tweester	zyklon	openthesaurus	windhose	set of 10	3	-3	reviewed: wrong sense
+refused	preset.ruins	ansammlung von schutthaufen	openthesaurus	ruinenfeld	set of 9	1	-1	generic, a stop word or not a plain word
+refused	preset.ruins	bild der verwuestung bieten	openthesaurus	ruinenfeld	set of 9	1	-1	generic, a stop word or not a plain word
+refused	preset.ruins	kein stein bleibt auf dem anderen	openthesaurus	ruinenfeld	set of 9	1	-1	generic, a stop word or not a plain word
+refused	preset.ruins	ruinenfeld	openthesaurus	ruinenfeld	set of 9	1	-1	already a form of the concept
+refused	preset.ruins	ruinenlandschaft	openthesaurus	ruinenfeld	set of 9	1	-1	already a form of the concept
+refused	preset.ruins	schutt und asche	openthesaurus	ruinenfeld	set of 9	1	-1	generic, a stop word or not a plain word
+refused	preset.ruins	staette der verwuestung	openthesaurus	ruinenfeld	set of 9	1	-1	generic, a stop word or not a plain word
+refused	preset.town	city center	wordnet	city center	n.08524130#1	1	0	already a form of the concept
+refused	preset.town	kleine stadt	openthesaurus	staedtchen	set of 5	1	-1	already a form of the concept
+refused	preset.town	kleinstadt	openthesaurus	staedtchen	set of 5	1	-1	collision: the reader already reads it
+refused	preset.town	market town	wordnet	market town	n.08672073#1	1	0	already a form of the concept
+refused	preset.town	settlement	wordnet	small town	n.08226699#1	7	14	collision: the reader already reads it
+refused	preset.town	small town	wordnet	small town	n.08226699#1	1	4	already a form of the concept
+refused	preset.town	staedtchen	openthesaurus	staedtchen	set of 5	2	-2	already a form of the concept
+refused	preset.town	village	wordnet	small town	n.08226699#1	3	36	collision: the reader already reads it
+refused	size.gigantic	astronomisch	openthesaurus	galaktisch	set of 3	3	-3	already a form of the concept
+refused	size.gigantic	boundless	wordnet	boundless	a.01007657#1	1	1	already a form of the concept
+refused	size.gigantic	galaktisch	openthesaurus	galaktisch	set of 3	1	-1	already a form of the concept
+refused	size.gigantic	gargantuan	wordnet	gargantuan	a.01385773#1	1	0	already a form of the concept
+refused	size.gigantic	giant	wordnet	gargantuan	a.01385773#1	8	19	collision: the reader already reads it
+refused	size.gigantic	jumbo	wordnet	gargantuan	a.01385773#1	1	0	collision: the reader already reads it
+refused	size.gigantic	kosmisch	openthesaurus	galaktisch	set of 3	1	-1	reviewed: wrong sense
+refused	size.gigantic	limitless	wordnet	boundless	a.01007657#1	3	1	already a form of the concept
+refused	size.gigantic	unbounded	wordnet	boundless	a.01007657#1	1	1	reviewed: wrong sense
+refused	size.huge	banging	wordnet	humongous	a.01388062#1	3	3	reviewed: wrong sense
+refused	size.huge	colossal	wordnet	colossal	a.01384730#1	1	3	already a form of the concept
+refused	size.huge	enorm	openthesaurus	gewaltig	set of 10	5	-5	too many senses (5)
+refused	size.huge	enormous	wordnet	enormous	a.01385255#1	1	17	already a form of the concept
+refused	size.huge	exorbitant	openthesaurus	gewaltig	set of 10	4	-4	also a word of the other language
+refused	size.huge	gewaltig	openthesaurus	gewaltig	set of 10	6	-6	already a form of the concept
+refused	size.huge	gross	openthesaurus	gewaltig	set of 10	9	-9	generic, a stop word or not a plain word
+refused	size.huge	himmelweit	openthesaurus	gewaltig	set of 10	2	-2	reviewed: wrong sense
+refused	size.huge	huge	wordnet	vast	a.01387319#1	1	23	collision: the reader already reads it
+refused	size.huge	humongous	wordnet	humongous	a.01388062#1	1	0	already a form of the concept
+refused	size.huge	immens	openthesaurus	gewaltig	set of 10	4	-4	already a form of the concept
+refused	size.huge	immense	wordnet	vast	a.01387319#1	1	5	already a form of the concept
+refused	size.huge	imposant	openthesaurus	gewaltig	set of 10	5	-5	too many senses (5)
+refused	size.huge	krass	openthesaurus	gewaltig	set of 10	6	-6	collision: the reader already reads it
+refused	size.huge	maechtig	openthesaurus	gewaltig	set of 10	9	-9	too many senses (9)
+refused	size.huge	riesig	openthesaurus	gewaltig	set of 10	2	-2	collision: the reader already reads it
+refused	size.huge	thumping	wordnet	humongous	a.01388062#1	2	3	reviewed: wrong sense
+refused	size.huge	vast	wordnet	vast	a.01387319#1	1	30	already a form of the concept
+refused	size.huge	walloping	wordnet	humongous	a.01388062#1	2	1	reviewed: wrong sense
+refused	size.huge	whopping	wordnet	humongous	a.01388062#1	2	0	already a form of the concept
+refused	size.large	across-the-board	wordnet	broad	a.00526062#2	1	0	generic, a stop word or not a plain word
+refused	size.large	all-embracing	wordnet	broad	a.00526062#2	1	0	generic, a stop word or not a plain word
+refused	size.large	all-encompassing	wordnet	broad	a.00526062#2	1	0	generic, a stop word or not a plain word
+refused	size.large	all-inclusive	wordnet	broad	a.00526062#2	1	0	generic, a stop word or not a plain word
+refused	size.large	biggish	wordnet	biggish	a.01383857#1	1	0	already a form of the concept
+refused	size.large	blanket	wordnet	broad	a.00526062#2	6	24	too many senses (6)
+refused	size.large	broad	wordnet	broad	a.00526062#2	9	34	already a form of the concept
+refused	size.large	encompassing	wordnet	broad	a.00526062#2	2	0	reviewed: wrong sense
+refused	size.large	extensive	wordnet	broad	a.00526062#2	3	21	already a form of the concept
+refused	size.large	goodish	wordnet	sizeable	a.00624576#2	2	0	reviewed: wrong sense
+refused	size.large	healthy	wordnet	sizeable	a.00624576#2	5	19	too many senses (5)
+refused	size.large	panoptic	wordnet	broad	a.00526062#2	2	0	reviewed: wrong sense
+refused	size.large	respectable	wordnet	sizeable	a.00624576#2	3	12	reviewed: wrong sense
+refused	size.large	sizable	wordnet	sizeable	a.01383394#1	2	2	already a form of the concept
+refused	size.large	sizeable	wordnet	sizeable	a.01383394#1	2	0	already a form of the concept
+refused	size.large	tidy	wordnet	sizeable	a.00624576#2	5	0	too many senses (5)
+refused	size.large	wide	wordnet	broad	a.00526062#2	11	67	too many senses (11)
+refused	size.small	smallish	wordnet	smallish	a.01395028#1	1	1	already a form of the concept
+refused	size.tiny	bitty	wordnet	teeny	a.01392633#1	1	0	already a form of the concept
+refused	size.tiny	itsy-bitsy	wordnet	teeny	a.01392633#1	1	0	generic, a stop word or not a plain word
+refused	size.tiny	itty-bitty	wordnet	teeny	a.01392633#1	1	0	generic, a stop word or not a plain word
+refused	size.tiny	teensy-weensy	wordnet	teeny	a.01392633#1	1	0	generic, a stop word or not a plain word
+refused	size.tiny	teeny	wordnet	teeny	a.01392633#1	1	0	already a form of the concept
+refused	size.tiny	teeny-weeny	wordnet	teeny	a.01392633#1	1	0	generic, a stop word or not a plain word
+refused	sky.haunted	cemetery	wordnet	graveyard	n.08521623#1	1	4	already a form of the concept
+refused	sky.haunted	crypt	wordnet	crypt	n.03142431#1	1	0	already a form of the concept
+refused	sky.haunted	graveyard	wordnet	graveyard	n.08521623#1	1	3	already a form of the concept
+refused	sky.haunted	gruselig	openthesaurus	unheimlich	set of 6	4	-4	already a form of the concept
+refused	sky.haunted	kann einem angst machen	openthesaurus	unheimlich	set of 6	1	-1	generic, a stop word or not a plain word
+refused	sky.haunted	kann einem angst und bange werden	openthesaurus	unheimlich	set of 6	2	-2	generic, a stop word or not a plain word
+refused	sky.haunted	unheimlich	openthesaurus	unheimlich	set of 6	4	-4	already a form of the concept
+refused	sky.ocean	azurblau	openthesaurus	himmelblau	set of 4	1	-1	already a form of the concept
+refused	sky.ocean	blau	openthesaurus	himmelblau	set of 4	2	-2	reviewed: wrong sense
+refused	sky.ocean	himmelblau	openthesaurus	himmelblau	set of 4	1	-1	already a form of the concept
+refused	sky.underwater	atlantis	wordnet	atlantis	n.05626929#1	1	0	already a form of the concept
+refused	sky.underwater	davy jones	wordnet	ocean floor	n.09376526#1	1	0	reviewed: wrong sense
+refused	sky.underwater	davy jones's locker	wordnet	ocean floor	n.09376526#1	1	0	generic, a stop word or not a plain word
+refused	sky.underwater	ocean floor	wordnet	ocean floor	n.09376526#1	1	1	already a form of the concept
+refused	sky.underwater	seabed	wordnet	ocean floor	n.09376526#1	1	0	already a form of the concept
+refused	theme.castle	arrestzelle	openthesaurus	verlies	set of 6	2	-2	reviewed: wrong sense
+refused	theme.castle	bastion	wordnet	citadel	n.02806088#1	3	1	also a word of the other language
+refused	theme.castle	citadel	wordnet	citadel	n.02806088#1	1	0	already a form of the concept
+refused	theme.castle	dungeon	wordnet	dungeon	n.03610098#1	2	3	already a form of the concept
+refused	theme.castle	haftraum	openthesaurus	verlies	set of 6	1	-1	reviewed: wrong sense
+refused	theme.castle	keep	wordnet	dungeon	n.03610098#1	25	346	already a form of the concept
+refused	theme.castle	kerker	openthesaurus	verlies	set of 6	1	-1	already a form of the concept
+refused	theme.castle	loch	openthesaurus	verlies	set of 6	6	-6	collision: the reader already reads it
+refused	theme.castle	monastery	wordnet	monastery	n.03781244#1	1	1	already a form of the concept
+refused	theme.castle	stronghold	wordnet	stronghold	n.04340935#1	1	0	already a form of the concept
+refused	theme.castle	verlies	openthesaurus	verlies	set of 6	1	-1	already a form of the concept
+refused	theme.castle	zelle	openthesaurus	verlies	set of 6	3	-3	reviewed: wrong sense
+refused	theme.desert	barren	wordnet	wasteland	n.08504594#1	4	2	collision: the reader already reads it
+refused	theme.desert	cactus	wordnet	cactus	n.11842204#1	1	0	already a form of the concept
+refused	theme.desert	duster	wordnet	sandstorm	n.11448153#1	4	0	collision: the reader already reads it
+refused	theme.desert	pharaoh	wordnet	pharaoh	n.10421016#1	1	0	already a form of the concept
+refused	theme.desert	pharaoh of egypt	wordnet	pharaoh	n.10421016#1	1	0	generic, a stop word or not a plain word
+refused	theme.desert	sandstorm	wordnet	sandstorm	n.11448153#1	1	0	already a form of the concept
+refused	theme.desert	waste	wordnet	wasteland	n.08504594#1	16	28	too many senses (16)
+refused	theme.desert	wasteland	wordnet	wasteland	n.08504594#1	1	2	already a form of the concept
+refused	theme.garden	blumenreich	openthesaurus	blumenreich	set of 3	1	-1	already a form of the concept
+refused	theme.garden	blumig	openthesaurus	blumenreich	set of 3	3	-3	already a form of the concept
+refused	theme.garden	countryside	wordnet	countryside	n.08645033#1	1	2	already a form of the concept
+refused	theme.garden	dschungel	openthesaurus	urwald	set of 4	3	-3	already a form of the concept
+refused	theme.garden	grasland	openthesaurus	grasland	set of 4	1	-1	already a form of the concept
+refused	theme.garden	grassland	wordnet	grassland	n.08598301#1	1	0	already a form of the concept
+refused	theme.garden	gruen	openthesaurus	weide	set of 7	5	-5	already a form of the concept
+refused	theme.garden	matte	openthesaurus	weide	set of 7	4	-4	also a word of the other language
+refused	theme.garden	meadow	wordnet	meadow	n.08570634#1	1	6	already a form of the concept
+refused	theme.garden	rainforest	wordnet	rainforest	n.08439126#1	1	0	already a form of the concept
+refused	theme.garden	rasen	openthesaurus	weide	set of 7	5	-5	already a form of the concept
+refused	theme.garden	regenwald	openthesaurus	dschungel	set of 4	1	-1	already a form of the concept
+refused	theme.garden	urwald	openthesaurus	urwald	set of 4	2	-2	already a form of the concept
+refused	theme.garden	weide	openthesaurus	grasland	set of 4	4	-4	already a form of the concept
+refused	theme.ice	christmas	wordnet	christmas	n.15196186#2	2	5	already a form of the concept
+refused	theme.ice	christmas day	wordnet	christmas	n.15196186#2	1	0	reviewed: wrong sense
+refused	theme.ice	dec 25	wordnet	christmas	n.15196186#2	1	0	generic, a stop word or not a plain word
+refused	theme.ice	frisch	openthesaurus	kalt	set of 4	7	-7	also a word of the other language
+refused	theme.ice	frostig	openthesaurus	kalt	set of 4	3	-3	already a form of the concept
+refused	theme.ice	glatt	openthesaurus	rutschig	set of 6	9	-9	already a form of the concept
+refused	theme.ice	kalt	openthesaurus	kalt	set of 4	6	-6	already a form of the concept
+refused	theme.ice	kuehl	openthesaurus	kalt	set of 4	4	-4	too many senses (4)
+refused	theme.ice	rutschbahn	openthesaurus	rutschig	set of 6	3	-3	reviewed: wrong sense
+refused	theme.ice	rutschig	openthesaurus	rutschig	set of 6	1	-1	already a form of the concept
+refused	theme.ice	xmas	wordnet	christmas	n.15196186#2	1	0	already a form of the concept
+refused	theme.lava	brimstone	wordnet	brimstone	n.14785325#1	1	0	already a form of the concept
+refused	theme.lava	hoellisch	openthesaurus	hoellisch	set of 4	2	-2	already a form of the concept
+refused	theme.lava	infernal	openthesaurus	hoellisch	set of 4	2	-2	already a form of the concept
+refused	theme.lava	teuflisch	openthesaurus	hoellisch	set of 4	3	-3	already a form of the concept
+refused	theme.sky	airship	wordnet	airship	n.02692877#1	1	0	already a form of the concept
+refused	theme.wood	harbor	wordnet	harbour	n.08639058#1	6	15	already a form of the concept
+refused	theme.wood	harbour	wordnet	harbour	n.08639058#1	6	0	already a form of the concept
+refused	theme.wood	haven	wordnet	harbour	n.08639058#1	2	1	reviewed: wrong sense
+refused	theme.wood	log cabin	wordnet	log cabin	n.03686924#1	1	1	already a form of the concept
+refused	theme.wood	lumber	wordnet	timber	n.14943580#1	4	7	already a form of the concept
+refused	theme.wood	pirate	wordnet	pirate ship	n.03947888#1	5	3	too many senses (5)
+refused	theme.wood	pirate ship	wordnet	pirate ship	n.03947888#1	1	0	already a form of the concept
+refused	theme.wood	timber	wordnet	timber	n.14943580#1	5	6	already a form of the concept
+refused	thing.arches	arch	wordnet	archway	n.02734217#1	8	6	too many senses (8)
+refused	thing.arches	archway	wordnet	archway	n.02734217#1	1	0	already a form of the concept
+refused	thing.bridge	bruecke	openthesaurus	uebergang	set of 5	6	-6	collision: the reader already reads it
+refused	thing.bridge	drawbridge	wordnet	drawbridge	n.03233744#1	1	0	already a form of the concept
+refused	thing.bridge	rope bridge	wordnet	rope bridge	n.04108822#1	1	0	already a form of the concept
+refused	thing.bridge	uebergang	openthesaurus	uebergang	set of 5	4	-4	already a form of the concept
+refused	thing.bridge	viaduct	wordnet	viaduct	n.04532670#1	1	0	already a form of the concept
+refused	thing.bridge	viadukt	openthesaurus	uebergang	set of 5	2	-2	already a form of the concept
+refused	thing.bridge	walk	wordnet	walkway	n.04544979#1	17	207	too many senses (17)
+refused	thing.bridge	walkway	wordnet	walkway	n.04544979#1	1	0	already a form of the concept
+refused	thing.buildings	living quarters	wordnet	quarters	n.03679384#1	1	0	reviewed: wrong sense
+refused	thing.buildings	quarters	wordnet	quarters	n.03679384#1	1	6	already a form of the concept
+refused	thing.caves	grotto	wordnet	grotto	n.09294877#1	1	0	already a form of the concept
+refused	thing.crown	ambo	wordnet	dais	n.03159640#1	1	0	reviewed: wrong sense
+refused	thing.crown	dais	wordnet	dais	n.03159640#1	1	1	already a form of the concept
+refused	thing.crown	podium	wordnet	dais	n.03159640#1	1	0	collision: the reader already reads it
+refused	thing.crown	pulpit	wordnet	dais	n.03159640#1	1	2	reviewed: wrong sense
+refused	thing.crown	rostrum	wordnet	dais	n.03159640#1	2	1	reviewed: wrong sense
+refused	thing.crown	soapbox	wordnet	dais	n.03159640#1	2	0	reviewed: wrong sense
+refused	thing.crown	stump	wordnet	dais	n.03159640#1	8	7	too many senses (8)
+refused	thing.curves	hairpin	wordnet	hairpin	n.03476313#1	1	0	already a form of the concept
+refused	thing.fences	#	openthesaurus	lattenzaun	set of 4	1	-1	generic, a stop word or not a plain word
+refused	thing.fences	gartenzaun	openthesaurus	lattenzaun	set of 4	1	-1	already a form of the concept
+refused	thing.fences	lattenzaun	openthesaurus	lattenzaun	set of 4	2	-2	already a form of the concept
+refused	thing.fences	rautenzeichen	openthesaurus	lattenzaun	set of 4	1	-1	reviewed: wrong sense
+refused	thing.finish	goal line	wordnet	goal line	n.08579134#1	1	0	already a form of the concept
+refused	thing.gate	door	wordnet	doorway	n.03224032#1	5	140	already a form of the concept
+refused	thing.gate	doorway	wordnet	doorway	n.03224032#1	1	11	already a form of the concept
+refused	thing.gate	gatehouse	wordnet	gatehouse	n.03428090#1	1	0	already a form of the concept
+refused	thing.gate	portcullis	wordnet	portcullis	n.03985881#1	1	0	already a form of the concept
+refused	thing.gate	room access	wordnet	doorway	n.03224032#1	1	0	reviewed: wrong sense
+refused	thing.gate	threshold	wordnet	doorway	n.03224032#1	5	10	too many senses (5)
+refused	thing.hill	anhoehe	openthesaurus	erdhuegel	set of 7	2	-2	already a form of the concept
+refused	thing.hill	erdhuegel	openthesaurus	erdhuegel	set of 7	1	-1	already a form of the concept
+refused	thing.hill	erhebung	openthesaurus	erdhuegel	set of 7	8	-8	too many senses (8)
+refused	thing.hill	hammock	wordnet	mound	n.09326662#2	2	0	reviewed: wrong sense
+refused	thing.hill	hillock	wordnet	mound	n.09326662#2	1	2	already a form of the concept
+refused	thing.hill	knoll	wordnet	mound	n.09326662#2	1	1	already a form of the concept
+refused	thing.hill	kuppe	openthesaurus	erdhuegel	set of 7	1	-1	already a form of the concept
+refused	thing.hill	mound	wordnet	mound	n.09326662#2	6	7	already a form of the concept
+refused	thing.islands	archipel	openthesaurus	archipel	set of 2	1	-1	already a form of the concept
+refused	thing.islands	archipelago	wordnet	archipelago	n.09203827#1	1	0	already a form of the concept
+refused	thing.islands	inselgruppe	openthesaurus	archipel	set of 2	1	-1	already a form of the concept
+refused	thing.jump_pads	launch pad	wordnet	launch pad	n.03647691#1	1	0	already a form of the concept
+refused	thing.jump_pads	launchpad	wordnet	launch pad	n.03647691#1	1	0	already a form of the concept
+refused	thing.jump_pads	pad	wordnet	launch pad	n.03647691#1	11	2	too many senses (11)
+refused	thing.mountains	alpin	openthesaurus	gebirgig	set of 4	1	-1	already a form of the concept
+refused	thing.mountains	bergig	openthesaurus	gebirgig	set of 4	1	-1	already a form of the concept
+refused	thing.mountains	bergkette	openthesaurus	bergkette	set of 10	1	-1	already a form of the concept
+refused	thing.mountains	bergland	openthesaurus	bergland	set of 5	1	-1	already a form of the concept
+refused	thing.mountains	bergwelt	openthesaurus	bergland	set of 5	1	-1	already a form of the concept
+refused	thing.mountains	chain	wordnet	mountain range	n.09403734#1	12	21	collision: the reader already reads it
+refused	thing.mountains	chain of mountains	wordnet	mountain range	n.09403734#1	1	0	generic, a stop word or not a plain word
+refused	thing.mountains	gebirge	openthesaurus	bergkette	set of 10	1	-1	already a form of the concept
+refused	thing.mountains	gebirgig	openthesaurus	gebirgig	set of 4	1	-1	already a form of the concept
+refused	thing.mountains	gebirgszug	openthesaurus	bergkette	set of 10	2	-2	already a form of the concept
+refused	thing.mountains	hochgebirge	openthesaurus	hochgebirge	set of 3	1	-1	already a form of the concept
+refused	thing.mountains	mountain range	wordnet	mountain range	n.09403734#1	1	0	already a form of the concept
+refused	thing.mountains	range	wordnet	mountain range	n.09403734#1	17	117	also a word of the other language
+refused	thing.mountains	range of mountains	wordnet	mountain range	n.09403734#1	1	0	generic, a stop word or not a plain word
+refused	thing.mountains	ruecken	openthesaurus	bergkette	set of 10	8	-8	too many senses (8)
+refused	thing.nooks	den	wordnet	hideout	n.08584218#1	4	0	collision: the reader already reads it
+refused	thing.nooks	hideout	wordnet	hideout	n.08584218#1	1	3	already a form of the concept
+refused	thing.pit	sink	wordnet	sinkhole	n.09435739#1	13	33	too many senses (13)
+refused	thing.pit	sinkhole	wordnet	sinkhole	n.09435739#1	1	0	already a form of the concept
+refused	thing.plaza	piazza	wordnet	piazza	n.08619795#1	1	1	already a form of the concept
+refused	thing.plaza	place	wordnet	piazza	n.08619795#1	32	367	generic, a stop word or not a plain word
+refused	thing.plaza	plaza	wordnet	piazza	n.08619795#1	2	0	collision: the reader already reads it
+refused	thing.rails	balustrade	wordnet	balustrade	n.02788148#1	1	3	already a form of the concept
+refused	thing.rails	guardrail	wordnet	guardrail	n.04127395#1	1	0	already a form of the concept
+refused	thing.rails	handrail	wordnet	balustrade	n.02788148#1	1	0	already a form of the concept
+refused	thing.ramp	auffahrt	openthesaurus	auffahrt	set of 4	2	-2	already a form of the concept
+refused	thing.ramp	incline	wordnet	incline	n.09437454#1	8	8	already a form of the concept
+refused	thing.ramp	ladebuehne	openthesaurus	auffahrt	set of 4	1	-1	reviewed: wrong sense
+refused	thing.ramp	rampe	openthesaurus	auffahrt	set of 4	2	-2	already a form of the concept
+refused	thing.ramp	side	wordnet	incline	n.09437454#1	14	178	generic, a stop word or not a plain word
+refused	thing.ramp	slope	wordnet	incline	n.09437454#1	3	15	already a form of the concept
+refused	thing.river	baechlein	openthesaurus	rinnsal	set of 3	1	-1	already a form of the concept
+refused	thing.river	brook	wordnet	creek	n.09229409#1	2	4	already a form of the concept
+refused	thing.river	creek	wordnet	creek	n.09229409#1	2	7	already a form of the concept
+refused	thing.river	lauf	openthesaurus	strom	set of 3	7	-7	too many senses (7)
+refused	thing.river	rinnsal	openthesaurus	rinnsal	set of 3	1	-1	already a form of the concept
+refused	thing.river	river	wordnet	river	n.09411430#1	1	55	already a form of the concept
+refused	thing.river	stroemung	openthesaurus	strom	set of 3	2	-2	already a form of the concept
+refused	thing.river	strom	openthesaurus	strom	set of 3	3	-3	already a form of the concept
+refused	thing.roads	avenue	wordnet	boulevard	n.02763472#1	2	1	already a form of the concept
+refused	thing.roads	boulevard	wordnet	boulevard	n.02763472#1	1	1	already a form of the concept
+refused	thing.roads	pfad	openthesaurus	pfad	set of 5	2	-2	already a form of the concept
+refused	thing.roads	steg	openthesaurus	pfad	set of 5	3	-3	reviewed: wrong sense
+refused	thing.roads	trampelpfad	openthesaurus	pfad	set of 5	1	-1	already a form of the concept
+refused	thing.roads	weg	openthesaurus	pfad	set of 5	13	-13	too many senses (13)
+refused	thing.stairs	staircase	wordnet	staircase	n.04298308#1	1	3	already a form of the concept
+refused	thing.start	scratch	wordnet	starting line	n.08653873#1	17	19	too many senses (17)
+refused	thing.start	start	wordnet	starting line	n.08653873#1	22	319	collision: the reader already reads it
+refused	thing.start	starting line	wordnet	starting line	n.08653873#1	1	0	already a form of the concept
+refused	thing.terrain	auf und absteigend	openthesaurus	huegelig	set of 7	1	-1	generic, a stop word or not a plain word
+refused	thing.terrain	cliff	wordnet	cliff	n.09246464#1	1	3	already a form of the concept
+refused	thing.terrain	drop	wordnet	cliff	n.09246464#1	32	121	too many senses (32)
+refused	thing.terrain	drop-off	wordnet	cliff	n.09246464#1	3	0	generic, a stop word or not a plain word
+refused	thing.terrain	fels	openthesaurus	fels	set of 5	1	-1	already a form of the concept
+refused	thing.terrain	felsen	openthesaurus	fels	set of 5	1	-1	already a form of the concept
+refused	thing.terrain	heath	wordnet	heath	n.08504851#2	2	0	already a form of the concept
+refused	thing.terrain	heathland	wordnet	heath	n.08504851#2	1	0	already a form of the concept
+refused	thing.terrain	hillside	wordnet	hillside	n.09303528#1	1	3	already a form of the concept
+refused	thing.terrain	huegelig	openthesaurus	huegelig	set of 7	1	-1	already a form of the concept
+refused	thing.terrain	klippe	openthesaurus	fels	set of 5	1	-1	already a form of the concept
+refused	thing.terrain	uneben	openthesaurus	huegelig	set of 7	3	-3	already a form of the concept
+refused	thing.tower	beacon	wordnet	lighthouse	n.02814860#1	5	1	too many senses (5)
+refused	thing.tower	lighthouse	wordnet	lighthouse	n.02814860#1	1	0	already a form of the concept
+refused	thing.tower	spire	wordnet	spire	n.04312432#1	1	4	already a form of the concept
+refused	thing.tunnel	backofen	openthesaurus	roehre	set of 5	1	-1	reviewed: wrong sense
+refused	thing.tunnel	backrohr	openthesaurus	roehre	set of 5	1	-1	reviewed: wrong sense
+refused	thing.tunnel	bergwerk	openthesaurus	stollen	set of 6	1	-1	already a form of the concept
+refused	thing.tunnel	grube	openthesaurus	stollen	set of 6	4	-4	collision: the reader already reads it
+refused	thing.tunnel	mine	openthesaurus	stollen	set of 6	2	-2	already a form of the concept
+refused	thing.tunnel	ofen	openthesaurus	roehre	set of 5	3	-3	reviewed: wrong sense
+refused	thing.tunnel	roehre	openthesaurus	roehre	set of 5	3	-3	already a form of the concept
+refused	thing.tunnel	rohr	openthesaurus	roehre	set of 5	3	-3	already a form of the concept
+refused	thing.tunnel	stollen	openthesaurus	stollen	set of 6	2	-2	already a form of the concept
+refused	thing.tunnel	zeche	openthesaurus	stollen	set of 6	2	-2	reviewed: wrong sense
+refused	thing.valley	valley	wordnet	valley	n.09468604#1	1	27	already a form of the concept
+refused	thing.void_gaps	canon	wordnet	canyon	n.09233446#1	6	5	too many senses (6)
+refused	thing.void_gaps	canyon	wordnet	canyon	n.09233446#1	1	5	already a form of the concept
+refused	thing.void_gaps	chasm	wordnet	chasm	n.09242389#1	1	0	already a form of the concept
+refused	thing.void_gaps	ravine	wordnet	ravine	n.09405787#1	1	0	already a form of the concept
+refused	thing.walls	rampart	wordnet	rampart	n.04051825#1	1	2	already a form of the concept
+refused	thing.walls	wall	wordnet	rampart	n.04051825#1	9	98	already a form of the concept
+refused	thing.water	baden	openthesaurus	baden	set of 4	1	-1	already a form of the concept
+refused	thing.water	born	openthesaurus	brunnen	set of 7	1	-1	reviewed: wrong sense
+refused	thing.water	bronn	openthesaurus	brunnen	set of 7	1	-1	reviewed: wrong sense
+refused	thing.water	brunnen	openthesaurus	brunnen	set of 7	1	-1	already a form of the concept
+refused	thing.water	coastline	wordnet	coastline	n.08613000#1	1	0	already a form of the concept
+refused	thing.water	falls	wordnet	waterfall	n.09475292#1	2	0	also a word of the other language
+refused	thing.water	kueste	openthesaurus	kueste	set of 4	4	-4	already a form of the concept
+refused	thing.water	kuestenlinie	openthesaurus	ufer	set of 3	1	-1	already a form of the concept
+refused	thing.water	lagoon	wordnet	lagune	n.09328746#1	1	12	already a form of the concept
+refused	thing.water	lagune	wordnet	lagune	n.09328746#1	1	0	already a form of the concept
+refused	thing.water	lakeshore	wordnet	lakeshore	n.09332890#1	1	0	already a form of the concept
+refused	thing.water	meer	openthesaurus	ozean	set of 4	2	-2	already a form of the concept
+refused	thing.water	meeresufer	openthesaurus	meeresufer	set of 4	1	-1	already a form of the concept
+refused	thing.water	moat	wordnet	moat	n.03776050#1	1	0	already a form of the concept
+refused	thing.water	ozean	openthesaurus	ozean	set of 4	1	-1	already a form of the concept
+refused	thing.water	paddeln	openthesaurus	baden	set of 4	2	-2	reviewed: wrong sense
+refused	thing.water	plantschen	openthesaurus	baden	set of 4	2	-2	reviewed: wrong sense
+refused	thing.water	pond	wordnet	pond	n.09397391#1	1	26	already a form of the concept
+refused	thing.water	pool	wordnet	pond	n.09397391#1	11	27	reviewed: wrong sense
+refused	thing.water	quell	openthesaurus	brunnen	set of 7	4	-4	also a word of the other language
+refused	thing.water	quelle	openthesaurus	brunnen	set of 7	6	-6	already a form of the concept
+refused	thing.water	schwimmen	openthesaurus	baden	set of 4	1	-1	already a form of the concept
+refused	thing.water	see	openthesaurus	teich	set of 4	3	-3	also a word of the other language
+refused	thing.water	seeufer	openthesaurus	meeresufer	set of 4	1	-1	already a form of the concept
+refused	thing.water	strand	openthesaurus	kueste	set of 4	2	-2	collision: the reader already reads it
+refused	thing.water	sumpf	openthesaurus	sumpf	set of 3	2	-2	already a form of the concept
+refused	thing.water	swim	wordnet	swimming	n.00442115#1	6	13	already a form of the concept
+refused	thing.water	swimming	wordnet	swimming	n.00442115#1	3	1	already a form of the concept
+refused	thing.water	teich	openthesaurus	teich	set of 4	1	-1	already a form of the concept
+refused	thing.water	tuempel	openthesaurus	teich	set of 4	2	-2	already a form of the concept
+refused	thing.water	ufer	openthesaurus	kueste	set of 4	5	-5	already a form of the concept
+refused	thing.water	urquell	openthesaurus	brunnen	set of 7	2	-2	reviewed: wrong sense
+refused	thing.water	ursprung	openthesaurus	brunnen	set of 7	4	-4	too many senses (4)
+refused	thing.water	waterfall	wordnet	waterfall	n.09475292#1	1	3	already a form of the concept
+refused	thing.water	weiher	openthesaurus	teich	set of 4	1	-1	already a form of the concept
+refused	thing.water	wetland	wordnet	wetland	n.09477890#1	1	0	already a form of the concept
+refused	vert.high	eminent	wordnet	towering	a.01205473#1	2	2	reviewed: wrong sense
+refused	vert.high	hochhaus	openthesaurus	hochhaus	set of 2	1	-1	already a form of the concept
+refused	vert.high	layered	wordnet	layered	a.00208749#1	1	0	already a form of the concept
+refused	vert.high	lofty	wordnet	towering	a.01205473#1	3	2	already a form of the concept
+refused	vert.high	multistorey	wordnet	multistorey	a.01218548#1	1	0	already a form of the concept
+refused	vert.high	multistory	wordnet	multistorey	a.01218548#1	1	0	already a form of the concept
+refused	vert.high	superimposed	wordnet	layered	a.00208749#1	2	2	reviewed: wrong sense
+refused	vert.high	towering	wordnet	towering	a.01205473#1	1	0	already a form of the concept
+refused	vert.high	wolkenkratzer	openthesaurus	hochhaus	set of 2	1	-1	already a form of the concept

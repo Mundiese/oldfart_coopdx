@@ -1,0 +1,1411 @@
+{
+ "_walk": {
+  "cells": 12640,
+  "reached": 11900
+ },
+ "blurb": "a generated figure of eight for sixteen shells",
+ "budget": 120,
+ "family": "race",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 0,
+  "family": "race",
+  "modules": {
+   "boosts": 2,
+   "chicanes": 0,
+   "elevation": "overpass",
+   "item_rows": 3,
+   "shortcut": null,
+   "start": "straight 2",
+   "track": "figure eight"
+  },
+  "params": {
+   "B": 0,
+   "C": 4000,
+   "G": 0,
+   "H": 1300,
+   "I": 9222,
+   "W": 2000,
+   "base": 0,
+   "cells": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     -1
+    ],
+    [
+     2,
+     -2
+    ],
+    [
+     1,
+     -2
+    ],
+    [
+     1,
+     -1
+    ],
+    [
+     0,
+     -1
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     -1,
+     2
+    ],
+    [
+     -2,
+     2
+    ],
+    [
+     -2,
+     1
+    ],
+    [
+     -1,
+     1
+    ],
+    [
+     -1,
+     0
+    ]
+   ],
+   "centre": "figure eight",
+   "chicanes": 0,
+   "corner": "pads 10",
+   "gates": 15,
+   "heights": [
+    0,
+    300,
+    1300
+   ],
+   "lane": "road 2000",
+   "lap_estimate_s": 33.3,
+   "lap_length": 64000,
+   "lap_target_s": 38,
+   "nodes": 16,
+   "origin": [
+    0,
+    0
+   ],
+   "shape": "figure eight",
+   "shield": "-",
+   "shortcut": false,
+   "shortcut_saves_s": null
+  },
+  "quality": 1.0,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 21,
+  "version": "mapgen 2"
+ },
+ "key": "generated",
+ "level": "empty2",
+ "look": {
+  "light": {
+   "dir": [
+    -0.1,
+    0.4,
+    -0.9
+   ],
+   "name": "from the south"
+  },
+  "music": "SEQ_LEVEL_SNOW",
+  "sky": "BACKGROUND_SNOW_MOUNTAINS"
+ },
+ "markers": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -2800
+  },
+  {
+   "a": 40,
+   "b": 0,
+   "kind": 3,
+   "label": "info",
+   "num": 3,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 4000,
+   "y": 0,
+   "yaw": 0,
+   "z": -8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": 4000,
+   "y": 300,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": 4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -750,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -450,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": -150,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 150,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 450,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 1,
+   "x": 750,
+   "y": 1400,
+   "yaw": 0,
+   "z": 2600
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 7250
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 7550
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 7850
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 8150
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 8450
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 2,
+   "x": -6400,
+   "y": 100,
+   "yaw": 0,
+   "z": 8750
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": 750
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": 450
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": 150
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": -150
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": -450
+  },
+  {
+   "a": 0,
+   "b": 1,
+   "kind": 32,
+   "label": "",
+   "num": 3,
+   "x": 2600,
+   "y": 100,
+   "yaw": 0,
+   "z": -750
+  },
+  {
+   "a": 6,
+   "b": 4,
+   "kind": 64,
+   "label": "boost",
+   "num": 0,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "a": 6,
+   "b": 4,
+   "kind": 64,
+   "label": "boost",
+   "num": 0,
+   "x": -2400,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -2800
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -2000
+  },
+  {
+   "a": 0,
+   "b": 0,
+   "kind": 33,
+   "label": "",
+   "num": 1,
+   "x": 700,
+   "y": 1350,
+   "yaw": 0,
+   "z": -1800
+  }
+ ],
+ "marks": [
+  {
+   "a": 18,
+   "b": 4,
+   "kind": 1,
+   "label": "start",
+   "num": 0,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -2800
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G00",
+   "num": 0,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -3100
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G01",
+   "num": 1,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": -8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G02",
+   "num": 2,
+   "x": 4000,
+   "y": 0,
+   "yaw": 0,
+   "z": -8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G03",
+   "num": 3,
+   "x": 4000,
+   "y": 300,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G04",
+   "num": 4,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G05",
+   "num": 5,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G06",
+   "num": 6,
+   "x": 0,
+   "y": 1300,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G07",
+   "num": 7,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G08",
+   "num": 8,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G09",
+   "num": 9,
+   "x": -8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G10",
+   "num": 10,
+   "x": -8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G11",
+   "num": 11,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G12",
+   "num": 12,
+   "x": -4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G13",
+   "num": 13,
+   "x": 4000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "a": 22,
+   "b": 0,
+   "kind": 16,
+   "label": "G14",
+   "num": 14,
+   "x": 8000,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  }
+ ],
+ "name": "Frost Eight",
+ "note": "a 640 m lap with 10 corners: an overpass over the crossing, a climb to 1300",
+ "onlyFor": [
+  "shellrace"
+ ],
+ "pieces": [
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_2000_geo",
+   "tag": "road.4",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 6000,
+   "y": -200,
+   "yaw": 0,
+   "z": -8000
+  },
+  {
+   "d": 6000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_6000_geo",
+   "tag": "road.3",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 8000,
+   "y": -200,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_2000_geo",
+   "tag": "road.14",
+   "tex": "stone1",
+   "w": 2000,
+   "x": -4000,
+   "y": -200,
+   "yaw": 0,
+   "z": 2000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_2000_geo",
+   "tag": "road.13",
+   "tex": "stone1",
+   "w": 2000,
+   "x": -6000,
+   "y": -200,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_2000_geo",
+   "tag": "road.12",
+   "tex": "stone1",
+   "w": 2000,
+   "x": -8000,
+   "y": -200,
+   "yaw": 0,
+   "z": 6000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_6000_200_2000_geo",
+   "tag": "road.11",
+   "tex": "stone1",
+   "w": 6000,
+   "x": -4000,
+   "y": -200,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "d": 2000,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_stone1_ramp_2000_300_2000_geo",
+   "tag": "ramp.5",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 4000,
+   "y": 0,
+   "yaw": 180,
+   "z": -6000
+  },
+  {
+   "d": 3000,
+   "h": 1300,
+   "kind": "ramp",
+   "model": "of_ak_stone1_ramp_2000_1300_3000_geo",
+   "tag": "ramp.9",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 5500
+  },
+  {
+   "d": 2000,
+   "h": 1000,
+   "kind": "ramp",
+   "model": "of_ak_stone1_ramp_2000_1000_2000_geo",
+   "tag": "ramp.6",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 2000,
+   "y": 300,
+   "yaw": 90,
+   "z": -4000
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.2",
+   "tex": "ice",
+   "w": 2000,
+   "x": 8000,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.2",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": 8111,
+   "y": -200,
+   "yaw": 0,
+   "z": 111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.4",
+   "tex": "ice",
+   "w": 2000,
+   "x": 8000,
+   "y": -200,
+   "yaw": 90,
+   "z": -8000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.4",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": 8111,
+   "y": -200,
+   "yaw": 90,
+   "z": -8111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.5",
+   "tex": "ice",
+   "w": 2000,
+   "x": 4000,
+   "y": -200,
+   "yaw": 180,
+   "z": -8000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.5",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": 3889,
+   "y": -200,
+   "yaw": 180,
+   "z": -8111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.6",
+   "tex": "ice",
+   "w": 2000,
+   "x": 4000,
+   "y": 100,
+   "yaw": 0,
+   "z": -4000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.6",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": 4111,
+   "y": 100,
+   "yaw": 0,
+   "z": -3889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.7",
+   "tex": "ice",
+   "w": 2000,
+   "x": 0,
+   "y": 1100,
+   "yaw": 180,
+   "z": -4000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.7",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": -111,
+   "y": 1100,
+   "yaw": 180,
+   "z": -4111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.10",
+   "tex": "ice",
+   "w": 2000,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 8000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.10",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": 111,
+   "y": -200,
+   "yaw": 0,
+   "z": 8111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.12",
+   "tex": "ice",
+   "w": 2000,
+   "x": -8000,
+   "y": -200,
+   "yaw": 270,
+   "z": 8000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.12",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": -8111,
+   "y": -200,
+   "yaw": 270,
+   "z": 8111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.13",
+   "tex": "ice",
+   "w": 2000,
+   "x": -8000,
+   "y": -200,
+   "yaw": 180,
+   "z": 4000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.13",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": -8111,
+   "y": -200,
+   "yaw": 180,
+   "z": 3889
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.14",
+   "tex": "ice",
+   "w": 2000,
+   "x": -4000,
+   "y": -200,
+   "yaw": 0,
+   "z": 4000
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.14",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": -3889,
+   "y": -200,
+   "yaw": 0,
+   "z": 4111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "curve",
+   "model": "of_ak_ice_curve_2000_200_2000_geo",
+   "tag": "pad.15",
+   "tex": "ice",
+   "w": 2000,
+   "x": -4000,
+   "y": -200,
+   "yaw": 180,
+   "z": 0
+  },
+  {
+   "d": 2222,
+   "h": 800,
+   "kind": "arcwall",
+   "model": "of_ak_whitestonebrick_arcwall_2222_800_2222_geo",
+   "tag": "wall.15",
+   "tex": "whitestonebrick",
+   "w": 2222,
+   "x": -4111,
+   "y": -200,
+   "yaw": 180,
+   "z": -111
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_6000_200_2000_geo",
+   "tag": "road.15",
+   "tex": "stone1",
+   "w": 6000,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 2000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_4000_200_2000_geo",
+   "tag": "road.0",
+   "tex": "stone1",
+   "w": 4000,
+   "x": 5000,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 6000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_6000_geo",
+   "tag": "road.7",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 0,
+   "y": 1100,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_stone1_box_2000_200_1000_geo",
+   "tag": "road.7",
+   "tex": "stone1",
+   "w": 2000,
+   "x": 0,
+   "y": 1100,
+   "yaw": 0,
+   "z": 3500
+  }
+ ],
+ "report": {
+  "about": null,
+  "anchors_solved": {},
+  "beauty": null,
+  "beauty_score": 0.82,
+  "candidate": 0,
+  "defaulted": [
+   "key",
+   "modes",
+   "players",
+   "size",
+   "pace",
+   "symmetry",
+   "sides",
+   "density",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "objects",
+   "budget",
+   "locks",
+   "reseed",
+   "reference",
+   "wish",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts"
+  ],
+  "done": [],
+  "fill": null,
+  "fit": [],
+  "gameplay": [],
+  "kit": null,
+  "locks": [],
+  "modules": {
+   "boosts": 2,
+   "chicanes": 0,
+   "elevation": "overpass",
+   "item_rows": 3,
+   "shortcut": null,
+   "start": "straight 2",
+   "track": "figure eight"
+  },
+  "moved": [],
+  "not_possible": [],
+  "not_understood": [],
+  "notes": [
+   "track found on attempt 118"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 21,
+  "skeleton": null,
+  "spawns": null,
+  "style": {},
+  "symmetry_solved": "none"
+ },
+ "spawns": [
+  {
+   "x": 8750,
+   "y": 0,
+   "yaw": 180,
+   "z": -2400
+  },
+  {
+   "x": 8250,
+   "y": 0,
+   "yaw": 180,
+   "z": -2400
+  },
+  {
+   "x": 7750,
+   "y": 0,
+   "yaw": 180,
+   "z": -2400
+  },
+  {
+   "x": 7250,
+   "y": 0,
+   "yaw": 180,
+   "z": -2400
+  },
+  {
+   "x": 8750,
+   "y": 0,
+   "yaw": 180,
+   "z": -2000
+  },
+  {
+   "x": 8250,
+   "y": 0,
+   "yaw": 180,
+   "z": -2000
+  },
+  {
+   "x": 7750,
+   "y": 0,
+   "yaw": 180,
+   "z": -2000
+  },
+  {
+   "x": 7250,
+   "y": 0,
+   "yaw": 180,
+   "z": -2000
+  },
+  {
+   "x": 8750,
+   "y": 0,
+   "yaw": 180,
+   "z": -1600
+  },
+  {
+   "x": 8250,
+   "y": 0,
+   "yaw": 180,
+   "z": -1600
+  },
+  {
+   "x": 7750,
+   "y": 0,
+   "yaw": 180,
+   "z": -1600
+  },
+  {
+   "x": 7250,
+   "y": 0,
+   "yaw": 180,
+   "z": -1600
+  },
+  {
+   "x": 8750,
+   "y": 0,
+   "yaw": 180,
+   "z": -1200
+  },
+  {
+   "x": 8250,
+   "y": 0,
+   "yaw": 180,
+   "z": -1200
+  },
+  {
+   "x": 7750,
+   "y": 0,
+   "yaw": 180,
+   "z": -1200
+  },
+  {
+   "x": 7250,
+   "y": 0,
+   "yaw": 180,
+   "z": -1200
+  }
+ ],
+ "stars": [],
+ "survey": {}
+}

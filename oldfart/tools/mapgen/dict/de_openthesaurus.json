@@ -1,0 +1,115 @@
+{
+"source": "openthesaurus",
+"lang": "de",
+"about": "OpenThesaurus synonyms of our concepts' forms (Copyright (C) 2003-2025 Daniel Naber, www.openthesaurus.de; LGPL-2.1: OPENTHESAURUS-LICENSE.txt)",
+"forms": {
+"family.course": [
+"hibbeln",
+"hoppeln",
+"hopsen",
+"jumpen"
+],
+"family.knockoff": [
+"stupsen"
+],
+"family.race": [
+"wettlaufen"
+],
+"family.shooter": [
+"ballerei",
+"beschuss",
+"geschiesse",
+"gewehrfeuer",
+"kugelhagel",
+"kugelregen",
+"kugelwechsel"
+],
+"obj.tweester": [
+"grosstrombe",
+"trombe",
+"wasserhose"
+],
+"preset.ruins": [
+"schuttfeld",
+"truemmerwueste"
+],
+"preset.town": [
+"kraehwinkel",
+"marktflecken"
+],
+"sky.haunted": [
+"zum erschrecken",
+"zum fuerchten"
+],
+"sky.ocean": [
+"azur"
+],
+"theme.garden": [
+"blumenhaft",
+"busch",
+"gruene hoelle",
+"gruenflaeche",
+"gruenland",
+"rasenflaeche",
+"tropischer regenwald",
+"viehweide",
+"weideland",
+"wildnis"
+],
+"theme.ice": [
+"glitschig",
+"schluepfrig",
+"spiegelglatt"
+],
+"theme.lava": [
+"infernalisch"
+],
+"thing.bridge": [
+"querung",
+"ueberfuehrung"
+],
+"thing.hill": [
+"aufschuettung",
+"erdwall",
+"koppe"
+],
+"thing.mountains": [
+"berggruppe",
+"bergiges land",
+"bergreiches land",
+"gebirgiges land",
+"gebirgsformation",
+"gebirgskette",
+"gebirgsruecken",
+"hoehenruecken",
+"hoehenzug",
+"kordillere",
+"montan"
+],
+"thing.ramp": [
+"zufahrt"
+],
+"thing.river": [
+"waesserchen"
+],
+"thing.roads": [
+"steig"
+],
+"thing.terrain": [
+"buckelig",
+"bucklig",
+"felsblock",
+"gestein",
+"gewellt",
+"wellig"
+],
+"thing.tunnel": [
+"puett"
+],
+"thing.water": [
+"gestade",
+"pfuhl",
+"weltmeer"
+]
+}
+}

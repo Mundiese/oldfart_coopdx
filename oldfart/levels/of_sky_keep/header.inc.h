@@ -1,0 +1,10 @@
+extern const GeoLayout of_sky_keep_area_1_geo[];
+extern const GeoLayout of_sky_keep_area_1[];
+extern const Collision of_sky_keep_area_1_collision[];
+extern const MacroObject of_sky_keep_area_1_macro_objs[];
+extern Lights1 of_sky_keep_dl_f3dlite_material_lights;
+extern Vtx of_sky_keep_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx of_sky_keep_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Gfx mat_of_sky_keep_dl_f3dlite_material[];
+extern Gfx mat_revert_of_sky_keep_dl_f3dlite_material[];
+extern Gfx of_sky_keep_dl_Death_Plane_mesh_layer_5_with_revert[];

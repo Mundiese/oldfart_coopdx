@@ -1,0 +1,12 @@
+extern const GeoLayout of_splinteryard_area_1_geo[];
+extern const GeoLayout of_splinteryard_area_1[];
+extern const Collision of_splinteryard_area_1_collision[];
+extern const MacroObject of_splinteryard_area_1_macro_objs[];
+extern Lights1 of_splinteryard_dl_f3dlite_material_lights;
+extern Vtx of_splinteryard_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx of_splinteryard_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Gfx mat_of_splinteryard_dl_f3dlite_material[];
+extern Gfx mat_revert_of_splinteryard_dl_f3dlite_material[];
+extern Gfx of_splinteryard_dl_Death_Plane_mesh_layer_5_with_revert[];
+extern const GeoLayout of_splinteryard_bake_geo[];
+extern Gfx of_splinteryard_static_dl[];

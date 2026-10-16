@@ -1,0 +1,53 @@
+[
+ {
+  "candidate": 0,
+  "ok": true,
+  "quality": 1.0,
+  "family": "race",
+  "pieces": 33,
+  "skeleton": "figure eight",
+  "shape": "figure eight",
+  "across": 18444,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 3.86,
+  "centre": "figure eight",
+  "lane": "road 2000",
+  "corner": "pads 10"
+ },
+ {
+  "candidate": 1,
+  "ok": true,
+  "quality": 1.0,
+  "family": "race",
+  "pieces": 51,
+  "skeleton": "figure eight",
+  "shape": "figure eight",
+  "across": 18444,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 6.59,
+  "centre": "figure eight",
+  "lane": "road 2000",
+  "corner": "pads 16"
+ },
+ {
+  "candidate": 2,
+  "ok": true,
+  "quality": 1.0,
+  "family": "race",
+  "pieces": 45,
+  "skeleton": "figure eight",
+  "shape": "figure eight",
+  "across": 22444,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 6.27,
+  "centre": "figure eight",
+  "lane": "road 2000",
+  "corner": "pads 14"
+ }
+]

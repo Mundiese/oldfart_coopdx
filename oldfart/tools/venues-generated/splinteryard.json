@@ -1,0 +1,2218 @@
+{
+ "_walk": {
+  "cells": 2640,
+  "reached": 2408
+ },
+ "blurb": "a generated shooter keep for sixteen players",
+ "budget": 120,
+ "critic": {
+  "groups": {
+   "build": 0.9582,
+   "looks": 0.8131,
+   "play": 1.0
+  },
+  "line": 58,
+  "looks": true,
+  "pass": true,
+  "repairs": [],
+  "rows": {
+   "away_side": {
+    "note": "the shady side is 37 % of a sunny top (want 35-50 %)",
+    "score": 1.0,
+    "value": 0.369
+   },
+   "calm": {
+    "note": "9 % of the picture is calm (want 50 % or more)",
+    "score": 0.0,
+    "value": 0.095
+   },
+   "chokes": {
+    "note": "0 chokes on 3 lanes",
+    "score": 1.0,
+    "value": 0.0
+   },
+   "composition": {
+    "note": "centre.landmark seen from the spawn; relief 2800; focal points in 4 of 4 quarters",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "connectivity": {
+    "note": "the middle opens onto 10 spaces (a room's median: 2)",
+    "score": 1.0,
+    "value": 10
+   },
+   "contact": {
+    "note": "first sight of the other side after 2.5 s (wants 1.7-4.2 s)",
+    "score": 1.0,
+    "value": 2.5
+   },
+   "contrast": {
+    "note": "median floor 0.45, wall 0.41 on screen",
+    "score": 0.2,
+    "value": 0.034
+   },
+   "emptiness": {
+    "note": "0% empty ground",
+    "score": 1.0,
+    "value": 0.0
+   },
+   "floating": {
+    "note": "none",
+    "score": 1.0,
+    "value": 0,
+    "where": []
+   },
+   "focal": {
+    "note": "the landmark stands out more than 100 % of the picture (want 60 %)",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "ground_calm": {
+    "note": "crate covers 24 % of the ground (calm: 30-80 %)",
+    "score": 0.829,
+    "value": 0.24
+   },
+   "grounding": {
+    "note": "every big block stands on something",
+    "score": 1.0,
+    "value": 0
+   },
+   "height_paid": {
+    "note": "6 of 7 perches cost something (away from the spawns, in plain sight)",
+    "score": 1.0,
+    "value": 0.857
+   },
+   "hero_seen": {
+    "note": "centre.landmark seen from 16 of 16 spawns (a step out)",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "integration": {
+    "note": "the middle is more integrated than 100 % of the map; the most central base at 66 % of the middle's",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "lanes": {
+    "note": "3 lanes between the bases (wants 2-3)",
+    "score": 1.0,
+    "value": 3
+   },
+   "light_height": {
+    "note": "height and light go together +0.05 (want +0.20 or more)",
+    "score": 0.622,
+    "value": 0.049
+   },
+   "liminal": {
+    "note": "has things to steer by, texture and light variety",
+    "score": 1.0,
+    "signs": [],
+    "value": 0
+   },
+   "mode_fit": {
+    "misses": [],
+    "note": "carries what 12 of 12 modes need",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "monotony": {
+    "note": "crate covers 20% (9 textures); 0% of the 16 m squares one texture",
+    "score": 1.0,
+    "value": 0.204
+   },
+   "mud": {
+    "note": "densest 8 m square: 1 props",
+    "score": 1.0,
+    "value": 1
+   },
+   "objective_found": {
+    "note": "the middle in sight or a short run from 16 of 16 spawns",
+    "score": 1.0,
+    "value": 1.0
+   },
+   "overlaps": {
+    "note": "base0.shield / base1.floor hangs 100 over a top",
+    "score": 0.833,
+    "value": 1,
+    "where": [
+     [
+      -1350,
+      -2200
+     ]
+    ]
+   },
+   "palette": {
+    "note": "colours 52 / 13 / 36 % on screen (the rule: 60 / 30 / 10)",
+    "score": 0.317,
+    "value": [
+     0.52,
+     0.13,
+     0.35
+    ]
+   },
+   "reach": {
+    "note": "0 pickups out of reach; difficulty curve -",
+    "score": 1.0,
+    "value": 0
+   },
+   "saturation": {
+    "note": "colour strength 44 % on average (soft: up to 45 %), bright colours on 10 % (up to 10 %)",
+    "score": 0.988,
+    "value": [
+     0.445,
+     0.105
+    ]
+   },
+   "shadow_colour": {
+    "note": "shadows bluer than the sunny side by 0.06 (want 0.05)",
+    "score": 1.0,
+    "value": 0.058
+   },
+   "sightline": {
+    "note": "the longest open line 58 m (at most 60 m)",
+    "score": 1.0,
+    "value": 5778
+   },
+   "silhouette": {
+    "note": "Mario (value 0.27) against a background of contrast 0.19, sd 0.13",
+    "score": 1.0,
+    "value": 0.186
+   },
+   "spawn_fairness": {
+    "note": "spawns seen by 10-18 % of the map (sides 1 % apart)",
+    "score": 1.0,
+    "value": 0.04
+   },
+   "texture_count": {
+    "note": "9 textures (up to 16 is plenty)",
+    "score": 1.0,
+    "value": 9
+   },
+   "value_bands": {
+    "note": "bands at 0.19 / 0.44 / 0.61 holding 37 / 47 / 16 %",
+    "score": 1.0,
+    "value": 0.178
+   },
+   "value_curve": {
+    "iqr": 0.259,
+    "note": "dark 0.13, middle 0.42, bright 0.63 (want 0.05-0.35, 0.25-0.65, 0.75+)",
+    "score": 0.6,
+    "value": [
+     0.13,
+     0.42,
+     0.63
+    ]
+   },
+   "vista": {
+    "note": "a framed long view from 1 of 2 arrivals",
+    "score": 0.65,
+    "value": 0.65
+   },
+   "weenies": {
+    "note": "something tall to walk toward in 4 of 4 parts",
+    "score": 1.0,
+    "value": 1.0
+   }
+  },
+  "score": 87.9,
+  "tier": "full",
+  "warnings": [],
+  "weights": {
+   "away_side": 0.3,
+   "calm": 0.5,
+   "chokes": 0.6,
+   "composition": 1.0,
+   "connectivity": 0.5,
+   "contact": 0.8,
+   "contrast": 0.8,
+   "emptiness": 1.0,
+   "floating": 1.5,
+   "focal": 0.6,
+   "ground_calm": 0.4,
+   "grounding": 1.0,
+   "height_paid": 0.6,
+   "hero_seen": 1.0,
+   "integration": 0.8,
+   "lanes": 0.8,
+   "light_height": 0.3,
+   "liminal": 0.8,
+   "mode_fit": 1.5,
+   "monotony": 1.0,
+   "mud": 1.0,
+   "objective_found": 0.8,
+   "overlaps": 1.5,
+   "palette": 0.6,
+   "reach": 1.0,
+   "saturation": 0.4,
+   "shadow_colour": 0.2,
+   "sightline": 0.8,
+   "silhouette": 0.8,
+   "spawn_fairness": 1.0,
+   "texture_count": 0.4,
+   "value_bands": 0.6,
+   "value_curve": 0.6,
+   "vista": 0.6,
+   "weenies": 0.8
+  },
+  "worst": "calm"
+ },
+ "face": {
+  "bottom": "ofmap_pnt_splinteryard_bottom",
+  "top": "ofmap_pnt_splinteryard_top"
+ },
+ "family": "shooter",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 7,
+  "family": "shooter",
+  "modules": {
+   "bridges": 32,
+   "islands": 21,
+   "skeleton": "archipelago",
+   "spacing": 1200
+  },
+  "params": {
+   "B": 1200,
+   "Dh": 0,
+   "G": 1200,
+   "I": 1200,
+   "Lw": 600,
+   "Ph": 600,
+   "across": 5600,
+   "centre": "island",
+   "corner": "islands",
+   "high": 700,
+   "lane": "bridges",
+   "shield": "spawn shields",
+   "skeleton": "archipelago",
+   "stairs": false,
+   "step": 300
+  },
+  "quality": 0.9125,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 34,
+  "version": "mapgen 2"
+ },
+ "key": "splinteryard",
+ "level": "empty2",
+ "look": {
+  "bake": {
+   "gnd": [
+    0.4,
+    0.34,
+    0.3
+   ],
+   "hi": [
+    1.0,
+    0.93,
+    0.78
+   ],
+   "lo": [
+    0.82,
+    0.9,
+    0.8
+   ],
+   "sky": [
+    0.47,
+    0.5,
+    0.53
+   ],
+   "sun": [
+    0.46,
+    0.8,
+    0.38
+   ],
+   "sunc": [
+    1.0,
+    0.9,
+    0.72
+   ]
+  },
+  "light": {
+   "dir": [
+    0.1,
+    0.4,
+    0.9
+   ],
+   "name": "from the north"
+  },
+  "music": "SEQ_LEVEL_WATER",
+  "sky": "BACKGROUND_OCEAN_SKY"
+ },
+ "name": "Splinter Yard",
+ "note": "a generated island keep, 7200 across: island centre, bridges lanes, four walled bastions",
+ "pieces": [
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -1 -1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 0 -1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 1 -1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 0 0",
+   "tex": "wdoaklight",
+   "w": 1200,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 2 0",
+   "tex": "wdoaklight",
+   "w": 1200,
+   "x": 2400,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -1 1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 0 1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 1 1",
+   "tex": "wdoaklight",
+   "w": 800,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 0,
+   "y": -100,
+   "yaw": 0,
+   "z": -1700
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 400,
+   "x": -600,
+   "y": -100,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 400,
+   "x": 600,
+   "y": -100,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 0,
+   "y": -100,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 0,
+   "y": -100,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 400,
+   "x": -600,
+   "y": -100,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 400,
+   "x": 600,
+   "y": -100,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 0,
+   "y": -100,
+   "yaw": 0,
+   "z": 1700
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 2 -1",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": 2400,
+   "y": 100,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -2 0",
+   "tex": "wdparquet",
+   "w": 1200,
+   "x": -2400,
+   "y": 100,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 1 0",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": 1200,
+   "y": 100,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 2 1",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": 2400,
+   "y": 100,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -2 -1",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -1 0",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": -1200,
+   "y": 400,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 800,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -2 1",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": -2400,
+   "y": 400,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 700,
+   "y": 0,
+   "yaw": 270,
+   "z": 0
+  },
+  {
+   "d": 400,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 1800,
+   "y": 0,
+   "yaw": 270,
+   "z": -1200
+  },
+  {
+   "d": 400,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 1800,
+   "y": 0,
+   "yaw": 270,
+   "z": 1200
+  },
+  {
+   "d": 400,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 1200,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 2400,
+   "y": 0,
+   "yaw": 180,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 1700,
+   "y": 0,
+   "yaw": 90,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 2400,
+   "y": 0,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 400,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": 1200,
+   "y": 0,
+   "yaw": 0,
+   "z": 600
+  },
+  {
+   "d": 400,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -1200,
+   "y": 0,
+   "yaw": 180,
+   "z": -600
+  },
+  {
+   "d": 400,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -1800,
+   "y": 0,
+   "yaw": 90,
+   "z": -1200
+  },
+  {
+   "d": 400,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -1800,
+   "y": 0,
+   "yaw": 90,
+   "z": 1200
+  },
+  {
+   "d": 200,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -700,
+   "y": 0,
+   "yaw": 90,
+   "z": 0
+  },
+  {
+   "d": 400,
+   "h": 600,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -1200,
+   "y": 0,
+   "yaw": 0,
+   "z": 600
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -1700,
+   "y": 300,
+   "yaw": 270,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -2400,
+   "y": 300,
+   "yaw": 180,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "ramp",
+   "tag": "bridge ramp",
+   "tex": "logdarktop",
+   "w": 600,
+   "x": -2400,
+   "y": 300,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": -1350,
+   "y": 0,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": 1350,
+   "y": 0,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": -1350,
+   "y": 0,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "base0.shield",
+   "tex": "crate",
+   "w": 700,
+   "x": 1350,
+   "y": 0,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 400,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 400,
+   "x": 2400,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 400,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 400,
+   "x": -2800,
+   "y": 300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -2700,
+   "y": 600,
+   "yaw": 0,
+   "z": -1400
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -2700,
+   "y": 600,
+   "yaw": 0,
+   "z": 1400
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -2500,
+   "y": 600,
+   "yaw": 0,
+   "z": -1300
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": -2500,
+   "y": 600,
+   "yaw": 0,
+   "z": 1300
+  },
+  {
+   "d": 2000,
+   "h": 800,
+   "kind": "box",
+   "sculpt": {
+    "flat": false,
+    "rough": 0.3,
+    "round": 2.2,
+    "seed": 4754,
+    "shape": "rock"
+   },
+   "tag": "dress.backdrop",
+   "tex": "barkbirch",
+   "w": 2000,
+   "x": 3200,
+   "y": -2200,
+   "yaw": 0,
+   "z": -6200
+  },
+  {
+   "d": 2000,
+   "h": 800,
+   "kind": "box",
+   "sculpt": {
+    "flat": false,
+    "rough": 0.3,
+    "round": 2.2,
+    "seed": 4754,
+    "shape": "rock"
+   },
+   "tag": "dress.backdrop",
+   "tex": "barkbirch",
+   "w": 2000,
+   "x": 3200,
+   "y": -2200,
+   "yaw": 0,
+   "z": 6200
+  },
+  {
+   "d": 2400,
+   "h": 800,
+   "kind": "box",
+   "sculpt": {
+    "flat": false,
+    "rough": 0.3,
+    "round": 2.2,
+    "seed": 20903,
+    "shape": "rock"
+   },
+   "tag": "dress.backdrop",
+   "tex": "barkbirch",
+   "w": 2400,
+   "x": 6400,
+   "y": -1800,
+   "yaw": 0,
+   "z": -3200
+  },
+  {
+   "d": 2400,
+   "h": 800,
+   "kind": "box",
+   "sculpt": {
+    "flat": false,
+    "rough": 0.3,
+    "round": 2.2,
+    "seed": 20903,
+    "shape": "rock"
+   },
+   "tag": "dress.backdrop",
+   "tex": "barkbirch",
+   "w": 2400,
+   "x": 6400,
+   "y": -1800,
+   "yaw": 0,
+   "z": 3200
+  },
+  {
+   "d": 800,
+   "h": 150,
+   "kind": "box",
+   "tag": "centre.landmark cap",
+   "tex": "wdparquet",
+   "w": 800,
+   "x": 0,
+   "y": 2200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 100,
+   "h": 2200,
+   "kind": "prism",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": -150,
+   "y": 0,
+   "yaw": 180,
+   "z": -150
+  },
+  {
+   "d": 100,
+   "h": 2200,
+   "kind": "prism",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": 150,
+   "y": 0,
+   "yaw": 90,
+   "z": -150
+  },
+  {
+   "d": 100,
+   "h": 2200,
+   "kind": "prism",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": -150,
+   "y": 0,
+   "yaw": 270,
+   "z": 150
+  },
+  {
+   "d": 100,
+   "h": 2200,
+   "kind": "prism",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": 150,
+   "y": 0,
+   "yaw": 0,
+   "z": 150
+  },
+  {
+   "d": 800,
+   "h": 600,
+   "kind": "pyramid",
+   "tag": "centre.landmark roof",
+   "tex": "darkplanks",
+   "w": 800,
+   "x": 0,
+   "y": 2350,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 600,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2050
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 600,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2050
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 600,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -2050
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 600,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -2050
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 400,
+   "x": -1700,
+   "y": -200,
+   "yaw": 0,
+   "z": 2050
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 1800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 2400
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 400,
+   "x": 1700,
+   "y": -200,
+   "yaw": 0,
+   "z": 2050
+  },
+  {
+   "d": 700,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 600,
+   "x": -1600,
+   "y": -200,
+   "yaw": 0,
+   "z": 2650
+  },
+  {
+   "d": 700,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 200,
+   "x": -1000,
+   "y": -200,
+   "yaw": 0,
+   "z": 2650
+  },
+  {
+   "d": 700,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 200,
+   "x": 1000,
+   "y": -200,
+   "yaw": 0,
+   "z": 2650
+  },
+  {
+   "d": 700,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 600,
+   "x": 1600,
+   "y": -200,
+   "yaw": 0,
+   "z": 2650
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 200,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2750
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base0.floor",
+   "tex": "carpet",
+   "w": 200,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2750
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 1000,
+   "x": -1400,
+   "y": -200,
+   "yaw": 0,
+   "z": -2750
+  },
+  {
+   "d": 1200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 1800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 1000,
+   "x": 1400,
+   "y": -200,
+   "yaw": 0,
+   "z": -2750
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 600,
+   "x": -1600,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 200,
+   "x": -1000,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 200,
+   "x": 1000,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 600,
+   "x": 1600,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 400,
+   "x": -1700,
+   "y": -200,
+   "yaw": 0,
+   "z": -2050
+  },
+  {
+   "d": 500,
+   "h": 200,
+   "kind": "box",
+   "tag": "base1.floor",
+   "tex": "crate",
+   "w": 400,
+   "x": 1700,
+   "y": -200,
+   "yaw": 0,
+   "z": -2050
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -1 -2",
+   "tex": "wdoaklight",
+   "w": 200,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 1 -2",
+   "tex": "wdoaklight",
+   "w": 200,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": -2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island -1 2",
+   "tex": "wdoaklight",
+   "w": 200,
+   "x": -1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2400
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "tag": "island 1 2",
+   "tex": "wdoaklight",
+   "w": 200,
+   "x": 1200,
+   "y": -200,
+   "yaw": 0,
+   "z": 2400
+  },
+  {
+   "d": 700,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": -1200,
+   "y": -100,
+   "yaw": 0,
+   "z": -1950
+  },
+  {
+   "d": 700,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 1200,
+   "y": -100,
+   "yaw": 0,
+   "z": -1950
+  },
+  {
+   "d": 700,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": -1200,
+   "y": -100,
+   "yaw": 0,
+   "z": 1950
+  },
+  {
+   "d": 700,
+   "h": 100,
+   "kind": "box",
+   "tag": "bridge",
+   "tex": "wddeck",
+   "w": 600,
+   "x": 1200,
+   "y": -100,
+   "yaw": 0,
+   "z": 1950
+  },
+  {
+   "d": 400,
+   "h": 2200,
+   "kind": "box",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 2200,
+   "kind": "box",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": -150,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 2200,
+   "kind": "box",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": 150,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 400,
+   "x": 2600,
+   "y": 300,
+   "yaw": 0,
+   "z": -1500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 200,
+   "x": 2700,
+   "y": 300,
+   "yaw": 0,
+   "z": -1300
+  },
+  {
+   "d": 400,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 200,
+   "x": 2700,
+   "y": 300,
+   "yaw": 0,
+   "z": 1400
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "tag": "fill.corner_wall",
+   "tex": "crate",
+   "w": 200,
+   "x": 2500,
+   "y": 300,
+   "yaw": 0,
+   "z": 1500
+  },
+  {
+   "d": 60,
+   "h": 160,
+   "kind": "rail",
+   "tag": "dress.fence",
+   "tex": "wdpanel",
+   "w": 1200,
+   "x": 2960,
+   "y": 0,
+   "yaw": 90,
+   "z": 0
+  }
+ ],
+ "playable": {
+  "curve": null,
+  "unreached": 0
+ },
+ "report": {
+  "about": "heaps of bridges, buildings, cover, perches; no crates, sunken floors, towers",
+  "anchors_solved": {},
+  "beauty": {
+   "accents": [
+    "carpet",
+    "crate",
+    "bannergreen",
+    "wdparquet"
+   ],
+   "cap": 20,
+   "dress_pieces": 4,
+   "palette": {
+    "accents_built": [
+     "wdparquet",
+     "wdoak",
+     "wdpaneldark",
+     "darkplanks"
+    ],
+    "awning": "carpet",
+    "bridge": "wddeck",
+    "building": "darkplanks",
+    "cover": "crate",
+    "deck": "wdparquet",
+    "floor": "wdoaklight",
+    "hedge": "crate",
+    "keel": "beamdark",
+    "path": "hatchedwood",
+    "ramp": "hatchedwood",
+    "roof": "rfshingle",
+    "stair": "hatchedwood",
+    "trim": "wdpanel",
+    "wall": "darkplanks",
+    "wall_base": "wdpaneldark",
+    "wall_cap": "wdoak"
+   },
+   "rules": {
+    "C3 backdrop": 4,
+    "C4 roofs": 1,
+    "R3 rails": 2,
+    "R6 landmark": 2
+   },
+   "scenery": {
+    "cap": 8,
+    "notes": [],
+    "pieces": 5
+   },
+   "scenery_notes": [],
+   "theme": "wood"
+  },
+  "beauty_score": 0.806,
+  "candidate": 7,
+  "defaulted": [
+   "key",
+   "modes",
+   "verticality",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "objects",
+   "budget",
+   "candidates",
+   "locks",
+   "reseed",
+   "reference",
+   "wish",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts",
+   "boundary",
+   "mood",
+   "course"
+  ],
+  "detail": {
+   "absorbed": {
+    "C3 backdrop": 4,
+    "K2 fences": 2,
+    "R13 gradient walls (D23)": 1
+   },
+   "allowance": 120,
+   "by_rule": {},
+   "cap": 5,
+   "ceiling": 1341,
+   "dress_before": 7,
+   "houses": {
+    "pieces": 0,
+    "share": 0.0
+   },
+   "keys": 0,
+   "pieces": 0,
+   "pieces_net": 0,
+   "share": 0.0,
+   "share_of_allowance": 0.0,
+   "sites": {
+    "building": 4,
+    "roof": 1,
+    "wall": 8
+   },
+   "skipped": {
+    "D10: budget": 1,
+    "D1: it would leave a 150 slot (a crawl space)": 1,
+    "D2: budget": 1,
+    "D30: no pattern": 1,
+    "D6: no pattern": 1
+   },
+   "used_before": 81
+  },
+  "done": [],
+  "escapes": [],
+  "fill": {
+   "backtracks": 12,
+   "before": 0.237,
+   "budget_left": 43,
+   "kinds": {
+    "corner_wall": 3,
+    "crate_pile": 1
+   },
+   "lane_walls": 0,
+   "modules": 4,
+   "options": 112,
+   "pieces": 16,
+   "purposes": {},
+   "reached": 0.378,
+   "steps": 17,
+   "stop": "no option left",
+   "target": 0.8
+  },
+  "fit": [
+   {
+    "name": "spawn_points",
+    "ok": true,
+    "value": 16,
+    "want": ">= 16",
+    "why": "a free-for-all shooter: a point per player"
+   }
+  ],
+  "gameplay": [
+   {
+    "id": "spawns",
+    "note": "spawn points 500 apart at the median (SPAWNS' ideal for a free-for-all is 3000, with cover between)",
+    "status": "noted"
+   },
+   {
+    "id": "shortcuts",
+    "note": "the brief wants 4 move-gated shortcuts, the map has 2 and no step fits beside its high ground (6 places: 6 walked as quick, 0 without room, 0 against another face)",
+    "status": "approximated"
+   }
+  ],
+  "guards": {
+   "counts": {
+    "contract_refused": 0,
+    "contract_warn": 1,
+    "cuts": 0,
+    "floating": 0,
+    "joins": 0,
+    "lava": 0,
+    "lava_decor": 0,
+    "movement": 2,
+    "movers": 0,
+    "overlaps": 0,
+    "pockets": 0,
+    "prop_solids": 0,
+    "stairs": 0,
+    "stairs_soft": 32
+   },
+   "repaired": {},
+   "warns": [
+    "contract: pyramid darkplanks at (0, 2350, 0) is a roof in darkplanks (wood), which wood may not wear",
+    "ST6: the ramp ramp logdarktop at (700, 0, 0) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (700, 0, 0) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1800, 0, -1200) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1800, 0, -1200) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1800, 0, 1200) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1800, 0, 1200) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1200, 0, -600) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1200, 0, -600) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (2400, 0, 700) has an open drop over 300 on its left side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (2400, 0, 700) has an open drop over 300 on its right side - a flight needs a cheek or a rail",
+    "ST6: the ramp ramp logdarktop at (1700, 0, 0) has an open drop over 300 on its left side - a flight needs a cheek or a rail"
+   ]
+  },
+  "kit": {
+   "knobs": {
+    "arches": 1,
+    "buildings": 3,
+    "colonnades": 1,
+    "corners": 1,
+    "diagonals": 1,
+    "fences": 1,
+    "slabs": 1,
+    "stairs": 1
+   },
+   "left": 34,
+   "not_placed": [],
+   "rules": {
+    "K2 fences": 2,
+    "K6 diagonals (octagon)": 4
+   }
+  },
+  "locks": [],
+  "modules": {
+   "bridges": 32,
+   "islands": 21,
+   "skeleton": "archipelago",
+   "spacing": 1200
+  },
+  "moved": [],
+  "not_possible": [
+   "band: floor with cover within 300 is 0.39, the family's target is 0.6-0.8",
+   "band: field spawn exposure, worst is 0.61, the family's target is <= 0.2",
+   "band: floor pairs open past 2400 is 0.122, the family's target is <= 0.08"
+  ],
+  "not_understood": [],
+  "notes": [
+   "skeleton archipelago (mirror) from archipelago 1, twin 1, canyon 0.6, three_lane 0.6",
+   "style: heaps of bridges, buildings, cover, perches; no crates, sunken floors, towers",
+   "survey points spread for a free-for-all: 16, 500 apart at the median (was 400)",
+   "beauty M1 (measured): wall hatchedwood -> logdarktop on 16 pieces (floor 0.45, wall 0.58 -> 0.38; its family, minimum 0.25)",
+   "dropped rail wdpanel at (2960, 0, 0): it shared space with a slope or another whole piece",
+   "critic 88/100 (pass, line 58; weakest: calm - 9 % of the picture is calm (want 50 % or more))"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 34,
+  "skeleton": "archipelago",
+  "spawns": {
+   "bases": 2,
+   "field": {
+    "candidates": 26,
+    "chosen": 2,
+    "exposure_max": 0.2133,
+    "rule": "<= 12, least exposed orbits first (<= 0.15, then <= 0.22), 1000 apart, 1200 from base spawns",
+    "where": [
+     "island",
+     "lee of corner_wall"
+    ]
+   },
+   "per_base": 8,
+   "rule": "cover 450 tall 300-500 ahead, nothing tall 500 behind",
+   "shields": 8,
+   "spread": {
+    "median_gap": 500,
+    "median_gap_before": 400,
+    "points": 16,
+    "rule": "2 leaders kept, then farthest first; past 16 only 1000 apart"
+   }
+  },
+  "style": {
+   "about": "heaps of bridges, buildings, cover, perches; no crates, sunken floors, towers",
+   "boosted": [],
+   "forced": {
+    "cover": "heaps (dense)",
+    "low_walls": "some (wanted)"
+   },
+   "rolled": {
+    "arches": "few",
+    "bases": "some",
+    "bridges": "heaps",
+    "buildings": "heaps",
+    "bunkers": "few",
+    "canyons": "few",
+    "colonnades": "few",
+    "columns": "few",
+    "corners": "few",
+    "cover": "heaps",
+    "crates": "none",
+    "crenels": "some",
+    "crossings": "none",
+    "daises": "few",
+    "diagonals": "few",
+    "fences": "few",
+    "height": "few",
+    "hills": "few",
+    "hubs": "few",
+    "islands": "some",
+    "keels": "few",
+    "keeps": "few",
+    "landmark": "few",
+    "lanes": "few",
+    "low_walls": "some",
+    "perches": "heaps",
+    "pillars": "few",
+    "pits": "none",
+    "rails": "heaps",
+    "ramps": "few",
+    "rings": "heaps",
+    "side_colours": "some",
+    "slabs": "few",
+    "stairs": "few",
+    "towers": "none",
+    "trims": "heaps",
+    "void_gaps": "none",
+    "walls": "some",
+    "width": "few"
+   }
+  },
+  "symmetry_solved": "mirror"
+ },
+ "script": "of_splinteryard",
+ "spawns": [
+  {
+   "x": -1600,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": -1600,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": -1100,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": -1100,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": 1100,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": 1100,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  },
+  {
+   "x": 1600,
+   "y": 0,
+   "yaw": 180,
+   "z": 2600
+  },
+  {
+   "x": 1600,
+   "y": 0,
+   "yaw": 0,
+   "z": -2600
+  }
+ ],
+ "stars": [],
+ "survey": {
+  "points": [
+   {
+    "x": -1600,
+    "y": 0,
+    "yaw": 180,
+    "z": 2600
+   },
+   {
+    "x": -1600,
+    "y": 0,
+    "yaw": 0,
+    "z": -2600
+   },
+   {
+    "x": 2650,
+    "y": 0,
+    "yaw": 266,
+    "z": 250
+   },
+   {
+    "x": 1650,
+    "y": 0,
+    "yaw": 332,
+    "z": -2750
+   },
+   {
+    "x": 1350,
+    "y": 0,
+    "yaw": 205,
+    "z": 2750
+   },
+   {
+    "x": -250,
+    "y": 0,
+    "yaw": 116,
+    "z": 250
+   },
+   {
+    "x": -2550,
+    "y": 300,
+    "yaw": 81,
+    "z": -350
+   },
+   {
+    "x": 150,
+    "y": 0,
+    "yaw": 359,
+    "z": -1550
+   },
+   {
+    "x": -50,
+    "y": 0,
+    "yaw": 175,
+    "z": 1850
+   },
+   {
+    "x": 1350,
+    "y": 0,
+    "yaw": 229,
+    "z": 1150
+   },
+   {
+    "x": 2350,
+    "y": 300,
+    "yaw": 303,
+    "z": -1350
+   },
+   {
+    "x": -2250,
+    "y": 600,
+    "yaw": 114,
+    "z": 1150
+   },
+   {
+    "x": -1250,
+    "y": 0,
+    "yaw": 51,
+    "z": -1050
+   },
+   {
+    "x": 1050,
+    "y": 300,
+    "yaw": 283,
+    "z": -150
+   },
+   {
+    "x": -250,
+    "y": 0,
+    "yaw": 7,
+    "z": -2750
+   },
+   {
+    "x": -1050,
+    "y": 0,
+    "yaw": 133,
+    "z": 1150
+   },
+   {
+    "x": -1350,
+    "y": 600,
+    "yaw": 89,
+    "z": 50
+   },
+   {
+    "x": 1250,
+    "y": 0,
+    "yaw": 327,
+    "z": -1650
+   },
+   {
+    "x": 2350,
+    "y": 300,
+    "yaw": 240,
+    "z": 1350
+   },
+   {
+    "x": -550,
+    "y": 0,
+    "yaw": 166,
+    "z": 2750
+   },
+   {
+    "x": -50,
+    "y": 0,
+    "yaw": 13,
+    "z": -650
+   },
+   {
+    "x": 650,
+    "y": 0,
+    "yaw": 349,
+    "z": -2550
+   },
+   {
+    "x": 450,
+    "y": 0,
+    "yaw": 187,
+    "z": 2650
+   },
+   {
+    "x": 350,
+    "y": 0,
+    "yaw": 193,
+    "z": 1050
+   }
+  ]
+ },
+ "venue": {
+  "blocking": {},
+  "modes": [
+   "shooter",
+   "oitc",
+   "rocketarena",
+   "wanted",
+   "assassins",
+   "laststanding",
+   "crown",
+   "coinrush",
+   "greendemon",
+   "bank",
+   "murder",
+   "bounty"
+  ],
+  "share": 1.0,
+  "warnings": {
+   "assassins": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "bank": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "bounty": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "coinrush": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "crown": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "greendemon": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "laststanding": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "murder": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "oitc": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "rocketarena": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "shooter": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ],
+   "wanted": [
+    "ffa_spread: median nearest point 1019 (want 2000)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,1038 @@
+{
+ "_walk": {
+  "cells": 3728,
+  "reached": 3728
+ },
+ "blurb": "a generated knock-off ring over the void",
+ "budget": 120,
+ "family": "knockoff",
+ "generator": {
+  "candidate": 0,
+  "family": "knockoff",
+  "modules": {
+   "platforms": 0,
+   "ring": "round",
+   "tier2": "round",
+   "tier3": "slabs"
+  },
+  "params": {
+   "B": 0,
+   "Dh": 0,
+   "G": 0,
+   "I": 3400,
+   "Ph": 400,
+   "R": 1500,
+   "R2": 2400,
+   "R3": 3400,
+   "band2": 900,
+   "centre": "ring",
+   "corner": "slabs",
+   "lane": "round",
+   "marks": true,
+   "outer": "slabs",
+   "platforms": 0,
+   "ramp_off": 0,
+   "ramp_w": 800,
+   "rim": "solid",
+   "shape": "round",
+   "shape2": "round",
+   "shield": "-",
+   "tiers": 3
+  },
+  "quality": 1.0,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 3,
+  "version": "mapgen 2"
+ },
+ "key": "generated",
+ "level": "empty2",
+ "look": {
+  "light": {
+   "dir": [
+    -0.9,
+    0.35,
+    -0.1
+   ],
+   "name": "late, from the west"
+  },
+  "music": "SEQ_LEVEL_BOSS_KOOPA_FINAL",
+  "sky": "BACKGROUND_FLAMING_SKY"
+ },
+ "marks": [
+  {
+   "label": "ring centre",
+   "x": 0,
+   "z": 0
+  }
+ ],
+ "name": "Lava Ring",
+ "note": "a round ring 3000 across, two tiers below with ramps back up, nothing to brace against",
+ "onlyFor": [
+  "sumo"
+ ],
+ "pieces": [
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "ring ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": 0.0,
+   "y": -300,
+   "yaw": 0,
+   "z": 1800.0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_2400_200_1000_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 2400,
+   "x": 0.0,
+   "y": -800,
+   "yaw": 0,
+   "z": 2900.0
+  },
+  {
+   "d": 1500,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_1500_200_1500_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 1500,
+   "x": 2450.0,
+   "y": -800,
+   "yaw": 0,
+   "z": 2450.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_500_100_200_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 500,
+   "x": 1450.0,
+   "y": -700,
+   "yaw": 0,
+   "z": 2900.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "outer ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": 0.0,
+   "y": -600,
+   "yaw": 0,
+   "z": 2700.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "ring ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": 1800.0,
+   "y": -300,
+   "yaw": 90,
+   "z": -0.0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_2400_200_1000_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 2400,
+   "x": 2900.0,
+   "y": -800,
+   "yaw": 90,
+   "z": -0.0
+  },
+  {
+   "d": 1500,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_1500_200_1500_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 1500,
+   "x": 2450.0,
+   "y": -800,
+   "yaw": 90,
+   "z": -2450.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_500_100_200_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 500,
+   "x": 2900.0,
+   "y": -700,
+   "yaw": 90,
+   "z": -1450.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "outer ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": 2700.0,
+   "y": -600,
+   "yaw": 90,
+   "z": -0.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "ring ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": -0.0,
+   "y": -300,
+   "yaw": 180,
+   "z": -1800.0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_2400_200_1000_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 2400,
+   "x": -0.0,
+   "y": -800,
+   "yaw": 180,
+   "z": -2900.0
+  },
+  {
+   "d": 1500,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_1500_200_1500_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 1500,
+   "x": -2450.0,
+   "y": -800,
+   "yaw": 180,
+   "z": -2450.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_500_100_200_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 500,
+   "x": -1450.0,
+   "y": -700,
+   "yaw": 180,
+   "z": -2900.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "outer ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": -0.0,
+   "y": -600,
+   "yaw": 180,
+   "z": -2700.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "ring ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": -1800.0,
+   "y": -300,
+   "yaw": 270,
+   "z": 0.0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_2400_200_1000_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 2400,
+   "x": -2900.0,
+   "y": -800,
+   "yaw": 270,
+   "z": 0.0
+  },
+  {
+   "d": 1500,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_1500_200_1500_geo",
+   "tag": "outer slab",
+   "tex": "lava",
+   "w": 1500,
+   "x": -2450.0,
+   "y": -800,
+   "yaw": 270,
+   "z": 2450.0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_500_100_200_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 500,
+   "x": -2900.0,
+   "y": -700,
+   "yaw": 270,
+   "z": 1450.0
+  },
+  {
+   "d": 600,
+   "h": 300,
+   "kind": "ramp",
+   "model": "of_ak_brickdarkgrey_ramp_800_300_600_geo",
+   "tag": "outer ramp",
+   "tex": "brickdarkgrey",
+   "w": 800,
+   "x": -2700.0,
+   "y": -600,
+   "yaw": 270,
+   "z": 0.0
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_100_500_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 2900.0,
+   "y": -700,
+   "yaw": 0,
+   "z": 1450.0
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_100_500_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": -1450.0,
+   "y": -700,
+   "yaw": 90,
+   "z": 2900.0
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_100_500_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": -2900.0,
+   "y": -700,
+   "yaw": 180,
+   "z": -1450.0
+  },
+  {
+   "d": 500,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_100_500_geo",
+   "tag": "plank",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 1450.0,
+   "y": -700,
+   "yaw": 270,
+   "z": -2900.0
+  },
+  {
+   "d": 1800,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_lava_box_1800_500_1800_geo",
+   "tag": "keel",
+   "tex": "lava",
+   "w": 1800,
+   "x": 0.0,
+   "y": -1300,
+   "yaw": 0,
+   "z": 0.0
+  },
+  {
+   "d": 400,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_1800_500_400_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 1800,
+   "x": 0,
+   "y": -800,
+   "yaw": 0,
+   "z": -2200
+  },
+  {
+   "d": 4000,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_3000_500_4000_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 3000,
+   "x": 0,
+   "y": -800,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 600,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_500_500_600_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 500,
+   "x": -1750,
+   "y": -800,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 600,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_500_500_600_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 500,
+   "x": 1750,
+   "y": -800,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "d": 1800,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_900_500_1800_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 900,
+   "x": -1950,
+   "y": -800,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1800,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_900_500_1800_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 900,
+   "x": 1950,
+   "y": -800,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 600,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_500_500_600_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 500,
+   "x": -1750,
+   "y": -800,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 600,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_500_500_600_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 500,
+   "x": 1750,
+   "y": -800,
+   "yaw": 0,
+   "z": 1200
+  },
+  {
+   "d": 400,
+   "h": 500,
+   "kind": "box",
+   "model": "of_ak_tile1_box_1800_500_400_geo",
+   "tag": "tier2",
+   "tex": "tile1",
+   "w": 1800,
+   "x": 0,
+   "y": -800,
+   "yaw": 0,
+   "z": 2200
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_sand_box_200_200_200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 200,
+   "x": -500,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_sand_box_200_200_200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 200,
+   "x": 500,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_1200_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 1200,
+   "x": 0,
+   "y": -300,
+   "yaw": 0,
+   "z": -1350
+  },
+  {
+   "d": 1100,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_1800_300_1100_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 1800,
+   "x": 0,
+   "y": -300,
+   "yaw": 0,
+   "z": -650
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": -1050,
+   "y": -300,
+   "yaw": 0,
+   "z": -750
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": 1050,
+   "y": -300,
+   "yaw": 0,
+   "z": -750
+  },
+  {
+   "d": 1200,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_600_300_1200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 600,
+   "x": -1200,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1200,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_600_300_1200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 600,
+   "x": 1200,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": -750,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_800_300_200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 800,
+   "x": 0,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_200_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": 750,
+   "y": -300,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1100,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_1800_300_1100_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 1800,
+   "x": 0,
+   "y": -300,
+   "yaw": 0,
+   "z": 650
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": -1050,
+   "y": -300,
+   "yaw": 0,
+   "z": 750
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_300_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 300,
+   "x": 1050,
+   "y": -300,
+   "yaw": 0,
+   "z": 750
+  },
+  {
+   "d": 300,
+   "h": 300,
+   "kind": "box",
+   "model": "of_ak_sand_box_1200_300_300_geo",
+   "tag": "ring",
+   "tex": "sand",
+   "w": 1200,
+   "x": 0,
+   "y": -300,
+   "yaw": 0,
+   "z": 1350
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_brickpyramid_box_200_100_200_geo",
+   "tag": "mark",
+   "tex": "brickpyramid",
+   "w": 200,
+   "x": -500,
+   "y": -100,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_brickpyramid_box_200_100_200_geo",
+   "tag": "mark",
+   "tex": "brickpyramid",
+   "w": 200,
+   "x": 500,
+   "y": -100,
+   "yaw": 0,
+   "z": 0
+  }
+ ],
+ "report": {
+  "about": null,
+  "anchors_solved": {},
+  "beauty": {
+   "accents": [
+    "lava",
+    "carpet",
+    "brickpyramid",
+    "greystone"
+   ],
+   "cap": 12,
+   "dress_pieces": 0,
+   "palette": {
+    "bridge": "darkplanks",
+    "cover": "darkplanks",
+    "deck": "tile1",
+    "floor": "flagstone",
+    "keel": "lava",
+    "ramp": "brickdarkgrey",
+    "trim": "hazardstripes",
+    "wall": "darkplanks"
+   },
+   "rules": {},
+   "theme": "lava"
+  },
+  "beauty_score": 0.753,
+  "candidate": 0,
+  "defaulted": [
+   "key",
+   "players",
+   "size",
+   "pace",
+   "symmetry",
+   "sides",
+   "density",
+   "difficulty",
+   "edge",
+   "theme",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "features",
+   "objects",
+   "budget",
+   "locks",
+   "reseed",
+   "reference",
+   "wish",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset"
+  ],
+  "done": [],
+  "fill": null,
+  "fit": [],
+  "kit": {
+   "knobs": {
+    "arches": 2,
+    "buildings": 1,
+    "colonnades": 0,
+    "corners": 1,
+    "diagonals": 0,
+    "fences": 2,
+    "slabs": 2,
+    "stairs": 0
+   },
+   "left": 75,
+   "not_placed": [],
+   "rules": {}
+  },
+  "locks": [],
+  "modules": {
+   "platforms": 0,
+   "ring": "round",
+   "tier2": "round",
+   "tier3": "slabs"
+  },
+  "moved": [],
+  "not_possible": [],
+  "not_understood": [],
+  "notes": [
+   "beauty R2: wall redbrick -> darkplanks (contrast 0.16 -> 0.40 against the floor)"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 3,
+  "skeleton": null,
+  "spawns": null,
+  "style": {},
+  "symmetry_solved": "turn4"
+ },
+ "spawns": [
+  {
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "yaw": 180,
+   "z": 950
+  },
+  {
+   "x": 375,
+   "y": 0,
+   "yaw": 203,
+   "z": 875
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 228,
+   "z": 625
+  },
+  {
+   "x": 900,
+   "y": 0,
+   "yaw": 252,
+   "z": 300
+  },
+  {
+   "x": 950,
+   "y": 0,
+   "yaw": 276,
+   "z": -100
+  },
+  {
+   "x": 825,
+   "y": 0,
+   "yaw": 300,
+   "z": -475
+  },
+  {
+   "x": 550,
+   "y": 0,
+   "yaw": 325,
+   "z": -775
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 348,
+   "z": -925
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 12,
+   "z": -925
+  },
+  {
+   "x": -550,
+   "y": 0,
+   "yaw": 35,
+   "z": -775
+  },
+  {
+   "x": -825,
+   "y": 0,
+   "yaw": 60,
+   "z": -475
+  },
+  {
+   "x": -950,
+   "y": 0,
+   "yaw": 84,
+   "z": -100
+  },
+  {
+   "x": -900,
+   "y": 0,
+   "yaw": 108,
+   "z": 300
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 132,
+   "z": 625
+  },
+  {
+   "x": -375,
+   "y": 0,
+   "yaw": 157,
+   "z": 875
+  }
+ ],
+ "survey": {
+  "points": [
+   {
+    "x": 0,
+    "y": 0,
+    "yaw": 0,
+    "z": 0
+   },
+   {
+    "x": 0,
+    "y": 0,
+    "yaw": 180,
+    "z": 950
+   },
+   {
+    "x": 375,
+    "y": 0,
+    "yaw": 203,
+    "z": 875
+   },
+   {
+    "x": 700,
+    "y": 0,
+    "yaw": 228,
+    "z": 625
+   },
+   {
+    "x": 900,
+    "y": 0,
+    "yaw": 252,
+    "z": 300
+   },
+   {
+    "x": 950,
+    "y": 0,
+    "yaw": 276,
+    "z": -100
+   },
+   {
+    "x": 825,
+    "y": 0,
+    "yaw": 300,
+    "z": -475
+   },
+   {
+    "x": 550,
+    "y": 0,
+    "yaw": 325,
+    "z": -775
+   },
+   {
+    "x": 200,
+    "y": 0,
+    "yaw": 348,
+    "z": -925
+   },
+   {
+    "x": -200,
+    "y": 0,
+    "yaw": 12,
+    "z": -925
+   },
+   {
+    "x": -550,
+    "y": 0,
+    "yaw": 35,
+    "z": -775
+   },
+   {
+    "x": -825,
+    "y": 0,
+    "yaw": 60,
+    "z": -475
+   },
+   {
+    "x": -950,
+    "y": 0,
+    "yaw": 84,
+    "z": -100
+   },
+   {
+    "x": -900,
+    "y": 0,
+    "yaw": 108,
+    "z": 300
+   },
+   {
+    "x": -700,
+    "y": 0,
+    "yaw": 132,
+    "z": 625
+   },
+   {
+    "x": -375,
+    "y": 0,
+    "yaw": 157,
+    "z": 875
+   }
+  ],
+  "ring": {
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  }
+ }
+}

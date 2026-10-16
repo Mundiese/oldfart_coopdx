@@ -1,0 +1,10 @@
+extern const GeoLayout empty2_area_1_geo[];
+extern const GeoLayout empty2_area_1[];
+extern const Collision empty2_area_1_collision[];
+extern const MacroObject empty2_area_1_macro_objs[];
+extern Lights1 empty2_dl_f3dlite_material_lights;
+extern Vtx empty2_dl_Death_Plane_mesh_layer_5_vtx_0[4];
+extern Gfx empty2_dl_Death_Plane_mesh_layer_5_tri_0[];
+extern Gfx mat_empty2_dl_f3dlite_material[];
+extern Gfx mat_revert_empty2_dl_f3dlite_material[];
+extern Gfx empty2_dl_Death_Plane_mesh_layer_5_with_revert[];

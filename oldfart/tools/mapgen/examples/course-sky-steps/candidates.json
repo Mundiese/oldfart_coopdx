@@ -1,0 +1,53 @@
+[
+ {
+  "candidate": 0,
+  "ok": true,
+  "quality": 0.8698,
+  "family": "course",
+  "pieces": 116,
+  "skeleton": "course",
+  "shape": "course",
+  "across": 25200,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.87,
+  "centre": "course",
+  "lane": "width 1600",
+  "corner": "6 rests"
+ },
+ {
+  "candidate": 1,
+  "ok": true,
+  "quality": 0.8698,
+  "family": "course",
+  "pieces": 112,
+  "skeleton": "course",
+  "shape": "course",
+  "across": 25000,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.85,
+  "centre": "course",
+  "lane": "width 1600",
+  "corner": "7 rests"
+ },
+ {
+  "candidate": 2,
+  "ok": true,
+  "quality": 0.8698,
+  "family": "course",
+  "pieces": 121,
+  "skeleton": "course",
+  "shape": "course",
+  "across": 29400,
+  "about": null,
+  "faults": [],
+  "repairs": [],
+  "seconds": 0.82,
+  "centre": "course",
+  "lane": "width 1600",
+  "corner": "6 rests"
+ }
+]

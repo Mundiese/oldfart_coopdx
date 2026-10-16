@@ -1,0 +1,1163 @@
+maze	key
+mz	key
+maze_map	ident
+maze_warp	ident
+maze_seed	ident
+maze_depth	ident
+maze_note	ident
+begin_maze	ident
+clear_maze	ident
+MAZE_KEY	ident
+Mirror your build across your aim	key
+Stand where the middle goes and look along it.	key
+Mirrored @ object(s).	key
+boocastle	key
+scaffold	key
+OF.scaffold	ident
+ofScaffold	ident
+of_scaffold	ident
+spawncast	ident
+spawnbuild	ident
+build_spawn	ident
+build_spawncast	ident
+build_spawnbuild	ident
+build_catalogue	ident
+bunnyhop	ident
+use_preset	ident
+find_preset	ident
+place_furnishing	ident
+find_furnishing	ident
+FURNISHINGS	ident
+furnish	ident
+furnish_soon	ident
+furnish_tick	ident
+would_sweep	ident
+borrowed_mods	ident
+return_mods	ident
+liveStage	ident
+open_stage	ident
+stage_scout	ident
+stage_mark	ident
+stage_forget	ident
+stage_edge	ident
+stage_middle	ident
+stage_add_spawn	ident
+stage_take_sweep	ident
+stage_set_furnish	ident
+stage_spawn_for	ident
+stage_line	ident
+build_stage_page	ident
+stageSlot	ident
+pack_stage	ident
+unpack_stage	ident
+publish_stage	ident
+receive_stage	ident
+PACKET_STAGE	ident
+arnstg	key
+ofstage	ident
+STAGE_SLOTS	ident
+STAGE_SPAWNS	ident
+STAGE_TEXT_MAX	ident
+sweep_ring	ident
+ring_holds	ident
+want_spawn	ident
+spawn_tick	ident
+rowAction	ident
+courtyard	key
+vcutm	key
+ccmslide	key
+ttmslide	key
+rainbow	key
+fortress	key
+haunt	key
+battlefield	key
+lavalake	key
+sands	key
+snowfield	key
+docks	key
+mountain	key
+snowpeak	key
+floodtown	key
+hugeisland	key
+tinyisland	key
+grounds	key
+badground	key
+arena.KINDS	ident
+find_kind	ident
+places_of_kind	ident
+SWEEP_SAFE	ident
+SWEEP_HUNT	ident
+SWEEP_ROUGH	ident
+MOVE_LEVELS	ident
+Clean air	key
+Bouncy boots	key
+Sticky gloves	key
+A feather	key
+On loan	key
+LOANS	ident
+lending	key
+lent	key
+photocall	ident
+ofSnap	ident
+ofSnapJoin	ident
+ofSnapPose	ident
+groupphoto	ident
+fancydress	ident
+photojoin	ident
+snapphoto	ident
+snapshow	ident
+snapdress	ident
+snapcheer	ident
+snapstop	ident
+fireworks	key
+propOnly	ident
+PROPS	ident
+Wing cap and a launch	key
+TAKEOFF_SPEED	ident
+TAKEOFF_PITCH	ident
+takeoff	key
+vignette	key
+vg	ident
+render_vignette	ident
+vignette_bands	ident
+cmds	key
+gmstop	key
+runstop	key
+norace	key
+guesswhere	key
+lookaway	key
+lookfollow	key
+wpshare	key
+ofjail	key
+offree	key
+ofban	key
+ofbans	key
+ofclear	key
+ofwarn	key
+ofwarns	key
+offorgive	key
+ofescalate	key
+zrules	key
+zeyes	key
+horde_negative	ident
+set_horde_negative	ident
+wear_my_eyes	ident
+forget_my_eyes	ident
+wornInfected	ident
+set_measuring	ident
+rule_rows	ident
+draw_measure	ident
+forged_lines	ident
+LEDGER_MOST	ident
+menu_matches	ident
+build_fun	ident
+build_changed	ident
+nogust	key
+n64	key
+saybox	key
+saywhere	key
+saywide	key
+sayvoice	key
+tonemap	key
+onetune	key
+nowipe	key
+coyote	key
+techwall	key
+longjump	key
+wear_saybox	ident
+wear_saywhere	ident
+wear_saywide	ident
+wear_sayvoice	ident
+wear_tonemap	ident
+wear_distance	ident
+set_render	ident
+picture_look	ident
+picture_note	ident
+build_vision_page	ident
+ofMutate	ident
+MUTATE_KEY	ident
+mutating	ident
+mutations	ident
+mutate_cap	ident
+mutate_label	ident
+forget_mutations	ident
+build_bend	ident
+debt	key
+lonely	key
+pounce	key
+airtime	key
+punchup	key
+calloff	key
+clock_row	ident
+clock_on	ident
+clock_frames	ident
+publish_clocks	ident
+forget_clock	ident
+finish_clock	ident
+tick_clocks	ident
+set_clock	ident
+render_clock	ident
+clock_update	ident
+burning_count	ident
+PACKET_BEAT	ident
+ESCAPES	key
+BOMB_HEIGHT	ident
+drop_a_bomb	ident
+put_them_out	ident
+let_them_go	ident
+put_them_right	ident
+MERCY	key
+HAVOC_SKIPS	key
+BURN_OUT	ident
+PANTING_HEALTH	ident
+idle_them	ident
+IDLES	key
+rollout	key
+steepjump	key
+winded	key
+douse	key
+letgo	key
+havoc	key
+shivers	key
+opposite	key
+uv	key
+strobe	key
+build_show_page	ident
+tempo_is_ours	ident
+lava_water	ident
+over_lava	ident
+hold_tempo	ident
+LAVA_DEPTH	ident
+Fists of fire	key
+Fists of frost	key
+Fists of wind	key
+Fists of lightning	key
+Fists of sleep	key
+In their fists	key
+Fists of fire all round	key
+Fists of frost all round	key
+Ice Plate	key
+REACHES_DOWN	ident
+lean_stop	ident
+lean_line	ident
+lean_spared	ident
+lean_is_yielding	ident
+apply_lean	ident
+forget_lean	ident
+floor_is_owned	ident
+unlean	ident
+LEAN_NONE	ident
+set_grid	ident
+grid_count	ident
+grid_name	ident
+grid_step	ident
+grid_pitch	ident
+set_snap	ident
+snap_spot	ident
+snapped_to	ident
+forget_bounds	ident
+SNAP_GRID	ident
+GRID_NAMES	ident
+SNAP_SLACK	ident
+draw_snap_mark	ident
+Carried over something, a block seats against its side.	key
+On a grid, everything lines up with everything else.	key
+Hurt - one health wedge	key
+One slice off the pie, never the last one.	key
+Until it is switched off	key
+Flat, frozen and running coins stay on - @ rows.	key
+BODIES	ident
+STANDS	ident
+STRENGTH_DEFAULT	ident
+BODY_DEFAULT	ident
+STAND_DEFAULT	ident
+body_stop	ident
+stand_stop	ident
+stand_is_walk	ident
+lift_frame	ident
+How hard it pulls	key
+as a multiple of the four units a second the floor already takes	key
+Does your body turn	key
+you lean into the pull, and under up you come all the way over	key
+The ceiling is	key
+The wall is	key
+held against, or a floor you walk on	key
+a lean	key
+half of down	key
+as hard as down	key
+twice as hard	key
+four times as hard	key
+halfway	key
+held against it	key
+stood on it	key
+you are pushed against it and steer as if falling	key
+it becomes your floor and you walk on it	key
+freezeWhileOpen	ident
+set_freeze_while_open	ident
+dpadOpensPanel	ident
+set_dpad_opens_panel	ident
+dpad_opens_panel	ident
+panelStickScrolls	ident
+panel_stick_scrolls	ident
+toggle_panel_stick_scrolls	ident
+stickScroll	ident
+Right stick throws the page (off = it stays the camera's)	key
+A pad button opens the mod menu	key
+Freeze me while the mod menu is open	key
+D-pad opener off	key
+Left-click picks the row under the pointer. Right-click goes back.	key
+The wheel scrolls, and over the tab bar it walks the tabs.	key
+Click a tab to open it, or the arrows at either end of the bar.	key
+Drag the title bar to move this menu, and the bar down the right side to scroll.	key
+The wheel over that bar jumps between the sections it marks.	key
+The arrow keys move the highlight and turn dials.	key
+No button opens this menu - the opener is off. /mm opens it.	key
+lookspot	key
+build_lookspot	ident
+Show the room a spot...	key
+Showing the room a spot...	key
+Watch the room - free camera, or follow a job...	key
+Watching - the camera, a job, or nobody...	key
+Everything for them...	key
+You in the room	key
+Let the host edit my save file	key
+Trouble you cannot see	key
+door_row	ident
+stuck_rows	ident
+quiet_rows	ident
+reach_rows	ident
+standing_rows	ident
+sidelined_rows	ident
+refusal_rows	ident
+feature_name	ident
+@s ago	key
+@m ago	key
+forget_refusals	ident
+Forget what was refused	key
+Hold the lobby for five minutes	key
+hold_for	ident
+hold_left	ident
+serve_hold	ident
+The sign - a board that stays...	key
+Rub it out	key
+Back to the normal size	key
+Nothing yet - type it on the second page of the Mod Menu.	key
+The pad in play	key
+BLOCKS	ident
+blockwood	ident
+blockmetal	ident
+blocklava	ident
+Wooden block	key
+Metal block	key
+Lava block	key
+forgeblocks	ident
+build_blocks_page	ident
+Blocks to build with	key
+Blocks to build with...	key
+Snap blocks together	key
+Every block here is the same size. Press one and it lands in front of you.	key
+Blocks land edge to edge, so a wall has no seams.	key
+Blocks land exactly where you are aiming.	key
+blockSnap	ident
+block_snapping	ident
+set_block_snap	ident
+is_block	ident
+block_lattice_on	ident
+BLOCK_SPAN	ident
+blockSpanX	ident
+blockSpanY	ident
+blockSpanZ	ident
+blockSpanFrom	ident
+block_pitch	ident
+block_span	ident
+learn_block_span	ident
+forget_block_span	ident
+block_spot	ident
+turn_step	ident
+nudge_step	ident
+dial_axis	ident
+stamp_gap	ident
+stamp_rise	ident
+capfly	ident
+set_away	ident
+saidSo	ident
+pinned	key
+forge_	key
+layout_key	ident
+layout_key_at	ident
+receive_share	ident
+SHARE_CHUNK	ident
+SHARE_PARTS	ident
+SHARE_PENDING_MAX	ident
+SHARE_NAME_MAX	ident
+wings	key
+season	key
+ofSeason	ident
+season_no	ident
+season_roll	ident
+close_season	ident
+record_crown	ident
+crowns	key
+srounds	key
+snights	key
+sgoal	key
+SEASON_GOALS	ident
+season_goal	ident
+set_season_goal	ident
+season_rounds	ident
+season_nights	ident
+mark_season_night	ident
+forget_season_night	ident
+known_roll	ident
+on_this_day	ident
+lobby_age	ident
+same_day_of_year	ident
+years_ago	ident
+lifetime_field	ident
+LIFETIME_KEYS	ident
+LIFE_PREFIX	ident
+LIFE_ROW_PREFIX	ident
+turn_yaw	ident
+YAW_FIELDS	ident
+CHAT_LINES	ident
+shockwave	key
+propHunt	ident
+missFrames	ident
+MISS_HOLD	ident
+gm_hideseek_miss_left	ident
+ofBoomTarget	key
+build_targets_page	ident
+grouped_with_target	ident
+target_reads	ident
+MEDAL_NAMES	ident
+MEDAL_STEPS	ident
+MEDAL_FIELDS	ident
+MEDAL_RETIRED	ident
+MEDAL_BASE	ident
+medal_tier	ident
+next_medal	ident
+medal_name	ident
+medal_digit	ident
+medal_pack	ident
+medal_unpack	ident
+earned_medals	ident
+held_medals	ident
+keep_medals	ident
+lock_medals	ident
+settle_medals	ident
+settle_all_medals	ident
+of_lookhere	ident
+lookhere	ident
+unpack_view	ident
+ofLook	key
+attending	ident
+RAIN_FRAMES	ident
+RAIN_COINS	ident
+RAIN_SPREAD	ident
+RAIN_HEIGHT	ident
+RAIN_LIVE_MAX	ident
+COIN_WEIGHT_TOTAL	ident
+pick_kind	ident
+put_coin	ident
+ring1	key
+ring2	key
+ring3	key
+ring4	key
+sumopost	key
+gm_sumo_posts	ident
+escort	key
+escortflag	key
+ofEscRoute	ident
+ofEscLeg	ident
+ofEscSide	ident
+ofEscVip	ident
+ofEscBest	ident
+ofEscClock	ident
+ofEscHold	ident
+ofEscTarget	ident
+ofEscFirst	ident
+ofJugg	ident
+ofJuggBoard	ident
+ofJuggHunt	ident
+ofJuggDown	ident
+disguise	key
+dg	key
+ofProps	ident
+find_props	ident
+prop_for	ident
+wear_models	ident
+borrow_health	ident
+return_health	ident
+borrowed_health	ident
+model_landed	ident
+note_model	ident
+forget_model_complaints	ident
+undisguised	ident
+duel	key
+ofDuelAt	ident
+ofDuelLevel	ident
+ofDuelArea	ident
+ofDuelPair	ident
+ofDuelQ	ident
+ofDuelTarget	ident
+ofDuelDown	ident
+duelpost	ident
+series	key
+ofSeriesOf	ident
+ofSeriesNo	ident
+ofSeriesWins	ident
+ofSeriesMode	ident
+ofSeriesFinal	ident
+replayDraws	ident
+series_drop	ident
+ROUND_FUSE	ident
+teamsdeal	ident
+teamsclear	ident
+teamsset	ident
+clear_asked	ident
+split_text	ident
+curve_line	ident
+finale_line	ident
+building_for_me	ident
+build_for_me	ident
+my_vision	ident
+my_vision_look	ident
+autoYes	ident
+witness_range	ident
+somebody_watching	ident
+WITNESS_CONE	ident
+WITNESS_EYE	ident
+WITNESS_CHEST	ident
+here_only	ident
+set_here_only	ident
+KILL_PAYS	ident
+PACKET_KILL	ident
+PACKET_PAY	ident
+ofLapAt	key
+ofLapLevel	key
+ofLapArea	key
+ofLapTarget	key
+ofMeltTarget	key
+goombas	ident
+POST_APART	ident
+POST_MOST_IN_ROOM	ident
+There is already a signpost right here.	key
+long_row	ident
+long_minutes	ident
+set_long_minutes	ident
+long_text	ident
+long_note	ident
+LONG_MAX	ident
+LONG_STEP	ident
+awaylong	key
+landIslandsLeft	ident
+land_islands_left	ident
+cameraAngle	ident
+camera_angled	ident
+angle_camera	ident
+cameraFloor	ident
+camera_floors	ident
+floor_camera	ident
+offlimits	ident
+ofOffLimits	key
+reins	ident
+ofReins	key
+PULLS	ident
+set_pull	ident
+wear_pull	ident
+pull_step	ident
+pull_key	ident
+pull_name	ident
+pull_names	ident
+pull_now	ident
+pull_armed	ident
+pull_is_yielding	ident
+pulled_count	ident
+is_pulled	ident
+pulled_by	ident
+height_share	ident
+HIGH_TOP	ident
+gpull	key
+owe	key
+owedCoins	ident
+owe_death	ident
+owe_collect	ident
+render_owed	ident
+SPEED_LONGJUMP	ident
+remembered_cap	ident
+tally_cap	ident
+TALLY_SCRATCH	ident
+TALLY_WEDGE	ident
+TALLY_TWO_WEDGES	ident
+TALLY_FLOOR	ident
+lives10	ident
+lifemax	ident
+ofSumoAt	ident
+ofSumoLevel	ident
+ofSumoArea	ident
+ofSumoR	ident
+ofSumoTarget	ident
+a total eclipse	key
+it follows whoever is winning	key
+falling stars	key
+hail	key
+a wind that turns every minute	key
+rain you can shelter from	key
+keepgear	key
+kg	key
+rounds_choice	ident
+rounds_name	ident
+POLICIES	ident
+Rounds play	key
+music in rounds	key
+what rounds play	key
+cubecrate	key
+cubemetal	key
+cubeframe	key
+cubestone	key
+Metal cube	key
+Stone cube	key
+build_racers_page	ident
+roster_door	ident
+taking_part	ident
+Yours only. Nobody else is affected and nothing is sent.	key
+Yours only. Nothing here reaches anybody else, and no rank is asked.	key
+(yours, and nobody else's)	key
+This menu and your pad	key
+roundlen	key
+roundlen_note	ident
+cross_the_wires	ident
+CROSSED_LINES	ident
+crossed_deal	ident
+linesHeld	ident
+BOSS_LINES	ident
+chatterAt	ident
+take_best	ident
+ofPermaList	ident
+perma_host	ident
+perma_hash	ident
+PERMA_SETTLE	ident
+OF.stuntman	ident
+of_gm_stuntman	ident
+air_due	ident
+jump_actions	ident
+later_jumps	ident
+JUMP_ACTIONS	ident
+LATER_JUMPS	ident
+STRIKE_DAMAGE	ident
+duckhunt	key
+of_gm_duckhunt	ident
+turntable	key
+hold_coin_health	ident
+forget_coin_health	ident
+coin_health_hud	ident
+coin_health_note	ident
+coin_health_held	ident
+render_coin_health	ident
+hold_vanilla_coins	ident
+death_mask	ident
+sun_rung	ident
+rtvOn	ident
+RTV_SHARE	ident
+rtv_need	ident
+chat_rtv	ident
+publish_rtv	ident
+rtv_passes	ident
+killFeedOn	ident
+grave_count	ident
+forget_graves	ident
+is_grave	ident
+gravesLaid	ident
+graveCounts	ident
+draw_the_page	ident
+use_ready	ident
+read_code	ident
+use_code	ident
+CODE_PREFIX	ident
+CODE_MARK	ident
+rando_code_with_draw	ident
+send_the_lobby	ident
+course_deal	ident
+hand_pool	ident
+draw_hand	ident
+deal_queue	ident
+handout_pool	ident
+note_handed	ident
+rule_ceiling	ident
+deal_rules	ident
+ROLLED_RULES	ident
+lobbyrules	key
+handout	key
+levelmusic	key
+opened_by	ident
+LOCKS	ident
+ofMusicShuffle	key
+shuffle_map	ident
+ofTexShuffleSeed	key
+ofChaosPoll	key
+ofChaosPick	key
+open_poll	ident
+settle_poll	ident
+poll_tick	ident
+deal_the_vote	ident
+The lobby votes on the next card	key
+Vote on the next card:	key
+This painting opens with a star from @.	key
+of_gm_meltdown	ident
+gm_meltdown_runners_home	ident
+gm_meltdown_wants_everybody	ident
+gm_meltdown_still_out	ident
+secretrun	key
+SECRETS	ident
+ofTrialHome	key
+gm_shellrace_runners_home	ident
+gm_shellrace_wants_everybody	ident
+avalanche	key
+of_gm_avalanche	ident
+ofAvAt	ident
+ofAvFront	ident
+slideTop	ident
+slideBottom	ident
+magazine_size	ident
+rounds_left	ident
+reloading_for	ident
+reload_now	ident
+work_the_reload	ident
+watch_the_magazine	ident
+roundsLeft	ident
+reloadUntil	ident
+MAG_STOPS	ident
+MAG_DEFAULT	ident
+mag_stop	ident
+cooking_for	ident
+COOK_MAX	ident
+aim_claimed	ident
+disaster	key
+of_gm_disaster	ident
+ofDisAt	ident
+ofDisCall	ident
+reversabomb	key
+of_gm_reversabomb	ident
+gm_reversabomb_debug_get	ident
+gm_reversabomb_debug_set	ident
+gm_reversabomb_debug_switch	ident
+ofRevPress	ident
+ofRevLevel	ident
+ofRevArea	ident
+ofRevAxis	ident
+ofRevLaneCount	ident
+ofRevLaneAt	ident
+ofRevSpawn	ident
+ofRevBombs	ident
+ofRevRedScore	ident
+ofRevBlueScore	ident
+ofRevTarget	ident
+ofRevLost	ident
+ofRevStunRed	ident
+ofRevStunBlue	ident
+gm_greendemon_speed_of	ident
+homerun	key
+of_gm_homerun	ident
+gm_homerun	ident
+nspade	key
+of_gm_nspade	ident
+ofNsAt	ident
+ofNsBoard	ident
+ofNsGot	ident
+sploosh	key
+of_gm_sploosh	ident
+ofSplooshAt	ident
+ofSplooshBoard	ident
+ofSplooshWave	ident
+gm_sploosh_square	ident
+gm_sploosh_fire	ident
+gm_sploosh_lay	ident
+gm_sploosh_layout	ident
+gm_sploosh_pound	ident
+gm_sploosh_side	ident
+gm_sploosh_squids	ident
+multiman	key
+of_gm_multiman	ident
+gm_multiman	ident
+coindig	key
+of_gm_coindig	ident
+ofDigTarget	ident
+gm_coindig_dig	ident
+gm_coindig_digs	ident
+quota	key
+of_gm_quota	ident
+ofQuotaAt	ident
+ofQuotaLevel	ident
+ofQuotaArea	ident
+ofQuotaGrow	ident
+ofQuotaSpent	ident
+ofQuotaHeld	ident
+gm_quota_draw_kind	ident
+gm_quota_mark_kind	ident
+gm_quota_pay_fall	ident
+gm_quota_roster_for	ident
+gm_quota_spot_clear	ident
+starscramble	key
+of_gm_starscramble	ident
+starkit	ident
+ofStarAt	ident
+ofStarKind	ident
+ofStarNew	ident
+ofStarPot	ident
+ofStarGrabBy	ident
+ofStarGrabSeq	ident
+ofStarGrabWorth	ident
+ofStarsTo	ident
+ofStarCaps	ident
+ofStarCapKind	ident
+ofStarLook	ident
+ofStarItem	ident
+round_lend	ident
+round_take	ident
+roundLoan	ident
+take_off_unlent	ident
+roundBallHit	ident
+round_ball_hit	ident
+doubledom	key
+of_gm_doubledom	ident
+ofDdAt	ident
+ofDdBase	ident
+ofDdLevel	ident
+ofDdArea	ident
+ofDdCap	ident
+ofDdRed	ident
+ofDdBlue	ident
+ofDdTarget	ident
+ofDdHold	ident
+ofDdLock	ident
+ofDdLost	ident
+somaria	key
+use_cane	ident
+own_block	ident
+block_loop	ident
+BLOCK_BEHAVIOUR	ident
+KIND_BLOCK	ident
+CANE_REST	ident
+CANE_BALL	ident
+caneAt	ident
+spare_take	ident
+spare_call	ident
+spare_chord	ident
+spare_catch	ident
+spare_catcher	ident
+spare_may_catch	ident
+spare_update	ident
+spare_hud	ident
+spare_watch	ident
+spare_draw	ident
+spare_own_frame	ident
+spare_publish	ident
+spare_parse	ident
+spare_text	ident
+spare_name	ident
+spare_y	ident
+spareBox	ident
+spareDrop	ident
+spareSeq	ident
+spareTaken	ident
+spareDrawn	ident
+SPARE_KEY	ident
+ofSpare	ident
+of_kinstone	ident
+ofKinDeal	ident
+kinFused	ident
+COOP_KEYS	ident
+coop_on	ident
+hop_in_force	ident
+jump_off_head	ident
+HOP_KEY	ident
+HOP_WINDOW	ident
+HOP_LIFT	ident
+squished_by	ident
+bubble_up	ident
+pay_for_bubble	ident
+coop_before	ident
+free_friend_here	ident
+BUBBLE_CLEAR	ident
+ACT_BOWLED	ident
+act_bowled	ident
+bowl_pose	ident
+bowled_over	ident
+spare_thrown	ident
+watch_coop	ident
+BOWL_BASE	ident
+BOWL_SHARE	ident
+BOWL_TOP	ident
+BOWL_DRAG	ident
+BOWL_END	ident
+BOWL_MOST	ident
+BOWL_SPARE	ident
+BOWL_REACH	ident
+BOWL_KNOCK	ident
+cape_sprint_numbers	ident
+of_flood_plate	ident
+of_flood_plate_geo	ident
+gm_flood_plate	ident
+gm_flood_forget_plate	ident
+gm_flood_forget_plate_uv	ident
+molehole	key
+ACT_SWING	ident
+SWING_RUNG	ident
+SWING_ROPE	ident
+SWING_ROPE_SHORT	ident
+SWING_REEL	ident
+SWING_PUMP	ident
+SWING_DAMP	ident
+SWING_MOST	ident
+SWING_HOP	ident
+SWING_ABOVE	ident
+SWING_PITCHES	ident
+SWING_WALL_OFF	ident
+SWING_BOUNCE	ident
+SWING_LINK_GAP	ident
+rope_anchor	ident
+start_swing	ident
+act_swing	ident
+blkbrick	key
+slopebrick	key
+outerbrick	key
+innerbrick	key
+uslopebrick	key
+uouterbrick	key
+uinnerbrick	key
+of_blk_brick_geo	ident
+of_slp_slope_brick_geo	ident
+of_slp_outer_brick_geo	ident
+of_slp_inner_brick_geo	ident
+of_slp_uslope_brick_geo	ident
+of_slp_uouter_brick_geo	ident
+of_slp_uinner_brick_geo	ident
+blkdiagonalplanks	key
+slopediagonalplanks	key
+outerdiagonalplanks	key
+innerdiagonalplanks	key
+uslopediagonalplanks	key
+uouterdiagonalplanks	key
+uinnerdiagonalplanks	key
+stairsdiagonalplanks	key
+of_blk_diagonalplanks_geo	ident
+of_slp_slope_diagonalplanks_geo	ident
+of_slp_outer_diagonalplanks_geo	ident
+of_slp_inner_diagonalplanks_geo	ident
+of_slp_uslope_diagonalplanks_geo	ident
+of_slp_uouter_diagonalplanks_geo	ident
+of_slp_uinner_diagonalplanks_geo	ident
+of_slp_stairs_diagonalplanks_geo	ident
+blksnow	key
+slopesnow	key
+outersnow	key
+innersnow	key
+uslopesnow	key
+uoutersnow	key
+uinnersnow	key
+stairssnow	key
+of_blk_snow_geo	ident
+of_slp_slope_snow_geo	ident
+of_slp_outer_snow_geo	ident
+of_slp_inner_snow_geo	ident
+of_slp_uslope_snow_geo	ident
+of_slp_uouter_snow_geo	ident
+of_slp_uinner_snow_geo	ident
+of_slp_stairs_snow_geo	ident
+entrancepool	key
+trouble_update	ident
+age_trouble	ident
+trouble_standing	ident
+trouble_marked	ident
+trouble_targets	ident
+trouble_is_mine	ident
+trouble_at	ident
+forget_trouble	ident
+TROUBLE_MARK	ident
+TROUBLE_STEPS	ident
+TROUBLE_KINDS	ident
+troubleRefused	ident
+pay_for	ident
+forget_coins	ident
+coinsRefused	ident
+MOST_COINS	ident
+WORTH_STEPS	ident
+door_prices	ident
+hour_text	ident
+set_pool	ident
+length_name	ident
+pool_name	ident
+set_hour	ident
+of_spray_splat_geo	ident
+of_spray_ring_geo	ident
+of_spray_mushroom_geo	ident
+of_spray_oneup_geo	ident
+of_spray_coin_geo	ident
+of_spray_fireflower_geo	ident
+of_spray_bobomb_geo	ident
+of_spray_boo_geo	ident
+of_spray_goomba_geo	ident
+of_spray_shine_geo	ident
+of_spray_emblem_geo	ident
+juggernaut	key
+harvester	key
+overload	key
+golf	key
+nearpin	key
+ofJuggTarget	ident
+ofJuggArmour	ident
+ofJuggTo	ident
+ofJuggGave	ident
+ofJuggRage	ident
+ofHvAt	ident
+ofHvLevel	ident
+ofHvArea	ident
+ofHvPileR	ident
+ofHvPileB	ident
+ofHvCarry	ident
+ofHvRed	ident
+ofHvBlue	ident
+ofHvTarget	ident
+ofHvLast	ident
+ofHvDown	ident
+ofOlAt	ident
+ofOlLevel	ident
+ofOlArea	ident
+ofOlHp	ident
+ofOlMax	ident
+ofOlRed	ident
+ofOlBlue	ident
+ofOlTarget	ident
+ofOlLock	ident
+ofOlShot	ident
+ofGfBall	ident
+ofGfHole	ident
+golfTee	ident
+golfPin	ident
+of_gm_juggernaut	ident
+of_gm_harvester	ident
+of_gm_overload	ident
+of_gm_golf	ident
+of_gm_nearpin	ident
+jackpot	key
+JACKPOT_SKIPS	ident
+lastGiven	ident
+The lot	key
+Surprise them	key
+The same again	key
+Coins come to them	key
+The lot, for everybody	key
+Coins come to everybody	key
+ofClock	key
+night_light	ident
+clock_lit	ident
+add_crossing	ident
+crossing_now	ident
+forget_crossings	ident
+night_face	ident
+NIGHT_FACE	ident
+duckTo	ident
+threeroads	key
+skyway	key
+figureeight	key
+of_three_roads	ident
+of_tiers	ident
+of_skyway	ident
+of_figure_eight	ident
+goomboss	key
+of_gm_goomboss	ident
+INVINC_FRAMES	ident
+star_power	ident
+star_light	ident
+star_frame	ident
+star_struck	ident
+STAR_WAITS	ident
+STAR_HOLD_TOP	ident
+STAR_CHAIN	ident
+starChain	ident
+star_pay	ident
+star_touch	ident
+star_chain_on	ident
+star_chain_frame	ident
+game_look	ident
+GAME_FIELDS	ident
+pausestars	key
+pausestars_note	ident
+Fire Mario	key
+Ice Mario	key
+Bee Mario	key
+Hammer Mario	key
+Balloon Mario	key
+Propeller Mario	key
+Cape Mario	key
+Mega Mario	key
+Bubble Mario	key
+Thunder Mario	key
+Dream Mario	key
+Hookshot	key
+Gust jar	key
+Flowers	key
+goombabowl	key
+ofGwAt	ident
+ofGwLanes	ident
+ofGwRolls	ident
+ofGwRolls2	ident
+grow_set	ident
+grow_update	ident
+grow_steps_due	ident
+GROW_MODES	ident
+GROW_ACTION	ident
+growset	key
+Point an arrow at what is off your screen	key
+Show how near an off-screen mark is	key
+Show when your side is hurt	key
+Fade marks into the distance	key
+Shrink marks into the distance	key
+Mark everybody on your side	key
+marker_arrow	ident
+marker_near	ident
+marker_health	ident
+marker_fade	ident
+marker_shrink	ident
+marker_crowd	ident
+The light is	key
+somebody's gaze	key
+ofLineGaze	ident
+watchers_for	ident
+watch_tick	ident
+gaze_strikes	ident
+in_gaze	ident
+gaze_eye	ident
+jump_grant_moon	ident
+tiebreakOn	ident
+aim_clock	ident
+aim_showing	ident
+AIM_REMINDER	ident
+AIM_SECONDS	ident
+share_of	ident
+lastman	key
+out_line	ident
+round_title_centred	ident
+own_cloud_update	ident
+own_cloud_count	ident
+own_cloud_note	ident
+clear_own_clouds	ident
+cloud_rain_bits	ident
+rained_on	ident
+MODE_COURSE	ident
+COURSE_STARS	ident
+start_course	ident
+build_rta_page	ident
+STAGE_ACTION	ident
+runstage	key
+of_ghost	ident
+ghostask	key
+ghostpart	key
+WHICH_NAMES	ident
+SPEED_NAMES	ident
+set_speed	ident
+set_paused	ident
+time_refusal	ident
+time_active	ident
+let_time_go	ident
+hold_time	ident

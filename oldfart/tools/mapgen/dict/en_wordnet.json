@@ -1,0 +1,129 @@
+{
+"source": "wordnet",
+"lang": "en",
+"about": "Princeton WordNet 3.0 synonyms of our concepts' forms (WordNet 3.0 Copyright 2006 by Princeton University; licence: WORDNET-LICENSE.txt)",
+"forms": {
+"family.race": [
+"racecourse"
+],
+"family.shooter": [
+"gunplay"
+],
+"preset.town": [
+"central city",
+"city centre"
+],
+"size.gigantic": [
+"elephantine"
+],
+"size.huge": [
+"brobdingnagian",
+"prodigious",
+"stupendous",
+"tremendous"
+],
+"size.large": [
+"ample",
+"goodly",
+"hefty",
+"largish"
+],
+"size.tiny": [
+"bittie",
+"teensy",
+"teentsy",
+"wee",
+"weensy",
+"weeny"
+],
+"sky.haunted": [
+"burial ground",
+"burial site",
+"burying ground",
+"memorial park",
+"necropolis"
+],
+"sky.underwater": [
+"ocean bottom",
+"sea bottom",
+"sea floor"
+],
+"theme.castle": [
+"donjon",
+"fastness"
+],
+"theme.desert": [
+"dust storm",
+"sirocco"
+],
+"theme.garden": [
+"hayfield",
+"rain forest"
+],
+"theme.lava": [
+"native sulfur",
+"native sulphur"
+],
+"theme.sky": [
+"dirigible"
+],
+"theme.wood": [
+"seaport"
+],
+"thing.bridge": [
+"lift bridge",
+"paseo"
+],
+"thing.caves": [
+"grot"
+],
+"thing.hill": [
+"hummock"
+],
+"thing.jump_pads": [
+"launch area",
+"launching pad"
+],
+"thing.mountains": [
+"mountain chain"
+],
+"thing.nooks": [
+"hideaway"
+],
+"thing.pit": [
+"swallow hole"
+],
+"thing.rails": [
+"balusters",
+"banister",
+"bannister",
+"safety rail"
+],
+"thing.stairs": [
+"stairway"
+],
+"thing.start": [
+"scratch line"
+],
+"thing.tower": [
+"beacon light",
+"pharos",
+"steeple"
+],
+"thing.valley": [
+"vale"
+],
+"thing.walls": [
+"bulwark"
+],
+"thing.water": [
+"fosse",
+"laguna",
+"lakeside"
+],
+"vert.high": [
+"multistoried",
+"soaring"
+]
+}
+}

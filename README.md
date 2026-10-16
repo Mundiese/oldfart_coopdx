@@ -1,34 +1,43 @@
-# Oldfart's Mod Menu v1.0.0
+# Oldfart's Mod Menu
 
-3 things first:
-- Many recent fixes are untested
-- This isn't fully polished. Expect bugs
-- I have to deliver the 3 custom arenas and the custom music in 2-3 weeks. I left them locally on my pc and I'm in vacation now
+**The host control mod menu for sm64coopdx. The host runs the show, and their friends get to join in.**
 
-This mod gives all power to the host.
-One mod that does it all. The all-in-one tool to experience SM64 in infinite new ways
+Change almost anything about Super Mario 64 and play it in more ways than you can count.
 
-You can do speedruns, green demon, randomizer, chaos mode, many game modes, 24/7 game mode servers, challenges by modifying contols/sticks/cam/movement, spawn and build stuff, cheats, player actions, chained/roped togheter mode, modify visuals and sound, moderate, give out ranks, edit save files and so much more
+**Make it hard.** Green Demon, cosmic clones, the randomizer, swapped buttons, a broken stick, a cursed camera, weird movement, players roped together and plenty more.
+
+**Make it a party.** 62 game modes, lobbies that run game modes around the clock, speedruns, and Forge mode: build and spawn things, scale the world, use cheats, hand out custom power-ups and more.
+
+**Or just make it janky.** Turn everything up and see what happens.
+
+**Share the power.** Give your friends a rank: crew, mod or co-host. Make it permanent, or just for one round or one evening. You decide what each rank is allowed to do, down to every single button. Troublemakers get muted, no kick needed.
+
+## New: Oldfart Studio
+
+Oldfart Studio is a small PC program that comes with the mod. You can use it to build your own levels:
+
+- **By hand**, block by block, with prefabs, textures, weather and time of day
+- **By describing it**, like "a desert canyon with a river and a bridge"
+- **By ticking a few boxes**, then letting it generate a level and rerolling until you like it
+
+Every level you export, into your own mod or into Oldfart's Mod Menu, gets its own course number starting at 16, right after the 15 vanilla courses. It also gets its own painting and its own star select. It's like DLC for SM64.
+
+You can also build maps for the Mod Menu's game modes, add your own music to your mod or to this one, and make paintings on their own.
+
+**Every copy of Oldfart's Mod Menu can be personalized.**
 
 ## Install
 
-Put the oldfart_coopdx folder in the mods directory inside your CoopDX folder, open CoopDX, host, tick the mod in the mods list, start
+1. Click **Code → Download ZIP** on this page and unpack it.
+2. Put the `oldfart` folder into your sm64coopdx `mods` folder. The folder has to be named `oldfart`.
+   - Windows: `%appdata%/sm64coopdx/mods/`
+   - Linux: `~/.local/share/sm64coopdx/mods/`
+   - macOS: `~/Library/Application Support/sm64coopdx/mods/`
+3. Tick **Oldfart's Mod Menu** in the mod list and host.
+4. For the ready to use packaged Oldfart Studio download, check the **Releases** section
 
-## How to open the menu
+---
 
-- Controller: dpad down
-- Kbm: on top right botton with mouse or /mm in chat
+**This mod is a work in progress. Expect bugs!**
 
-## Personalize your lobby
-
-Some things you can do first to personalize your lobby:
-
-Open the CoopDX menu (Start > R), open the mods's settings menu and check the pages to set up your own welcome message, rules and pinned messages
-
-In the welcome message you can put {player.name} to display and greet the player that joined and with {host.name} the host's name will be shown
-
-## Issues
-
-Please join the discord and report any issues you have with this mod:
-
-https://discord.gg/aXVjPzv7r
+Join our Discord: https://discord.gg/y66mkUjvY

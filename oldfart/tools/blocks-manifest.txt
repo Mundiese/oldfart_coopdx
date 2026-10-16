@@ -1,0 +1,430 @@
+template: tools/of_cube_template.bin
+long: 
+Stone | Light flagstone | assets-incoming/1006/textures/cobble/flaglight.png | - | key=stone1 | drawn=runtime
+Stone | Dark cobble | assets-incoming/1006/textures/cobble/cobbledark.png | - | key=stone2 | drawn=runtime
+Stone | Warm flagstone | assets-incoming/1006/textures/cobble/flagwarm.png | - | key=flagstone | drawn=runtime
+Stone | Mossy cliff | assets-incoming/1006/textures/nature/rockmossy.png | - | key=mossyrock | drawn=runtime
+Stone | Smooth stone | assets-incoming/1006/textures/cutstone/cutsmooth.png | - | key=greystone | drawn=runtime
+Stone | Frosted rock | assets-incoming/1006/textures/snowice/frostrock.png | - | drawn=runtime
+Brick | Castle base stone | assets-incoming/1006/textures/castle/castlebase.png | - | key=brickdarkgrey | drawn=runtime
+Brick | White brick | assets-incoming/1006/textures/brick/brwhite.png | - | key=bricklightgrey | drawn=runtime
+Brick | Sandstone brick | assets-incoming/1006/textures/desert/sandstonebrick.png | - | key=brickpyramid | drawn=runtime
+Brick | Terracotta tiles | assets-incoming/1006/textures/desert/terracotta.png | - | key=bricktwocolored | drawn=runtime
+Brick | Red brick | assets-incoming/1006/textures/brick/brred.png | - | drawn=runtime
+Brick | Light stone brick | assets-incoming/1006/textures/stonebrick/sblight.png | - | key=whitestonebrick | drawn=runtime
+Wood | Dark oak planks | assets-incoming/1006/textures/wood/wdoakdark.png | - | key=woodenplank1 | drawn=runtime
+Wood | Mahogany planks | assets-incoming/1006/textures/wood/wdmahogany.png | - | key=woodenplank2 | drawn=runtime
+Wood | Walnut planks | assets-incoming/1006/textures/wood/wdwalnut.png | - | key=darkplanks | drawn=runtime
+Wood | Dark boards | assets-incoming/1006/textures/wood/wdvertdark.png | - | key=shipplanks | drawn=runtime
+Wood | Pine planks | assets-incoming/1006/textures/wood/wdpine.png | - | key=hatchedwood | drawn=runtime
+Wood | Oak planks, mossy | assets-incoming/1006/textures/wood/wdoakmossy.png | - | key=greenplanks | drawn=runtime
+Wood | Crate | assets-incoming/1006/textures/wood/wdcrate.png | - | drawn=runtime
+Metal | Tread plate | assets-incoming/1006/textures/metal/treadplate.png | - | key=diamondplate | drawn=runtime
+Metal | Riveted steel | assets-incoming/1006/textures/metal/steelriveted.png | - | key=studdedsteel | drawn=runtime
+Metal | Rusty riveted plate | assets-incoming/1006/textures/metal/rustriveted.png | - | key=rivetedplate | drawn=runtime
+Earth and grass | Sand | assets-incoming/1006/textures/nature/sandbeach.png | - | drawn=runtime
+Earth and grass | Grass | assets-incoming/1006/textures/nature/grassmeadow.png | - | drawn=runtime
+Earth and grass | Dirt | assets-incoming/1006/textures/nature/dirtbrown.png | - | drawn=runtime
+Earth and grass | Grass block | assets-incoming/1006/textures/nature/grassmeadow.png + assets-incoming/1006/textures/transition/grassside.png + assets-incoming/1006/textures/nature/dirtbrown.png | - | drawn=runtime
+Earth and grass | Snow block | assets-incoming/1006/textures/snowice/snowfresh.png + assets-incoming/1006/textures/transition/snowside.png + assets-incoming/1006/textures/nature/dirtbrown.png | - | drawn=runtime
+Earth and grass | Sand block | assets-incoming/1006/textures/nature/sandbeach.png + assets-incoming/1006/textures/transition/sandside.png + assets-incoming/1006/textures/desert/sandstone.png | - | drawn=runtime
+Tiles | Checker | assets-incoming/1006/textures/special/checkerbw.png | - | key=tile1 | drawn=runtime
+Tiles | Stone tiles | assets-incoming/1006/textures/cutstone/cuttile.png | - | key=tile2 | drawn=runtime
+Tiles | Hex paving | assets-incoming/1006/textures/cobble/hexpave.png | - | drawn=runtime
+Tiles | White marble | assets-incoming/1006/textures/cutstone/marblewhite.png | - | drawn=runtime
+Special | Red carpet | assets-incoming/1006/textures/fabric/carpetred.png | - | key=carpet | drawn=runtime
+Special | Lava | assets-incoming/1006/textures/volcanic/lavaflow.png | - | drawn=runtime
+Special | Ice | assets-incoming/1006/textures/snowice/icesmooth.png | - | drawn=runtime
+Special | Glass block | assets-incoming/1006/textures/special/glassclear.png | - | drawn=runtime
+Special | Hazard stripes | assets-incoming/1006/textures/special/stripesyb.png | - | drawn=runtime
+Special | Water surface | assets-incoming/1006/textures/waterside/waterripple.png | - | shapes=plate | roles=water
+Stone | Dark stone brick | assets-incoming/1006/textures/stonebrick/sbdark.png | - | key=sbdark | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Stone brick, mossy | assets-incoming/1006/textures/stonebrick/sbgreymossy.png | - | key=sbgreymossy | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Stone brick, worn | assets-incoming/1006/textures/stonebrick/sbgreyworn.png | - | key=sbgreyworn | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Small stone brick | assets-incoming/1006/textures/stonebrick/sbsmall.png | - | key=sbsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Stone | Stone brick, cracked | assets-incoming/1006/textures/stonebrick/sbgreycracked.png | - | key=sbgreycracked | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Rustic stone brick | assets-incoming/1006/textures/stonebrick/sbrustic.png | - | key=sbrustic | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Stone brick | assets-incoming/1006/textures/stonebrick/sbgrey.png | - | key=sbgrey | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Large stone brick | assets-incoming/1006/textures/stonebrick/sblarge.png | - | key=sblarge | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Blue stone brick | assets-incoming/1006/textures/stonebrick/sbblue.png | - | key=sbblue | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Warm stone brick | assets-incoming/1006/textures/stonebrick/sbwarm.png | - | key=sbwarm | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Cut stone and marble | Black marble | assets-incoming/1006/textures/cutstone/marbleblack.png | - | key=marbleblack | shapes=blocks,ramps,stairs,walls,fences,columns | roles=floor,trim | drawn=runtime
+Cut stone and marble | Dark cut stone | assets-incoming/1006/textures/cutstone/cutdark.png | - | key=cutdark | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Cut stone and marble | Cornice band | assets-incoming/1006/textures/cutstone/cutband.png | - | key=cutband | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Cut stone and marble | Jade marble | assets-incoming/1006/textures/cutstone/marblegreen.png | - | key=marblegreen | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Cut stone and marble | Jade marble, calm | assets-incoming/1006/textures/cutstone/marblegreencalm.png | - | key=marblegreencalm | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Cut stone and marble | Stone panel | assets-incoming/1006/textures/cutstone/cutpanel.png | - | key=cutpanel | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Cut stone and marble | Fluted stone | assets-incoming/1006/textures/cutstone/cutfluted.png | - | key=cutfluted | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Cut stone and marble | Rose marble | assets-incoming/1006/textures/cutstone/marblerose.png | - | key=marblerose | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Cut stone and marble | Light cut stone | assets-incoming/1006/textures/cutstone/cutlight.png | - | key=cutlight | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Cut stone and marble | White marble, calm | assets-incoming/1006/textures/cutstone/marblewhitecalm.png | - | key=marblewhitecalm | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Stone | Cobble, mossy | assets-incoming/1006/textures/cobble/cobblemossy.png | - | key=cobblemossy | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=floor,path,wall | drawn=runtime
+Stone | Cobble, worn | assets-incoming/1006/textures/cobble/cobbleworn.png | - | key=cobbleworn | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Paths and edging | Kerb between grass | assets-incoming/1006/textures/cobble/curbgrass.png | - | key=curbgrass | shapes=blocks,ramps,wedges,stairs,walls,fences,columns | roles=path,trim | drawn=runtime
+Stone | Slate flagstone | assets-incoming/1006/textures/cobble/flagslate.png | - | key=flagslate | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Stone | Cobble | assets-incoming/1006/textures/cobble/cobble.png | - | key=cobble | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=floor,path,wall | drawn=runtime
+Paths and edging | Granite kerb | assets-incoming/1006/textures/cobble/curbgranite.png | - | key=curbgranite | shapes=blocks,ramps,wedges,stairs,walls,fences,columns | roles=path,trim | drawn=runtime
+Stone | Flagstone, mossy | assets-incoming/1006/textures/cobble/flagmossy.png | - | key=flagmossy | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Stone | Setts | assets-incoming/1006/textures/cobble/setts.png | - | key=setts | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Stone | Warm cobble | assets-incoming/1006/textures/cobble/cobblewarm.png | - | key=cobblewarm | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Stone | Flagstone, cracked | assets-incoming/1006/textures/cobble/flagcracked.png | - | key=flagcracked | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Stone | Dark castle stone | assets-incoming/1006/textures/castle/castledark.png | - | key=castledark | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Castle stone, mossy | assets-incoming/1006/textures/castle/castlemossy.png | - | key=castlemossy | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Castle stone, worn | assets-incoming/1006/textures/castle/castleworn.png | - | key=castleworn | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Castle stone | assets-incoming/1006/textures/castle/castlegrey.png | - | key=castlegrey | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Blue castle stone | assets-incoming/1006/textures/castle/castleblue.png | - | key=castleblue | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Sand castle stone | assets-incoming/1006/textures/castle/castlesand.png | - | key=castlesand | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Stone | Light castle stone | assets-incoming/1006/textures/castle/castlelight.png | - | key=castlelight | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Brick | Dark brick, cracked | assets-incoming/1006/textures/brick/brdarkcracked.png | - | key=brdarkcracked | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small dark brick, cracked | assets-incoming/1006/textures/brick/brdarkcrackedsmall.png | - | key=brdarkcrackedsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Dark red brick | assets-incoming/1006/textures/brick/brreddark.png | - | key=brreddark | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small dark red brick | assets-incoming/1006/textures/brick/brreddarksmall.png | - | key=brreddarksmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Dark brick | assets-incoming/1006/textures/brick/brdark.png | - | key=brdark | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small dark brick | assets-incoming/1006/textures/brick/brdarksmall.png | - | key=brdarksmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Brown brick | assets-incoming/1006/textures/brick/brbrown.png | - | key=brbrown | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small brown brick | assets-incoming/1006/textures/brick/brbrownsmall.png | - | key=brbrownsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Soldier course | assets-incoming/1006/textures/brick/brsoldier.png | - | key=brsoldier | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Clinker brick | assets-incoming/1006/textures/brick/brclinker.png | - | key=brclinker | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small clinker brick | assets-incoming/1006/textures/brick/brclinkersmall.png | - | key=brclinkersmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Red brick, mossy | assets-incoming/1006/textures/brick/brredmossy.png | - | key=brredmossy | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small red brick, mossy | assets-incoming/1006/textures/brick/brredmossysmall.png | - | key=brredmossysmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Red brick, cracked | assets-incoming/1006/textures/brick/brredcracked.png | - | key=brredcracked | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small red brick, cracked | assets-incoming/1006/textures/brick/brredcrackedsmall.png | - | key=brredcrackedsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Small brick | Small red brick | assets-incoming/1006/textures/brick/brredsmall.png | - | key=brredsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Red brick, worn | assets-incoming/1006/textures/brick/brredworn.png | - | key=brredworn | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small red brick, worn | assets-incoming/1006/textures/brick/brredwornsmall.png | - | key=brredwornsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Stack bond brick | assets-incoming/1006/textures/brick/brstack.png | - | key=brstack | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Small brick | Small stack bond brick | assets-incoming/1006/textures/brick/brstacksmall.png | - | key=brstacksmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Basketweave brick | assets-incoming/1006/textures/brick/brbasket.png | - | key=brbasket | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Brick | Light red brick | assets-incoming/1006/textures/brick/brredlight.png | - | key=brredlight | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small light red brick | assets-incoming/1006/textures/brick/brredlightsmall.png | - | key=brredlightsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Yellow brick, worn | assets-incoming/1006/textures/brick/bryellowworn.png | - | key=bryellowworn | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small yellow brick, worn | assets-incoming/1006/textures/brick/bryellowwornsmall.png | - | key=bryellowwornsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Yellow brick | assets-incoming/1006/textures/brick/bryellow.png | - | key=bryellow | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small yellow brick | assets-incoming/1006/textures/brick/bryellowsmall.png | - | key=bryellowsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Brick | Yellow basketweave | assets-incoming/1006/textures/brick/brbasketyellow.png | - | key=brbasketyellow | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Small brick | Small white brick | assets-incoming/1006/textures/brick/brwhitesmall.png | - | key=brwhitesmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Wood sets: pine, dark oak | Dark bark | assets-incoming/1006/textures/wood/barkdark.png | - | key=barkdark | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: pine, dark oak | Dark beam | assets-incoming/1006/textures/wood/beamdark.png | - | key=beamdark | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood | Dark wood panel | assets-incoming/1006/textures/wood/wdpaneldark.png | - | key=wdpaneldark | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: pine, dark oak | Pine bark | assets-incoming/1006/textures/wood/barkpine.png | - | key=barkpine | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: oak, birch | Oak bark | assets-incoming/1006/textures/wood/barkoak.png | - | key=barkoak | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood | Red boards | assets-incoming/1006/textures/wood/wdvertred.png | - | key=wdvertred | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Wood sets: oak, birch | Oak beam | assets-incoming/1006/textures/wood/beamoak.png | - | key=beamoak | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: pine, dark oak | Dark log end | assets-incoming/1006/textures/wood/logdarktop.png | - | key=logdarktop | shapes=none | roles=trim,nature
+Wood | Wood panel | assets-incoming/1006/textures/wood/wdpanel.png | - | key=wdpanel | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood | Oak planks, worn | assets-incoming/1006/textures/wood/wdoakworn.png | - | key=wdoakworn | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood | Vertical boards | assets-incoming/1006/textures/wood/wdvert.png | - | key=wdvert | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Wood sets: oak, birch | Oak planks | assets-incoming/1006/textures/wood/wdoak.png | - | key=wdoak | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood | Blue boards | assets-incoming/1006/textures/wood/wdvertblue.png | - | key=wdvertblue | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Wood | Deck | assets-incoming/1006/textures/wood/wddeck.png | - | key=wddeck | shapes=blocks,ramps,wedges,stairs,walls | roles=floor,wateredge,path | drawn=runtime
+Wood | Parquet | assets-incoming/1006/textures/wood/wdparquet.png | - | key=wdparquet | shapes=blocks,ramps,stairs,prism | roles=floor | drawn=runtime
+Wood sets: oak, birch | Oak log end | assets-incoming/1006/textures/wood/logoaktop.png | - | key=logoaktop | shapes=none | roles=trim,nature
+Wood | Driftwood | assets-incoming/1006/textures/wood/wddrift.png | - | key=wddrift | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall,wateredge | drawn=runtime
+Wood sets: pine, dark oak | Pine log end | assets-incoming/1006/textures/wood/logpinetop.png | - | key=logpinetop | shapes=none | roles=trim,nature
+Wood | Light oak planks | assets-incoming/1006/textures/wood/wdoaklight.png | - | key=wdoaklight | shapes=blocks,ramps,stairs,prism | roles=floor | drawn=runtime
+Wood sets: pine, dark oak | Pale beam | assets-incoming/1006/textures/wood/beampale.png | - | key=beampale | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: oak, birch | Birch log end | assets-incoming/1006/textures/wood/logbirchtop.png | - | key=logbirchtop | shapes=none | roles=trim,nature
+Wood sets: oak, birch | Birch planks | assets-incoming/1006/textures/wood/wdbirch.png | - | key=wdbirch | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: oak, birch | Birch bark | assets-incoming/1006/textures/wood/barkbirch.png | - | key=barkbirch | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Roofs of the world | Black shingles | assets-incoming/1006/textures/roof/rfshingleblack.png | - | key=rfshingleblack | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Dark slate roof | assets-incoming/1006/textures/roof/rfslatedark.png | - | key=rfslatedark | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Dark clay roof | assets-incoming/1006/textures/roof/rfclaydark.png | - | key=rfclaydark | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roofs of the world | Purple slate roof | assets-incoming/1006/textures/roof/rfslatepurple.png | - | key=rfslatepurple | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roofs of the world | Blue glazed tiles | assets-incoming/1006/textures/roof/rfglazedblue.png | - | key=rfglazedblue | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofeast | drawn=runtime
+Roofs of the world | Plum shingles | assets-incoming/1006/textures/roof/rfshinglepurple.png | - | key=rfshinglepurple | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roofs of the world | Red shingles | assets-incoming/1006/textures/roof/rfshinglered.png | - | key=rfshinglered | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roofs of the world | Green glazed tiles | assets-incoming/1006/textures/roof/rfglazedgreen.png | - | key=rfglazedgreen | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofeast | drawn=runtime
+Roof | Green shingles | assets-incoming/1006/textures/roof/rfshinglegreen.png | - | key=rfshinglegreen | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Slate roof | assets-incoming/1006/textures/roof/rfslate.png | - | key=rfslate | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roofs of the world | Fish-scale slate | assets-incoming/1006/textures/roof/rfslatefish.png | - | key=rfslatefish | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Slate roof, worn | assets-incoming/1006/textures/roof/rfslateworn.png | - | key=rfslateworn | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Old thatch | assets-incoming/1006/textures/roof/rfthatchdark.png | - | key=rfthatchdark | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Clay roof, mossy | assets-incoming/1006/textures/roof/rfclaymossy.png | - | key=rfclaymossy | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roof | Wood shingles | assets-incoming/1006/textures/roof/rfshingle.png | - | key=rfshingle | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Blue shingles | assets-incoming/1006/textures/roof/rfshingleblue.png | - | key=rfshingleblue | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Green slate roof | assets-incoming/1006/textures/roof/rfslategreen.png | - | key=rfslategreen | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Red tin roof | assets-incoming/1006/textures/roof/rftin.png | - | key=rftin | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=roof,wall,roofmetal | drawn=runtime
+Roof | Clay roof | assets-incoming/1006/textures/roof/rfclay.png | - | key=rfclay | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roofs of the world | Palm-leaf thatch | assets-incoming/1006/textures/roof/rfpalm.png | - | key=rfpalm | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,rooftropic | drawn=runtime
+Roof | Grey shingles | assets-incoming/1006/textures/roof/rfshinglegrey.png | - | key=rfshinglegrey | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Barrel tiles | assets-incoming/1006/textures/roof/rfbarrel.png | - | key=rfbarrel | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roof | Metal roof | assets-incoming/1006/textures/roof/rfmetal.png | - | key=rfmetal | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofmetal | drawn=runtime
+Roofs of the world | Pantiles | assets-incoming/1006/textures/roof/rfpantile.png | - | key=rfpantile | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roofs of the world | Copper roof, turning | assets-incoming/1006/textures/roof/rfverdigris.png | - | key=rfverdigris | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofmetal | drawn=runtime
+Roofs of the world | New copper roof | assets-incoming/1006/textures/roof/rfcopperbright.png | - | key=rfcopperbright | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofmetal | drawn=runtime
+Roofs of the world | Honey shingles | assets-incoming/1006/textures/roof/rfshinglehoney.png | - | key=rfshinglehoney | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roof | Orange clay roof | assets-incoming/1006/textures/roof/rfclayorange.png | - | key=rfclayorange | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofsouth | drawn=runtime
+Roof | Copper roof | assets-incoming/1006/textures/roof/rfcopper.png | - | key=rfcopper | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofmetal | drawn=runtime
+Roofs of the world | Dry palm thatch | assets-incoming/1006/textures/roof/rfpalmdry.png | - | key=rfpalmdry | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,rooftropic | drawn=runtime
+Roof | Thatch | assets-incoming/1006/textures/roof/rfthatch.png | - | key=rfthatch | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Roofs of the world | Reed thatch | assets-incoming/1006/textures/roof/rfthatchreed.png | - | key=rfthatchreed | shapes=blocks,ramps,wedges,stairs,outerstairs,innerstairs,prism | roles=roof,roofnorth | drawn=runtime
+Plants | Conifer leaves | assets-incoming/1006/textures/nature/leavesdark.png | - | key=leavesdark | shapes=blocks,ramps,wedges,stairs,prism | roles=nature | drawn=runtime
+Earth and grass | Dark loam | assets-incoming/1006/textures/nature/dirtdark.png | - | key=dirtdark | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Mud | assets-incoming/1006/textures/nature/mud.png | - | key=mud | shapes=blocks,ramps,wedges,stairs,walls | roles=nature,floor,wateredge | drawn=runtime
+Garden plants | Ferns in shade | assets-incoming/1006/textures/nature/ferndark.png | - | key=ferndark | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Earth and grass | Dark cliff | assets-incoming/1006/textures/nature/rockdark.png | - | key=rockdark | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall | drawn=runtime
+Plants | Hedge | assets-incoming/1006/textures/nature/hedge.png | - | key=hedge | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,foliage | drawn=runtime
+Garden plants | Red mushrooms | assets-incoming/1006/textures/nature/mushroomsred.png | - | key=mushroomsred | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Garden plants | Brown mushrooms | assets-incoming/1006/textures/nature/mushroomsbrown.png | - | key=mushroomsbrown | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Plants | Leaves | assets-incoming/1006/textures/nature/leaves.png | - | key=leaves | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Earth and grass | Red earth | assets-incoming/1006/textures/nature/dirtred.png | - | key=dirtred | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Garden plants | Ferns | assets-incoming/1006/textures/nature/fern.png | - | key=fern | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Garden plants | Purple flower bed | assets-incoming/1006/textures/nature/flowerspurple.png | - | key=flowerspurple | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Plants | Red flower bed | assets-incoming/1006/textures/nature/flowersred.png | - | key=flowersred | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Earth and grass | Moss | assets-incoming/1006/textures/nature/moss.png | - | key=moss | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Pebbly dirt | assets-incoming/1006/textures/nature/dirtpebbly.png | - | key=dirtpebbly | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor,path | drawn=runtime
+Plants | Blue flower bed | assets-incoming/1006/textures/nature/flowersblue.png | - | key=flowersblue | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Earth and grass | Lush grass | assets-incoming/1006/textures/nature/grasslush.png | - | key=grasslush | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Paths and edging | Red gravel | assets-incoming/1006/textures/nature/gravelred.png | - | key=gravelred | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor,path | drawn=runtime
+Earth and grass | Brown cliff | assets-incoming/1006/textures/nature/rockbrown.png | - | key=rockbrown | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall | drawn=runtime
+Garden plants | Orange flower bed | assets-incoming/1006/textures/nature/flowersorange.png | - | key=flowersorange | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Garden plants | Pink flower bed | assets-incoming/1006/textures/nature/flowerspink.png | - | key=flowerspink | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Plants | Autumn leaves | assets-incoming/1006/textures/nature/leavesautumn.png | - | key=leavesautumn | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Plants | White flower bed | assets-incoming/1006/textures/nature/flowerswhite.png | - | key=flowerswhite | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Garden plants | Yellow flower bed | assets-incoming/1006/textures/nature/flowersyellow.png | - | key=flowersyellow | shapes=blocks,ramps,wedges,stairs,walls,columns | roles=nature,accent | drawn=runtime
+Earth and grass | Clover | assets-incoming/1006/textures/nature/grassclover.png | - | key=grassclover | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Brown gravel | assets-incoming/1006/textures/nature/gravelbrown.png | - | key=gravelbrown | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor,path | drawn=runtime
+Garden plants | Moss cushions | assets-incoming/1006/textures/nature/mossbright.png | - | key=mossbright | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Grey cliff | assets-incoming/1006/textures/nature/rockgrey.png | - | key=rockgrey | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall | drawn=runtime
+Earth and grass | Cool grass | assets-incoming/1006/textures/nature/grassteal.png | - | key=grassteal | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Boulders | assets-incoming/1006/textures/nature/rockboulder.png | - | key=rockboulder | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall | drawn=runtime
+Plants | Grass with flowers | assets-incoming/1006/textures/nature/grassflowers.png | - | key=grassflowers | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | Gravel | assets-incoming/1006/textures/nature/gravel.png | - | key=gravel | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor,path | drawn=runtime
+Paths and edging | Gravel path with verges | assets-incoming/1006/textures/nature/gravelgrass.png | - | key=gravelgrass | shapes=blocks,ramps,wedges,stairs,prism | roles=path,floor | drawn=runtime
+Earth and grass | Cracked mud | assets-incoming/1006/textures/nature/mudcracked.png | - | key=mudcracked | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Paths and edging | Path with verges | assets-incoming/1006/textures/nature/pathgrass.png | - | key=pathgrass | shapes=blocks,ramps,wedges,stairs,prism | roles=path,floor | drawn=runtime
+Earth and grass | Gravel path | assets-incoming/1006/textures/nature/pathgravel.png | - | key=pathgravel | shapes=blocks,ramps,wedges,stairs,prism | roles=path,floor | drawn=runtime
+Paths and edging | Stepping stones | assets-incoming/1006/textures/nature/pathstepping.png | - | key=pathstepping | shapes=blocks,ramps,wedges,stairs,prism | roles=path,floor | drawn=runtime
+Earth and grass | Wet sand | assets-incoming/1006/textures/nature/sandwet.png | - | key=sandwet | shapes=blocks,ramps,wedges,stairs,walls | roles=nature,floor,wateredge | drawn=runtime
+Earth and grass | Trodden path | assets-incoming/1006/textures/nature/path.png | - | key=path | shapes=blocks,ramps,wedges,stairs,prism | roles=path,floor | drawn=runtime
+Earth and grass | Dry grass | assets-incoming/1006/textures/nature/grassdry.png | - | key=grassdry | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Paths and edging | White gravel | assets-incoming/1006/textures/nature/gravelwhite.png | - | key=gravelwhite | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor,path | drawn=runtime
+Earth and grass | Dune sand | assets-incoming/1006/textures/nature/sanddune.png | - | key=sanddune | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Earth and grass | White sand | assets-incoming/1006/textures/nature/sandwhite.png | - | key=sandwhite | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Snow and ice | Deep ice | assets-incoming/1006/textures/snowice/icedeep.png | - | key=icedeep | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Snow and ice | Cracked ice | assets-incoming/1006/textures/snowice/icecracked.png | - | key=icecracked | shapes=blocks,ramps,stairs,prism | roles=floor | drawn=runtime
+Snow and ice | Dirty snow | assets-incoming/1006/textures/snowice/snowdirty.png | - | key=snowdirty | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Snow and ice | Ice brick | assets-incoming/1006/textures/snowice/icebrick.png | - | key=icebrick | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Snow and ice | Packed snow | assets-incoming/1006/textures/snowice/snowpacked.png | - | key=snowpacked | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,path | drawn=runtime
+Snow and ice | Packed ice | assets-incoming/1006/textures/snowice/icepacked.png | - | key=icepacked | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Snow and ice | Snow brick | assets-incoming/1006/textures/snowice/snowbrick.png | - | key=snowbrick | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Snow and ice | Wind-blown snow | assets-incoming/1006/textures/snowice/snowridge.png | - | key=snowridge | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Snow and ice | Snow | assets-incoming/1006/textures/snowice/snowfresh.png | - | key=snowfresh | shapes=blocks,ramps,wedges,stairs,prism | roles=nature,floor | drawn=runtime
+Desert | Red sandstone | assets-incoming/1006/textures/desert/sandstonered.png | - | key=sandstonered | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Desert | Mud brick | assets-incoming/1006/textures/desert/adobebrick.png | - | key=adobebrick | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Desert | Blue glazed tile | assets-incoming/1006/textures/desert/tileglazedblue.png | - | key=tileglazedblue | shapes=blocks,ramps,stairs,walls,columns | roles=accent,floor | drawn=runtime
+Desert | Green glazed tile | assets-incoming/1006/textures/desert/tileglazedgreen.png | - | key=tileglazedgreen | shapes=blocks,ramps,stairs,walls,columns | roles=accent,floor | drawn=runtime
+Desert | Small terracotta tiles | assets-incoming/1006/textures/desert/terracottasmall.png | - | key=terracottasmall | shapes=blocks,ramps,stairs,prism | roles=floor | drawn=runtime
+Desert | Adobe, worn | assets-incoming/1006/textures/desert/adobeworn.png | - | key=adobeworn | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Desert | Carved sandstone | assets-incoming/1006/textures/desert/sandstonecarved.png | - | key=sandstonecarved | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim,accent | drawn=runtime
+Desert | Layered sandstone | assets-incoming/1006/textures/desert/sandstonelayered.png | - | key=sandstonelayered | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Desert | Adobe | assets-incoming/1006/textures/desert/adobe.png | - | key=adobe | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Desert | Sandstone | assets-incoming/1006/textures/desert/sandstone.png | - | key=sandstone | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Desert | Cut sandstone | assets-incoming/1006/textures/desert/sandstonecut.png | - | key=sandstonecut | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Desert | Whitewash | assets-incoming/1006/textures/desert/adobewhite.png | - | key=adobewhite | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Volcanic | Obsidian | assets-incoming/1006/textures/volcanic/obsidian.png | - | key=obsidian | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,accent | drawn=runtime
+Volcanic | Obsidian brick | assets-incoming/1006/textures/volcanic/obsidianbrick.png | - | key=obsidianbrick | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Volcanic | Scorched brick | assets-incoming/1006/textures/volcanic/brickscorched.png | - | key=brickscorched | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Small brick | Small scorched brick | assets-incoming/1006/textures/volcanic/brickscorchedsmall.png | - | key=brickscorchedsmall | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim | drawn=runtime
+Volcanic | Basalt brick | assets-incoming/1006/textures/volcanic/basaltbrick.png | - | key=basaltbrick | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Volcanic | Rough basalt | assets-incoming/1006/textures/volcanic/basaltrough.png | - | key=basaltrough | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall,floor | drawn=runtime
+Volcanic | Basalt columns | assets-incoming/1006/textures/volcanic/basaltcolumns.png | - | key=basaltcolumns | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Volcanic | Red volcanic rock | assets-incoming/1006/textures/volcanic/volcanicred.png | - | key=volcanicred | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=nature,wall | drawn=runtime
+Volcanic | Magma crust | assets-incoming/1006/textures/volcanic/magmacrust.png | - | key=magmacrust | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Volcanic | Basalt tops | assets-incoming/1006/textures/volcanic/basalttop.png | - | key=basalttop | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Volcanic | Ash | assets-incoming/1006/textures/volcanic/ash.png | - | key=ash | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature,path | drawn=runtime
+Water | Algae stone | assets-incoming/1006/textures/waterside/wetalgae.png | - | key=wetalgae | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wateredge,wall | drawn=runtime
+Water | Wet cobble | assets-incoming/1006/textures/waterside/wetstone.png | - | key=wetstone | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wateredge,floor,wall | drawn=runtime
+Water | Sea wall | assets-incoming/1006/textures/waterside/seawall.png | - | key=seawall | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wateredge,wall | drawn=runtime
+Water | Barnacle rock | assets-incoming/1006/textures/waterside/barnaclerock.png | - | key=barnaclerock | shapes=blocks,ramps,wedges,stairs,walls | roles=wateredge,nature | drawn=runtime
+Water | Teal mosaic | assets-incoming/1006/textures/waterside/mosaicteal.png | - | key=mosaicteal | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent,trim | drawn=runtime
+Water | Quay slabs | assets-incoming/1006/textures/waterside/quaystone.png | - | key=quaystone | shapes=blocks,ramps,wedges,stairs,walls | roles=floor,path,wateredge | drawn=runtime
+Water | Blue pool tiles | assets-incoming/1006/textures/waterside/poolblue.png | - | key=poolblue | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wateredge,wall | drawn=runtime
+Water | White pool tiles | assets-incoming/1006/textures/waterside/poolwhite.png | - | key=poolwhite | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wateredge,wall | drawn=runtime
+Metal | Dark iron | assets-incoming/1006/textures/metal/steeldark.png | - | key=steeldark | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Metal | Steel grate | assets-incoming/1006/textures/metal/steelgrate.png | - | key=steelgrate | shapes=blocks,ramps,stairs,walls,fences,columns | roles=floor,trim | drawn=runtime
+Metal | Rusty plate | assets-incoming/1006/textures/metal/rustplate.png | - | key=rustplate | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Metal | Vent | assets-incoming/1006/textures/metal/steelvent.png | - | key=steelvent | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=trim,accent | drawn=runtime
+Metal | Brass pipes | assets-incoming/1006/textures/metal/brasspipes.png | - | key=brasspipes | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Metal | Verdigris copper | assets-incoming/1006/textures/metal/copperpatina.png | - | key=copperpatina | shapes=blocks,ramps,wedges,stairs,walls,fences,columns,openings | roles=wall,roof,trim | drawn=runtime
+Metal | Copper plate | assets-incoming/1006/textures/metal/copperplate.png | - | key=copperplate | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim,accent | drawn=runtime
+Metal | Corrugated steel | assets-incoming/1006/textures/metal/steelcorrugated.png | - | key=steelcorrugated | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall | drawn=runtime
+Metal | Steel plate | assets-incoming/1006/textures/metal/steelplate.png | - | key=steelplate | shapes=blocks,ramps,stairs,walls,columns,openings | roles=wall,floor | drawn=runtime
+Metal | Gold plate | assets-incoming/1006/textures/metal/goldplate.png | - | key=goldplate | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent,trim | drawn=runtime
+Crystal | Star panel | assets-incoming/1006/textures/crystal/starpanel.png | - | key=starpanel | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Rune stone | assets-incoming/1006/textures/crystal/runestone.png | - | key=runestone | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=accent,wall | drawn=runtime
+Crystal | Enchanted brick | assets-incoming/1006/textures/crystal/brickenchanted.png | - | key=brickenchanted | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=accent,wall | drawn=runtime
+Crystal | Amethyst ore | assets-incoming/1006/textures/crystal/oreamethyst.png | - | key=oreamethyst | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Emerald ore | assets-incoming/1006/textures/crystal/oreemerald.png | - | key=oreemerald | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Gold ore | assets-incoming/1006/textures/crystal/oregold.png | - | key=oregold | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Ruby ore | assets-incoming/1006/textures/crystal/oreruby.png | - | key=oreruby | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Sapphire ore | assets-incoming/1006/textures/crystal/oresapphire.png | - | key=oresapphire | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Amethyst crystal | assets-incoming/1006/textures/crystal/crystalamethyst.png | - | key=crystalamethyst | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Blue crystal | assets-incoming/1006/textures/crystal/crystalblue.png | - | key=crystalblue | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Crystal | Rose crystal | assets-incoming/1006/textures/crystal/crystalrose.png | - | key=crystalrose | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Fabric | Purple carpet | assets-incoming/1006/textures/fabric/carpetpurple.png | - | key=carpetpurple | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Fabric | Blue carpet | assets-incoming/1006/textures/fabric/carpetblue.png | - | key=carpetblue | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Fabric | Green carpet | assets-incoming/1006/textures/fabric/carpetgreen.png | - | key=carpetgreen | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Fabric | Blue banner | assets-incoming/1006/textures/fabric/bannerblue.png | - | key=bannerblue | shapes=none | roles=accent,trim
+Fabric | Green banner | assets-incoming/1006/textures/fabric/bannergreen.png | - | key=bannergreen | shapes=none | roles=accent,trim
+Fabric | Red banner | assets-incoming/1006/textures/fabric/bannerred.png | - | key=bannerred | shapes=none | roles=accent,trim
+Fabric | Striped rug | assets-incoming/1006/textures/fabric/rugstriped.png | - | key=rugstriped | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Fabric | Felt | assets-incoming/1006/textures/fabric/wool.png | - | key=wool | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall,accent | drawn=runtime
+Fabric | Tent stripes | assets-incoming/1006/textures/fabric/canvasstripe.png | - | key=canvasstripe | shapes=blocks,ramps,wedges,walls,columns,stairs,outerstairs,innerstairs | roles=accent,roof | drawn=runtime
+Fabric | Quilted cloth | assets-incoming/1006/textures/fabric/quilt.png | - | key=quilt | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=accent,wall | drawn=runtime
+Fabric | Blue tent stripes | assets-incoming/1006/textures/fabric/canvasblue.png | - | key=canvasblue | shapes=blocks,ramps,wedges,walls,columns,stairs,outerstairs,innerstairs | roles=accent,roof | drawn=runtime
+Fabric | Yellow banner | assets-incoming/1006/textures/fabric/banneryellow.png | - | key=banneryellow | shapes=none | roles=accent,trim
+Special | Blue team panel | assets-incoming/1006/textures/special/teamblue.png | - | key=teamblue | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=accent,wall | drawn=runtime
+Special | Red team panel | assets-incoming/1006/textures/special/teamred.png | - | key=teamred | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=accent,wall | drawn=runtime
+Special | Arrow tile | assets-incoming/1006/textures/special/arrowtile.png | - | key=arrowtile | shapes=none | roles=accent,floor
+Special | Pink glow tile | assets-incoming/1006/textures/special/glowpink.png | - | key=glowpink | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Special | Blue glow tile | assets-incoming/1006/textures/special/glowblue.png | - | key=glowblue | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Special | Amber glow tile | assets-incoming/1006/textures/special/glowamber.png | - | key=glowamber | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Special | Green glow tile | assets-incoming/1006/textures/special/glowgreen.png | - | key=glowgreen | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Special | Target | assets-incoming/1006/textures/special/target.png | - | key=target | shapes=none | roles=accent
+Special | Red stripes | assets-incoming/1006/textures/special/stripesrw.png | - | key=stripesrw | shapes=blocks,walls,fences,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent,trim | drawn=runtime
+Special | Red checker | assets-incoming/1006/textures/special/checkerrw.png | - | key=checkerrw | shapes=blocks,ramps,stairs,walls,columns | roles=floor,accent | drawn=runtime
+Wood sets: cherry, bamboo | Cherry bark | assets-incoming/1006/textures/woodset/barkcherry.png | - | key=barkcherry | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove beam | assets-incoming/1006/textures/woodset/beammangrove.png | - | key=beammangrove | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: mystic, ghost | Mystic bark | assets-incoming/1006/textures/woodset/barkmystic.png | - | key=barkmystic | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove bark | assets-incoming/1006/textures/woodset/barkmangrove.png | - | key=barkmangrove | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove door, lower | assets-incoming/1006/textures/woodset/wdmangrovedoor.png | - | key=wdmangrovedoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove door, upper | assets-incoming/1006/textures/woodset/wdmangrovedoortop.png | - | key=wdmangrovedoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove planks | assets-incoming/1006/textures/woodset/wdmangrove.png | - | key=wdmangrove | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: pine, dark oak | Dark oak door, lower | assets-incoming/1006/textures/woodset/wddarkdoor.png | - | key=wddarkdoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle bark | assets-incoming/1006/textures/woodset/barkjungle.png | - | key=barkjungle | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: mystic, ghost | Mystic beam | assets-incoming/1006/textures/woodset/beammystic.png | - | key=beammystic | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: pine, dark oak | Dark oak door, upper | assets-incoming/1006/textures/woodset/wddarkdoortop.png | - | key=wddarkdoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove log end | assets-incoming/1006/textures/woodset/logmangrovetop.png | - | key=logmangrovetop | shapes=none | roles=trim,nature
+Wood sets: jungle, acacia, mangrove | Stripped mangrove wood | assets-incoming/1006/textures/woodset/stripmangrove.png | - | key=stripmangrove | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: mystic, ghost | Mystic door, lower | assets-incoming/1006/textures/woodset/wdmysticdoor.png | - | key=wdmysticdoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped mangrove log end | assets-incoming/1006/textures/woodset/logstripmangrovetop.png | - | key=logstripmangrovetop | shapes=none | roles=trim,nature
+Wood sets: pine, dark oak | Stripped dark oak wood | assets-incoming/1006/textures/woodset/stripdark.png | - | key=stripdark | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: mystic, ghost | Mystic door, upper | assets-incoming/1006/textures/woodset/wdmysticdoortop.png | - | key=wdmysticdoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: pine, dark oak | Stripped dark oak log end | assets-incoming/1006/textures/woodset/logstripdarktop.png | - | key=logstripdarktop | shapes=none | roles=trim,nature
+Wood sets: mystic, ghost | Mystic planks | assets-incoming/1006/textures/woodset/wdmystic.png | - | key=wdmystic | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia bark | assets-incoming/1006/textures/woodset/barkacacia.png | - | key=barkacacia | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia beam | assets-incoming/1006/textures/woodset/beamacacia.png | - | key=beamacacia | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle beam | assets-incoming/1006/textures/woodset/beamjungle.png | - | key=beamjungle | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: cherry, bamboo | Bamboo stalks | assets-incoming/1006/textures/woodset/barkbamboo.png | - | key=barkbamboo | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: cherry, bamboo | Bamboo bundle end | assets-incoming/1006/textures/woodset/logbambootop.png | - | key=logbambootop | shapes=none | roles=trim,nature
+Wood sets: mystic, ghost | Mystic log end | assets-incoming/1006/textures/woodset/logmystictop.png | - | key=logmystictop | shapes=none | roles=trim,nature
+Wood sets: jungle, acacia, mangrove | Jungle door, upper | assets-incoming/1006/textures/woodset/wdjungledoortop.png | - | key=wdjungledoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: oak, birch | Oak door, upper | assets-incoming/1006/textures/woodset/wdoakdoortop.png | - | key=wdoakdoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia door, lower | assets-incoming/1006/textures/woodset/wdacaciadoor.png | - | key=wdacaciadoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: mystic, ghost | Stripped mystic wood | assets-incoming/1006/textures/woodset/stripmystic.png | - | key=stripmystic | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia door, upper | assets-incoming/1006/textures/woodset/wdacaciadoortop.png | - | key=wdacaciadoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: oak, birch | Oak door, lower | assets-incoming/1006/textures/woodset/wdoakdoor.png | - | key=wdoakdoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle door, lower | assets-incoming/1006/textures/woodset/wdjungledoor.png | - | key=wdjungledoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: mystic, ghost | Stripped mystic log end | assets-incoming/1006/textures/woodset/logstripmystictop.png | - | key=logstripmystictop | shapes=none | roles=trim,nature
+Wood sets: jungle, acacia, mangrove | Acacia planks | assets-incoming/1006/textures/woodset/wdacacia.png | - | key=wdacacia | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle planks | assets-incoming/1006/textures/woodset/wdjungle.png | - | key=wdjungle | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia log end | assets-incoming/1006/textures/woodset/logacaciatop.png | - | key=logacaciatop | shapes=none | roles=trim,nature
+Wood sets: cherry, bamboo | Bamboo beam | assets-incoming/1006/textures/woodset/beambamboo.png | - | key=beambamboo | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle log end | assets-incoming/1006/textures/woodset/logjungletop.png | - | key=logjungletop | shapes=none | roles=trim,nature
+Wood sets: jungle, acacia, mangrove | Stripped acacia wood | assets-incoming/1006/textures/woodset/stripacacia.png | - | key=stripacacia | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped acacia log end | assets-incoming/1006/textures/woodset/logstripacaciatop.png | - | key=logstripacaciatop | shapes=none | roles=trim,nature
+Wood sets: jungle, acacia, mangrove | Stripped jungle wood | assets-incoming/1006/textures/woodset/stripjungle.png | - | key=stripjungle | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: oak, birch | Stripped oak wood | assets-incoming/1006/textures/woodset/stripoak.png | - | key=stripoak | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: cherry, bamboo | Bamboo door, upper | assets-incoming/1006/textures/woodset/wdbamboodoortop.png | - | key=wdbamboodoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped jungle log end | assets-incoming/1006/textures/woodset/logstripjungletop.png | - | key=logstripjungletop | shapes=none | roles=trim,nature
+Wood sets: oak, birch | Stripped oak log end | assets-incoming/1006/textures/woodset/logstripoaktop.png | - | key=logstripoaktop | shapes=none | roles=trim,nature
+Wood sets: cherry, bamboo | Bamboo door, lower | assets-incoming/1006/textures/woodset/wdbamboodoor.png | - | key=wdbamboodoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: pine, dark oak | Pine door, lower | assets-incoming/1006/textures/woodset/wdpinedoor.png | - | key=wdpinedoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: pine, dark oak | Pine door, upper | assets-incoming/1006/textures/woodset/wdpinedoortop.png | - | key=wdpinedoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: cherry, bamboo | Cherry beam | assets-incoming/1006/textures/woodset/beamcherry.png | - | key=beamcherry | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: mystic, ghost | Ghost bark | assets-incoming/1006/textures/woodset/barkghost.png | - | key=barkghost | shapes=blocks,ramps,wedges,stairs,walls,columns,openings | roles=wall,nature | drawn=runtime
+Wood sets: pine, dark oak | Stripped pine wood | assets-incoming/1006/textures/woodset/strippine.png | - | key=strippine | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: cherry, bamboo | Bamboo planks | assets-incoming/1006/textures/woodset/wdbamboo.png | - | key=wdbamboo | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: cherry, bamboo | Cherry door, upper | assets-incoming/1006/textures/woodset/wdcherrydoortop.png | - | key=wdcherrydoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: cherry, bamboo | Stripped bamboo bundle end | assets-incoming/1006/textures/woodset/logstripbambootop.png | - | key=logstripbambootop | shapes=none | roles=trim,nature
+Wood sets: pine, dark oak | Stripped pine log end | assets-incoming/1006/textures/woodset/logstrippinetop.png | - | key=logstrippinetop | shapes=none | roles=trim,nature
+Wood sets: cherry, bamboo | Cherry door, lower | assets-incoming/1006/textures/woodset/wdcherrydoor.png | - | key=wdcherrydoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: cherry, bamboo | Cherry log end | assets-incoming/1006/textures/woodset/logcherrytop.png | - | key=logcherrytop | shapes=none | roles=trim,nature
+Wood sets: cherry, bamboo | Stripped bamboo stalks | assets-incoming/1006/textures/woodset/stripbamboo.png | - | key=stripbamboo | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: cherry, bamboo | Cherry planks | assets-incoming/1006/textures/woodset/wdcherry.png | - | key=wdcherry | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: oak, birch | Birch door, upper | assets-incoming/1006/textures/woodset/wdbirchdoortop.png | - | key=wdbirchdoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: mystic, ghost | Ghost beam | assets-incoming/1006/textures/woodset/beamghost.png | - | key=beamghost | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: cherry, bamboo | Stripped cherry wood | assets-incoming/1006/textures/woodset/stripcherry.png | - | key=stripcherry | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: oak, birch | Birch door, lower | assets-incoming/1006/textures/woodset/wdbirchdoor.png | - | key=wdbirchdoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: oak, birch | Birch beam | assets-incoming/1006/textures/woodset/beambirch.png | - | key=beambirch | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=trim,wall | drawn=runtime
+Wood sets: cherry, bamboo | Stripped cherry log end | assets-incoming/1006/textures/woodset/logstripcherrytop.png | - | key=logstripcherrytop | shapes=none | roles=trim,nature
+Wood sets: mystic, ghost | Ghost door, upper | assets-incoming/1006/textures/woodset/wdghostdoortop.png | - | key=wdghostdoortop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Wood sets: mystic, ghost | Ghost door, lower | assets-incoming/1006/textures/woodset/wdghostdoor.png | - | key=wdghostdoor | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Wood sets: oak, birch | Stripped birch wood | assets-incoming/1006/textures/woodset/stripbirch.png | - | key=stripbirch | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: mystic, ghost | Ghost planks | assets-incoming/1006/textures/woodset/wdghost.png | - | key=wdghost | shapes=blocks,ramps,stairs,walls,columns,openings | roles=floor,wall | drawn=runtime
+Wood sets: mystic, ghost | Ghost log end | assets-incoming/1006/textures/woodset/logghosttop.png | - | key=logghosttop | shapes=none | roles=trim,nature
+Wood sets: oak, birch | Stripped birch log end | assets-incoming/1006/textures/woodset/logstripbirchtop.png | - | key=logstripbirchtop | shapes=none | roles=trim,nature
+Wood sets: mystic, ghost | Stripped ghost wood | assets-incoming/1006/textures/woodset/stripghost.png | - | key=stripghost | shapes=blocks,stairs,walls,fences,columns,openings,slope,outer,inner | roles=wall,trim | drawn=runtime
+Wood sets: mystic, ghost | Stripped ghost log end | assets-incoming/1006/textures/woodset/logstripghosttop.png | - | key=logstripghosttop | shapes=none | roles=trim,nature
+Windows and doors | Studded door, lower | assets-incoming/1006/textures/facade/doorstudded.png | - | key=doorstudded | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Windows and doors | Double door, lower | assets-incoming/1006/textures/facade/doordouble.png | - | key=doordouble | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Windows and doors | Double door, upper | assets-incoming/1006/textures/facade/doordoubletop.png | - | key=doordoubletop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Windows and doors | Iron balcony rail | assets-incoming/1006/textures/facade/railiron.png | - | key=railiron | shapes=blocks,walls | roles=facade,rail | drawn=runtime
+Windows and doors | Arched window | assets-incoming/1006/textures/facade/winarched.png | - | key=winarched | shapes=blocks,walls,openings | roles=facade,window | drawn=runtime
+Windows and doors | Studded door, upper | assets-incoming/1006/textures/facade/doorstuddedtop.png | - | key=doorstuddedtop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Windows and doors | Wooden balcony rail | assets-incoming/1006/textures/facade/railwood.png | - | key=railwood | shapes=blocks,walls | roles=facade,rail | drawn=runtime
+Windows and doors | Arched door, lower | assets-incoming/1006/textures/facade/doorarched.png | - | key=doorarched | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Windows and doors | Shop front, green awning | assets-incoming/1006/textures/facade/shopgreen.png | - | key=shopgreen | shapes=blocks,walls | roles=facade,shop | drawn=runtime
+Windows and doors | Shop front, red awning | assets-incoming/1006/textures/facade/shopred.png | - | key=shopred | shapes=blocks,walls | roles=facade,shop | drawn=runtime
+Windows and doors | Shop window | assets-incoming/1006/textures/facade/winshop.png | - | key=winshop | shapes=blocks,walls,openings | roles=facade,window,shop | drawn=runtime
+Windows and doors | Arched door, upper | assets-incoming/1006/textures/facade/doorarchedtop.png | - | key=doorarchedtop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Facades | Half-timber, herringbone | assets-incoming/1006/textures/facade/timberherring.png | - | key=timberherring | shapes=blocks,walls | roles=facade,timber | drawn=runtime
+Facades | Half-timber, braces | assets-incoming/1006/textures/facade/timberbrace.png | - | key=timberbrace | shapes=blocks,walls | roles=facade,timber | drawn=runtime
+Facades | Half-timber, cross | assets-incoming/1006/textures/facade/timbercross.png | - | key=timbercross | shapes=blocks,walls | roles=facade,timber | drawn=runtime
+Windows and doors | Plank door, lower | assets-incoming/1006/textures/facade/doorplank.png | - | key=doorplank | shapes=blocks,walls | roles=facade,door | drawn=runtime
+Windows and doors | Red shutters | assets-incoming/1006/textures/facade/shutred.png | - | key=shutred | shapes=blocks,walls | roles=facade,shutter | drawn=runtime
+Facades | Half-timber, posts | assets-incoming/1006/textures/facade/timbergrid.png | - | key=timbergrid | shapes=blocks,walls | roles=facade,timber | drawn=runtime
+Windows and doors | Stone window | assets-incoming/1006/textures/facade/winstone.png | - | key=winstone | shapes=blocks,walls,openings | roles=facade,window | drawn=runtime
+Windows and doors | Plank door, upper | assets-incoming/1006/textures/facade/doorplanktop.png | - | key=doorplanktop | shapes=blocks,walls | roles=facade,door,doortop | drawn=runtime
+Windows and doors | Green shutters | assets-incoming/1006/textures/facade/shutgreen.png | - | key=shutgreen | shapes=blocks,walls | roles=facade,shutter | drawn=runtime
+Windows and doors | Round window | assets-incoming/1006/textures/facade/winround.png | - | key=winround | shapes=blocks,walls,openings | roles=facade,window | drawn=runtime
+Facades | Ochre plaster | assets-incoming/1006/textures/facade/plasterochre.png | - | key=plasterochre | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Windows and doors | Cottage window | assets-incoming/1006/textures/facade/wincottage.png | - | key=wincottage | shapes=blocks,walls,openings | roles=facade,window | drawn=runtime
+Windows and doors | Window with shutters | assets-incoming/1006/textures/facade/winshutter.png | - | key=winshutter | shapes=blocks,walls,openings | roles=facade,window | drawn=runtime
+Facades | Sage plaster | assets-incoming/1006/textures/facade/plastersage.png | - | key=plastersage | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Facades | Pink plaster | assets-incoming/1006/textures/facade/plasterpink.png | - | key=plasterpink | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Facades | Cream plaster | assets-incoming/1006/textures/facade/plastercream.png | - | key=plastercream | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Facades | White plaster | assets-incoming/1006/textures/facade/plasterwhite.png | - | key=plasterwhite | shapes=blocks,stairs,walls,columns,openings,slope,outer,inner | roles=wall,plaster | drawn=runtime
+Market and props | Purple market cloth | assets-incoming/1006/textures/decor/clothpurple.png | - | key=clothpurple | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Blue market cloth | assets-incoming/1006/textures/decor/clothblue.png | - | key=clothblue | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Red market cloth | assets-incoming/1006/textures/decor/clothred.png | - | key=clothred | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Dark crate | assets-incoming/1006/textures/decor/cratedark.png | - | key=cratedark | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Painted sign board | assets-incoming/1006/textures/decor/signpainted.png | - | key=signpainted | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Green market cloth | assets-incoming/1006/textures/decor/clothgreen.png | - | key=clothgreen | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Barrel head | assets-incoming/1006/textures/decor/barreltop.png | - | key=barreltop | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Barrel side | assets-incoming/1006/textures/decor/barrelside.png | - | key=barrelside | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Slatted crate | assets-incoming/1006/textures/decor/crateslat.png | - | key=crateslat | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Sign board | assets-incoming/1006/textures/decor/signboard.png | - | key=signboard | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Lantern glass, cool | assets-incoming/1006/textures/decor/lanterncool.png | - | key=lanterncool | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Yellow market cloth | assets-incoming/1006/textures/decor/clothyellow.png | - | key=clothyellow | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Market and props | Lantern glass, warm | assets-incoming/1006/textures/decor/lanternwarm.png | - | key=lanternwarm | shapes=blocks,walls,columns,slope,outer,inner,stairs,outerstairs,innerstairs | roles=accent | drawn=runtime
+Earth and grass | Grass cliff block | assets-incoming/1006/textures/nature/grassmeadow.png + assets-incoming/1006/textures/transition/grasscliffside.png + assets-incoming/1006/textures/nature/rockgrey.png | - | key=grasscliffcube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Earth and grass | Dry grass block | assets-incoming/1006/textures/nature/grassdry.png + assets-incoming/1006/textures/transition/grassdryside.png + assets-incoming/1006/textures/nature/dirtbrown.png | - | key=grassdrycube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Earth and grass | Lush grass block | assets-incoming/1006/textures/nature/grasslush.png + assets-incoming/1006/textures/transition/grasslushside.png + assets-incoming/1006/textures/nature/dirtdark.png | - | key=grasslushcube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Earth and grass | Moss block | assets-incoming/1006/textures/nature/moss.png + assets-incoming/1006/textures/transition/mossside.png + assets-incoming/1006/textures/nature/rockgrey.png | - | key=mosscube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Earth and grass | Sandy dirt block | assets-incoming/1006/textures/nature/sandbeach.png + assets-incoming/1006/textures/transition/sanddirtside.png + assets-incoming/1006/textures/nature/dirtbrown.png | - | key=sanddirtcube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Snow and ice | Snow cliff block | assets-incoming/1006/textures/snowice/snowfresh.png + assets-incoming/1006/textures/transition/snowcliffside.png + assets-incoming/1006/textures/nature/rockgrey.png | - | key=snowcliffcube | shapes=blocks,ramps,wedges,stairs,prism | roles=floor,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Acacia log | assets-incoming/1006/textures/woodset/logacaciatop.png + assets-incoming/1006/textures/woodset/barkacacia.png + assets-incoming/1006/textures/woodset/logacaciatop.png | - | key=acacialog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: cherry, bamboo | Bamboo bundle | assets-incoming/1006/textures/woodset/logbambootop.png + assets-incoming/1006/textures/woodset/barkbamboo.png + assets-incoming/1006/textures/woodset/logbambootop.png | - | key=bamboolog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: oak, birch | Birch log | assets-incoming/1006/textures/wood/logbirchtop.png + assets-incoming/1006/textures/wood/barkbirch.png + assets-incoming/1006/textures/wood/logbirchtop.png | - | key=birchlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: cherry, bamboo | Cherry log | assets-incoming/1006/textures/woodset/logcherrytop.png + assets-incoming/1006/textures/woodset/barkcherry.png + assets-incoming/1006/textures/woodset/logcherrytop.png | - | key=cherrylog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: pine, dark oak | Dark log | assets-incoming/1006/textures/wood/logdarktop.png + assets-incoming/1006/textures/wood/barkdark.png + assets-incoming/1006/textures/wood/logdarktop.png | - | key=darklog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: mystic, ghost | Ghost log | assets-incoming/1006/textures/woodset/logghosttop.png + assets-incoming/1006/textures/woodset/barkghost.png + assets-incoming/1006/textures/woodset/logghosttop.png | - | key=ghostlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Jungle log | assets-incoming/1006/textures/woodset/logjungletop.png + assets-incoming/1006/textures/woodset/barkjungle.png + assets-incoming/1006/textures/woodset/logjungletop.png | - | key=junglelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Mangrove log | assets-incoming/1006/textures/woodset/logmangrovetop.png + assets-incoming/1006/textures/woodset/barkmangrove.png + assets-incoming/1006/textures/woodset/logmangrovetop.png | - | key=mangrovelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: mystic, ghost | Mystic log | assets-incoming/1006/textures/woodset/logmystictop.png + assets-incoming/1006/textures/woodset/barkmystic.png + assets-incoming/1006/textures/woodset/logmystictop.png | - | key=mysticlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: oak, birch | Oak log | assets-incoming/1006/textures/wood/logoaktop.png + assets-incoming/1006/textures/wood/barkoak.png + assets-incoming/1006/textures/wood/logoaktop.png | - | key=oaklog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: pine, dark oak | Pine log | assets-incoming/1006/textures/wood/logpinetop.png + assets-incoming/1006/textures/wood/barkpine.png + assets-incoming/1006/textures/wood/logpinetop.png | - | key=pinelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped acacia log | assets-incoming/1006/textures/woodset/logstripacaciatop.png + assets-incoming/1006/textures/woodset/stripacacia.png + assets-incoming/1006/textures/woodset/logstripacaciatop.png | - | key=stripacacialog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: cherry, bamboo | Stripped bamboo bundle | assets-incoming/1006/textures/woodset/logstripbambootop.png + assets-incoming/1006/textures/woodset/stripbamboo.png + assets-incoming/1006/textures/woodset/logstripbambootop.png | - | key=stripbamboolog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: oak, birch | Stripped birch log | assets-incoming/1006/textures/woodset/logstripbirchtop.png + assets-incoming/1006/textures/woodset/stripbirch.png + assets-incoming/1006/textures/woodset/logstripbirchtop.png | - | key=stripbirchlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: cherry, bamboo | Stripped cherry log | assets-incoming/1006/textures/woodset/logstripcherrytop.png + assets-incoming/1006/textures/woodset/stripcherry.png + assets-incoming/1006/textures/woodset/logstripcherrytop.png | - | key=stripcherrylog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: pine, dark oak | Stripped dark oak log | assets-incoming/1006/textures/woodset/logstripdarktop.png + assets-incoming/1006/textures/woodset/stripdark.png + assets-incoming/1006/textures/woodset/logstripdarktop.png | - | key=stripdarklog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: mystic, ghost | Stripped ghost log | assets-incoming/1006/textures/woodset/logstripghosttop.png + assets-incoming/1006/textures/woodset/stripghost.png + assets-incoming/1006/textures/woodset/logstripghosttop.png | - | key=stripghostlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped jungle log | assets-incoming/1006/textures/woodset/logstripjungletop.png + assets-incoming/1006/textures/woodset/stripjungle.png + assets-incoming/1006/textures/woodset/logstripjungletop.png | - | key=stripjunglelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: jungle, acacia, mangrove | Stripped mangrove log | assets-incoming/1006/textures/woodset/logstripmangrovetop.png + assets-incoming/1006/textures/woodset/stripmangrove.png + assets-incoming/1006/textures/woodset/logstripmangrovetop.png | - | key=stripmangrovelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: mystic, ghost | Stripped mystic log | assets-incoming/1006/textures/woodset/logstripmystictop.png + assets-incoming/1006/textures/woodset/stripmystic.png + assets-incoming/1006/textures/woodset/logstripmystictop.png | - | key=stripmysticlog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: oak, birch | Stripped oak log | assets-incoming/1006/textures/woodset/logstripoaktop.png + assets-incoming/1006/textures/woodset/stripoak.png + assets-incoming/1006/textures/woodset/logstripoaktop.png | - | key=stripoaklog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime
+Wood sets: pine, dark oak | Stripped pine log | assets-incoming/1006/textures/woodset/logstrippinetop.png + assets-incoming/1006/textures/woodset/strippine.png + assets-incoming/1006/textures/woodset/logstrippinetop.png | - | key=strippinelog | shapes=blocks,walls,columns | roles=wall,trim,nature | drawn=runtime

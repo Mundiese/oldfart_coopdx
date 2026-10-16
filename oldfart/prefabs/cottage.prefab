@@ -1,0 +1,42 @@
+{
+  "name": "Cottage",
+  "tags": [
+    "house",
+    "village"
+  ],
+  "roles": {
+    "wall": "redbrick",
+    "roof": "darkplanks",
+    "floor": "woodenplank1"
+  },
+  "connectors": [
+    {
+      "at": [
+        1,
+        0,
+        0
+      ],
+      "face": "-z",
+      "kind": "door"
+    }
+  ],
+  "pieces": [
+    [0, 0, 0, "cube", "@wall", 0, false, [1, 1, 3]],
+    [2, 0, 0, "cube", "@wall", 0, false, [1, 1, 3]],
+    [1, 0, 2, "cube", "@wall", 0, false, [1, 2, 1]],
+    [0, 1, 0, "cube", "@wall", 0, false, [3, 1, 1]],
+    [0, 1, 2, "cube", "@wall", 0, false],
+    [2, 1, 2, "cube", "@wall", 0, false],
+    [0, 2, 1, "cube", "@wall", 0, false, [3, 1, 1]],
+    [1, 0, 1, "plate", "@floor", 0, false],
+    [0, 2, 0, "slope", "@roof", 2, false],
+    [0, 2, 2, "slope", "@roof", 0, false],
+    [0, 3, 1, "ridge", "@roof", 0, false],
+    [1, 2, 0, "slope", "@roof", 2, false],
+    [1, 2, 2, "slope", "@roof", 0, false],
+    [1, 3, 1, "ridge", "@roof", 0, false],
+    [2, 2, 0, "slope", "@roof", 2, false],
+    [2, 2, 2, "slope", "@roof", 0, false],
+    [2, 3, 1, "ridge", "@roof", 0, false]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Market stall",
+  "tags": [
+    "village",
+    "cover"
+  ],
+  "roles": {
+    "post": "woodenplank1",
+    "roof": "greenplanks",
+    "counter": "crate"
+  },
+  "connectors": [
+    {
+      "at": [
+        1,
+        0,
+        0
+      ],
+      "face": "-z",
+      "kind": "path"
+    }
+  ],
+  "pieces": [
+    [0, 1, 0, "plate", "@roof", 0, false, [3, 1, 2]],
+    [1, 0, 0, "cube", "@counter", 0, false],
+    [0, 0, 0, "pole", "@post", 0, false],
+    [0, 0, 1, "pole", "@post", 0, false],
+    [2, 0, 0, "pole", "@post", 0, false],
+    [2, 0, 1, "pole", "@post", 0, false]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Footbridge",
+  "tags": [
+    "bridge",
+    "path"
+  ],
+  "roles": {
+    "path": "woodenplank1",
+    "trim": "woodenplank2"
+  },
+  "connectors": [
+    {
+      "at": [
+        0,
+        0,
+        1
+      ],
+      "face": "-x",
+      "kind": "path"
+    },
+    {
+      "at": [
+        6,
+        0,
+        1
+      ],
+      "face": "+x",
+      "kind": "path"
+    }
+  ],
+  "pieces": [
+    [1, 0, 0, "cube", "@path", 0, false, [5, 1, 3]],
+    [0, 0, 1, "slope", "@path", 3, false],
+    [6, 0, 1, "slope", "@path", 1, false],
+    [1, 1, 0, "fence", "@trim", 0, false],
+    [1, 1, 2, "fence", "@trim", 0, false],
+    [2, 1, 0, "fence", "@trim", 0, false],
+    [2, 1, 2, "fence", "@trim", 0, false],
+    [3, 1, 0, "fence", "@trim", 0, false],
+    [3, 1, 2, "fence", "@trim", 0, false],
+    [4, 1, 0, "fence", "@trim", 0, false],
+    [4, 1, 2, "fence", "@trim", 0, false],
+    [5, 1, 0, "fence", "@trim", 0, false],
+    [5, 1, 2, "fence", "@trim", 0, false]
+  ]
+}

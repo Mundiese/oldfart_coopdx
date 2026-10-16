@@ -1,0 +1,956 @@
+{
+ "_walk": {
+  "cells": 1380,
+  "reached": 1204
+ },
+ "budget": 120,
+ "family": "shooter",
+ "gameplay": {
+  "answered": [],
+  "categories": {},
+  "descriptor": {
+   "challenge": 0.0,
+   "items": 0.0,
+   "star_kinds": 0
+  },
+  "grades": [],
+  "items": 0,
+  "movers": 0,
+  "patterns": [],
+  "pieces": 0,
+  "skipped": [],
+  "stars": []
+ },
+ "generator": {
+  "candidate": 3,
+  "family": "shooter",
+  "modules": {
+   "centre": "plaza",
+   "jog": false,
+   "lanes": "0/0/0",
+   "skeleton": "three_lane"
+  },
+  "params": {
+   "B": 1900,
+   "Dh": 0,
+   "G": 500,
+   "I": 2000,
+   "Lw": 800,
+   "Ph": 0,
+   "across": 4800,
+   "centre": "plaza",
+   "corner": "-",
+   "high": 1600,
+   "lane": "three lanes",
+   "shield": "spawn shields",
+   "skeleton": "three_lane",
+   "stairs": false,
+   "step": 600
+  },
+  "quality": 0.6921,
+  "score_source": "tools/mapgen/metrics",
+  "seed": 11,
+  "version": "mapgen 2"
+ },
+ "key": "generated",
+ "level": "empty2",
+ "look": {
+  "light": {
+   "dir": [
+    -0.9,
+    0.35,
+    -0.1
+   ],
+   "name": "late, from the west"
+  },
+  "music": "SEQ_LEVEL_BOSS_KOOPA_FINAL",
+  "sky": "BACKGROUND_FLAMING_SKY"
+ },
+ "pieces": [
+  {
+   "d": 1900,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_carpet_box_1800_200_1900_geo",
+   "tag": "base1.floor",
+   "tex": "carpet",
+   "w": 1800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": -1450
+  },
+  {
+   "d": 2600,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_flagstone_box_1000_200_2600_geo",
+   "tag": "left lane",
+   "tex": "flagstone",
+   "w": 1000,
+   "x": -1500,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 2600,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_flagstone_box_1000_200_2600_geo",
+   "tag": "right lane",
+   "tex": "flagstone",
+   "w": 1000,
+   "x": 1500,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1000,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_flagstone_box_1200_200_1000_geo",
+   "tag": "mid lane",
+   "tex": "flagstone",
+   "w": 1200,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 1900,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_lava_box_1800_200_1900_geo",
+   "tag": "base0.floor",
+   "tex": "lava",
+   "w": 1800,
+   "x": 0,
+   "y": -200,
+   "yaw": 0,
+   "z": 1450
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_100_100_600_geo",
+   "tag": "left link",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": -950,
+   "y": -100,
+   "yaw": 0,
+   "z": -800
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_100_100_600_geo",
+   "tag": "right link",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": 950,
+   "y": -100,
+   "yaw": 0,
+   "z": -800
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_100_100_600_geo",
+   "tag": "left link",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": -950,
+   "y": -100,
+   "yaw": 0,
+   "z": 800
+  },
+  {
+   "d": 600,
+   "h": 100,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_100_100_600_geo",
+   "tag": "right link",
+   "tex": "darkplanks",
+   "w": 100,
+   "x": 950,
+   "y": -100,
+   "yaw": 0,
+   "z": 800
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": -1500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": -1500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": -800
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": -800
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": 800
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": 800
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": -450,
+   "y": 0,
+   "yaw": 0,
+   "z": 1500
+  },
+  {
+   "d": 200,
+   "h": 450,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_700_450_200_geo",
+   "tag": "base0.shield",
+   "tex": "darkplanks",
+   "w": 700,
+   "x": 450,
+   "y": 0,
+   "yaw": 0,
+   "z": 1500
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -1500,
+   "y": 0,
+   "yaw": 0,
+   "z": -600
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": 1700,
+   "y": 0,
+   "yaw": 0,
+   "z": -600
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -1500,
+   "y": 0,
+   "yaw": 0,
+   "z": 600
+  },
+  {
+   "d": 400,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_400_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": 1700,
+   "y": 0,
+   "yaw": 0,
+   "z": 600
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_400_200_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": 1900,
+   "y": 0,
+   "yaw": 0,
+   "z": -700
+  },
+  {
+   "d": 200,
+   "h": 400,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_400_200_geo",
+   "tag": "fill.crate_pile",
+   "tex": "crate",
+   "w": 200,
+   "x": 1900,
+   "y": 0,
+   "yaw": 0,
+   "z": 700
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -1500,
+   "y": 200,
+   "yaw": 0,
+   "z": -500
+  },
+  {
+   "d": 200,
+   "h": 200,
+   "kind": "box",
+   "model": "of_ak_crate_box_200_200_200_geo",
+   "tag": "fill.crate_stack",
+   "tex": "crate",
+   "w": 200,
+   "x": -1500,
+   "y": 200,
+   "yaw": 0,
+   "z": 500
+  },
+  {
+   "d": 800,
+   "h": 150,
+   "kind": "box",
+   "model": "of_ak_lava_box_800_150_800_geo",
+   "tag": "centre.landmark cap",
+   "tex": "lava",
+   "w": 800,
+   "x": 0,
+   "y": 2000,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "prism",
+   "model": "of_ak_darkplanks_prism_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": -200,
+   "y": 0,
+   "yaw": 180,
+   "z": -200
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "prism",
+   "model": "of_ak_darkplanks_prism_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 200,
+   "y": 0,
+   "yaw": 90,
+   "z": -200
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "prism",
+   "model": "of_ak_darkplanks_prism_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": -200,
+   "y": 0,
+   "yaw": 270,
+   "z": 200
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "prism",
+   "model": "of_ak_darkplanks_prism_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 200,
+   "y": 0,
+   "yaw": 0,
+   "z": 200
+  },
+  {
+   "d": 600,
+   "h": 2000,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_2000_600_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 0,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": -200,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  },
+  {
+   "d": 200,
+   "h": 2000,
+   "kind": "box",
+   "model": "of_ak_darkplanks_box_200_2000_200_geo",
+   "tag": "centre.landmark",
+   "tex": "darkplanks",
+   "w": 200,
+   "x": 200,
+   "y": 0,
+   "yaw": 0,
+   "z": 0
+  }
+ ],
+ "report": {
+  "about": "heaps of battlements, cross links, lanes, ramps; no crates, low walls, sunken floors",
+  "anchors_solved": {
+   "tower1": [
+    {
+     "compass": "nw",
+     "images": [
+      [
+       1,
+       1
+      ]
+     ],
+     "slot": [
+      1,
+      1
+     ],
+     "world": [
+      [
+       -2400,
+       -2400
+      ]
+     ],
+     "x": -2400,
+     "z": -2400
+    }
+   ]
+  },
+  "beauty": {
+   "accents": [
+    "lava",
+    "carpet",
+    "brickpyramid",
+    "greystone"
+   ],
+   "cap": 10,
+   "dress_pieces": 2,
+   "palette": {
+    "bridge": "darkplanks",
+    "cover": "darkplanks",
+    "deck": "tile1",
+    "floor": "flagstone",
+    "keel": "lava",
+    "ramp": "brickdarkgrey",
+    "trim": "hazardstripes",
+    "wall": "darkplanks"
+   },
+   "rules": {
+    "R6 landmark": 2
+   },
+   "theme": "lava"
+  },
+  "beauty_score": 0.883,
+  "candidate": 3,
+  "defaulted": [
+   "name",
+   "key",
+   "modes",
+   "players",
+   "symmetry",
+   "sides",
+   "density",
+   "difficulty",
+   "edge",
+   "palette",
+   "style",
+   "sky",
+   "music",
+   "level",
+   "features",
+   "objects",
+   "budget",
+   "candidates",
+   "locks",
+   "reseed",
+   "reference",
+   "dials",
+   "dna",
+   "ground",
+   "visuals",
+   "prefabs",
+   "preset",
+   "variety",
+   "novelty",
+   "requests",
+   "forge_off",
+   "amounts"
+  ],
+  "done": [
+   {
+    "id": "tower1",
+    "note": "tower at north-west -> north-west (-2400, -2400); no tower 600 high within 1000 of a solved point (nearest 1979)",
+    "status": "approximated",
+    "what": "tower",
+    "where": {
+     "compass": "nw"
+    }
+   }
+  ],
+  "fill": {
+   "backtracks": 0,
+   "before": 0.0,
+   "budget_left": 83,
+   "kinds": {
+    "crate_pile": 1,
+    "crate_stack": 1
+   },
+   "lane_walls": 0,
+   "modules": 2,
+   "options": 48,
+   "pieces": 8,
+   "reached": 0.273,
+   "steps": 3,
+   "stop": "no option left",
+   "target": 0.68
+  },
+  "fit": [
+   {
+    "name": "verticality",
+    "ok": false,
+    "value": 0.073,
+    "want": ">= 0.667",
+    "why": "verticality high"
+   },
+   {
+    "name": "layers",
+    "ok": false,
+    "value": 1,
+    "want": ">= 3",
+    "why": "verticality high: three height layers"
+   },
+   {
+    "name": "spawn_points",
+    "ok": true,
+    "value": 16,
+    "want": ">= 16",
+    "why": "a free-for-all shooter: a point per player"
+   }
+  ],
+  "gameplay": [
+   {
+    "id": "spawns",
+    "note": "spawn points 500 apart at the median (SPAWNS' ideal for a free-for-all is 3000, with cover between)",
+    "status": "noted"
+   }
+  ],
+  "kit": {
+   "knobs": {
+    "arches": 2,
+    "buildings": 2,
+    "colonnades": 2,
+    "corners": 1,
+    "diagonals": 1,
+    "fences": 2,
+    "slabs": 2,
+    "stairs": 0
+   },
+   "left": 77,
+   "not_placed": [],
+   "rules": {
+    "K6 diagonals (octagon)": 4
+   }
+  },
+  "locks": [],
+  "modules": {
+   "centre": "plaza",
+   "jog": false,
+   "lanes": "0/0/0",
+   "skeleton": "three_lane"
+  },
+  "moved": [],
+  "not_possible": [
+   "verticality high: verticality is 0.073, the wish asks >= 0.667 - the best of the candidates built; try another seed or fewer other asks",
+   "verticality high: three height layers: layers is 1, the wish asks >= 3 - the best of the candidates built; try another seed or fewer other asks",
+   "band: spawn exposure, worst spawn is 0.31, the family's target is <= 0.2",
+   "band: spawn exposure, mean is 0.2, the family's target is <= 0.15",
+   "band: spawn to centre (s, min-max) is [2.2, 3.8], the family's target is 4-7",
+   "band: time to first sight contact (s) is 1.1, the family's target is 2-5",
+   "tower1: tower at north-west -> north-west (-2400, -2400); no tower 600 high within 1000 of a solved point (nearest 1979)"
+  ],
+  "not_understood": [],
+  "notes": [
+   "skeleton three_lane (mirror) from three_lane 2.2",
+   "beauty R2: wall redbrick -> darkplanks (contrast 0.16 -> 0.40 against the floor)",
+   "style: heaps of battlements, cross links, lanes, ramps; no crates, low walls, sunken floors",
+   "survey points spread for a free-for-all: 16, 500 apart at the median (was 500)",
+   "tower1: a single tower at north-west makes the map asymmetric"
+  ],
+  "repairs": [],
+  "reseed": {},
+  "seed": 11,
+  "skeleton": "three_lane",
+  "spawns": {
+   "bases": 2,
+   "field": {
+    "candidates": 0,
+    "chosen": 0
+   },
+   "per_base": 8,
+   "rule": "cover 450 tall 300-500 ahead, nothing tall 500 behind",
+   "shields": 8,
+   "spread": {
+    "median_gap": 500,
+    "median_gap_before": 500,
+    "points": 16,
+    "rule": "2 leaders kept, then farthest first; past 16 only 1000 apart"
+   }
+  },
+  "style": {
+   "about": "heaps of battlements, cross links, lanes, ramps; no crates, low walls, sunken floors",
+   "boosted": [],
+   "forced": {
+    "height": "some (high)"
+   },
+   "rolled": {
+    "arches": "some",
+    "bases": "few",
+    "bridges": "few",
+    "buildings": "some",
+    "bunkers": "some",
+    "canyons": "few",
+    "colonnades": "some",
+    "columns": "some",
+    "corners": "few",
+    "cover": "some",
+    "crates": "none",
+    "crenels": "heaps",
+    "crossings": "heaps",
+    "daises": "few",
+    "diagonals": "few",
+    "fences": "some",
+    "height": "some",
+    "hills": "few",
+    "hubs": "none",
+    "islands": "few",
+    "keels": "none",
+    "keeps": "some",
+    "landmark": "few",
+    "lanes": "heaps",
+    "low_walls": "none",
+    "perches": "few",
+    "pillars": "none",
+    "pits": "none",
+    "rails": "none",
+    "ramps": "heaps",
+    "rings": "few",
+    "side_colours": "some",
+    "slabs": "some",
+    "stairs": "none",
+    "towers": "few",
+    "trims": "few",
+    "void_gaps": "few",
+    "walls": "some",
+    "width": "few"
+   }
+  },
+  "symmetry_solved": "turn4"
+ },
+ "spawns": [
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 180,
+   "z": 1900
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 0,
+   "z": -1900
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 180,
+   "z": 1900
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 0,
+   "z": -1900
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 180,
+   "z": 1900
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 0,
+   "z": -1900
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 180,
+   "z": 1900
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 0,
+   "z": -1900
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 180,
+   "z": 1200
+  },
+  {
+   "x": -700,
+   "y": 0,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 180,
+   "z": 1200
+  },
+  {
+   "x": -200,
+   "y": 0,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 180,
+   "z": 1200
+  },
+  {
+   "x": 200,
+   "y": 0,
+   "yaw": 0,
+   "z": -1200
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 180,
+   "z": 1200
+  },
+  {
+   "x": 700,
+   "y": 0,
+   "yaw": 0,
+   "z": -1200
+  }
+ ],
+ "stars": [],
+ "survey": {
+  "points": [
+   {
+    "x": -700,
+    "y": 0,
+    "yaw": 180,
+    "z": 1900
+   },
+   {
+    "x": -700,
+    "y": 0,
+    "yaw": 0,
+    "z": -1900
+   },
+   {
+    "x": 700,
+    "y": 0,
+    "yaw": 180,
+    "z": 1200
+   },
+   {
+    "x": 700,
+    "y": 0,
+    "yaw": 0,
+    "z": -1200
+   },
+   {
+    "x": 200,
+    "y": 0,
+    "yaw": 180,
+    "z": 1900
+   },
+   {
+    "x": 200,
+    "y": 0,
+    "yaw": 0,
+    "z": -1900
+   },
+   {
+    "x": -200,
+    "y": 0,
+    "yaw": 180,
+    "z": 1200
+   },
+   {
+    "x": -200,
+    "y": 0,
+    "yaw": 0,
+    "z": -1200
+   },
+   {
+    "x": 700,
+    "y": 0,
+    "yaw": 180,
+    "z": 1900
+   },
+   {
+    "x": 700,
+    "y": 0,
+    "yaw": 0,
+    "z": -1900
+   },
+   {
+    "x": -700,
+    "y": 0,
+    "yaw": 180,
+    "z": 1200
+   },
+   {
+    "x": -700,
+    "y": 0,
+    "yaw": 0,
+    "z": -1200
+   },
+   {
+    "x": -200,
+    "y": 0,
+    "yaw": 180,
+    "z": 1900
+   },
+   {
+    "x": -200,
+    "y": 0,
+    "yaw": 0,
+    "z": -1900
+   },
+   {
+    "x": 200,
+    "y": 0,
+    "yaw": 180,
+    "z": 1200
+   },
+   {
+    "x": 200,
+    "y": 0,
+    "yaw": 0,
+    "z": -1200
+   }
+  ]
+ }
+}
