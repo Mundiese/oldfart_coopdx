@@ -135,11 +135,7 @@ def _symmetry_of_solid(arena):
                     merged.append((a, b))
             out[g.column_rect(c)] = (tuple(merged), tuple(sorted(slopes_)))
         return out
-    def mir_x(p):
-        out = dict(p)
-        out["x"] = -out["x"]
-        out["yaw"] = (360 - out.get("yaw", 0)) % 360
-        return out
+    mir_x = m.mirrored_x
     try:
         ga = cells.CellGrid.from_pieces(plain) if plain else None
         atoms = sorted(atom(p) for p in whole)

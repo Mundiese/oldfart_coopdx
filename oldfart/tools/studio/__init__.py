@@ -1,5 +1,5 @@
 import sys as _sys
-VERSION = "1.6.0"
+VERSION = "1.6.1"
 APP_NAME = "Oldfart Studio"
 PIP_PACKAGES = ("PySide6-Essentials>=6.5,!=6.12.0", "PyOpenGL>=3.1.6")
 PIP_HINT = "pip install " + " ".join('"%s"' % p for p in PIP_PACKAGES)

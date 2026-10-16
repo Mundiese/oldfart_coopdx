@@ -60,6 +60,8 @@ class Result:
                           "params": self.best.meta.get("params", {}),
                           "quality": self.best.quality,
                           "score_source": self.best.score["source"] if self.best.score else None}
+        from .worldspawn import ensure
+        ensure(a)
         return a
 def _checked(arena, reference):
     if not reference:

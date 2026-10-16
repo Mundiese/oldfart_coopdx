@@ -42,10 +42,7 @@ class Unit:
             return (m.turned_point if point else m.turned)(thing, 2)
         return m.mirrored_z(thing)
 def mirrored_x(thing):
-    out = dict(thing)
-    out["x"] = -out["x"]
-    out["yaw"] = (360 - out.get("yaw", 0)) % 360
-    return out
+    return v1.arenas_module().mirrored_x(thing)
 class Builder:
     def __init__(self, palette):
         self.pal = palette

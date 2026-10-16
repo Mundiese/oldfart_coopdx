@@ -2817,5 +2817,11 @@
     "ffa_spread: median nearest point 1656 (want 2000)"
    ]
   }
+ },
+ "world": {
+  "x": -1750,
+  "y": 300,
+  "yaw": 180,
+  "z": 4150
  }
 }

@@ -719,9 +719,74 @@ def build_archipelago(L, P, r, sym_kind):
         L.graph.edges.add(tuple(sorted(("n%+d%+d" % a, "n%+d%+d" % b))))
     L.graph.loops.append(("lattice: %d islands, %d bridges, 2-edge-connected" % (
         len(nodes), len(keep_edges)), []))
+    _settle_steeps(L)
     L.modules.update({"islands": len(nodes), "bridges": len(keep_edges), "spacing": S})
 def _overlap(a, b):
     return a[0] < b[1] and b[0] < a[1] and a[2] < b[3] and b[2] < a[3]
+def _steep(L, made, over):
+    if over:
+        L.__dict__.setdefault("_steeps", []).append([made[0], over])
+def _steep_rect(p, over):
+    yaw = p["yaw"] % 360
+    w, d = (p["d"], p["w"]) if yaw in (90, 270) else (p["w"], p["d"])
+    return (p["x"] - w / 2, p["x"] + w / 2, p["z"] - d / 2, p["z"] + d / 2)
+def _settle_steeps(L):
+    steeps = L.__dict__.get("_steeps") or []
+    if not steeps:
+        return
+    from . import v1
+    up = v1.arenas_module().QUARTER_UP
+    item_cut = {id(p): 0 for p, _ in steeps}
+    others = [q for q in L.structure if q.get("kind") in ("ramp", "stairs")
+              and all(q is not p for p, _ in steeps)]
+    def hits(r):
+        for sp in L.spots:
+            for sx in (1, -1):
+                for sz in (1, -1):
+                    if (r[0] - 100 < sx * sp["x"] < r[1] + 100
+                            and r[2] - 100 < sz * sp["z"] < r[3] + 100):
+                        return True
+        for q in others:
+            if _rects_overlap(r, _steep_rect(q, 0)):
+                return True
+        return False
+    while True:
+        pulled = set()
+        for i, it in enumerate(steeps):
+            if it[1] - item_cut[id(it[0])] <= 0:
+                continue
+            ext = _extension(it[0], it[1], item_cut[id(it[0])], up)
+            if hits(ext):
+                pulled.add(i)
+            for j in range(i + 1, len(steeps)):
+                jt = steeps[j]
+                if jt[1] - item_cut[id(jt[0])] > 0 and _rects_overlap(
+                        ext, _extension(jt[0], jt[1], item_cut[id(jt[0])], up)):
+                    pulled.update((i, j))
+        if not pulled:
+            break
+        for i in pulled:
+            item_cut[id(steeps[i][0])] += 100
+    for p, over in steeps:
+        cut = item_cut[id(p)]
+        if cut:
+            ux, uz = up[p["yaw"] % 360]
+            p["d"] -= cut
+            p["x"] += ux * cut / 2.0
+            p["z"] += uz * cut / 2.0
+def _extension(p, over, cut, up):
+    x0, x1, z0, z1 = _steep_rect(p, 0)
+    ux, uz = up[p["yaw"] % 360]
+    if ux > 0:
+        return (x0 + cut, x0 + over, z0, z1)
+    if ux < 0:
+        return (x1 - over, x1 - cut, z0, z1)
+    if uz > 0:
+        return (x0, x1, z0 + cut, z0 + over)
+    return (x0, x1, z1 - over, z1 - cut)
+def _rects_overlap(a, b):
+    return a[0] < b[1] and b[0] < a[1] and a[2] < b[3] and b[2] < a[3]
+STEEP_OVER = 400
 def _link(L, rect, ylo_side, yhi_side, axis):
     x0, x1, z0, z1 = rect
     length = (x1 - x0) if axis == "x" else (z1 - z0)
@@ -733,25 +798,27 @@ def _link(L, rect, ylo_side, yhi_side, axis):
     else:
         lo, hi = min(a, b), max(a, b)
         run = 2 * (hi - lo)
+        over = 0
         if run > length:
             run = length
+            over = min(max(0, (hi - lo) - length), STEEP_OVER)
         flat = length - run
         if axis == "x":
             if a < b:
                 if flat:
                     bridge(L, (x0, x0 + flat, z0, z1), lo, "bridge", copy=False)
-                ramp(L, x0 + flat, x1, lo, hi, z0, z1, "+x", "bridge ramp", copy=False)
+                _steep(L, ramp(L, x0 + flat - over, x1, lo, hi, z0, z1, "+x", "bridge ramp", copy=False), over)
             else:
-                ramp(L, x0, x0 + run, lo, hi, z0, z1, "-x", "bridge ramp", copy=False)
+                _steep(L, ramp(L, x0, x0 + run + over, lo, hi, z0, z1, "-x", "bridge ramp", copy=False), over)
                 if flat:
                     bridge(L, (x0 + run, x1, z0, z1), lo, "bridge", copy=False)
         else:
             if a < b:
                 if flat:
                     bridge(L, (x0, x1, z0, z0 + flat), lo, "bridge", copy=False)
-                ramp(L, x0, x1, lo, hi, z0 + flat, z1, "+z", "bridge ramp", copy=False)
+                _steep(L, ramp(L, x0, x1, lo, hi, z0 + flat - over, z1, "+z", "bridge ramp", copy=False), over)
             else:
-                ramp(L, x0, x1, lo, hi, z0, z0 + run, "-z", "bridge ramp", copy=False)
+                _steep(L, ramp(L, x0, x1, lo, hi, z0, z0 + run + over, "-z", "bridge ramp", copy=False), over)
                 if flat:
                     bridge(L, (x0, x1, z0 + run, z1), lo, "bridge", copy=False)
     L.keep((x0 - 100, x1 + 100, z0 - 100, z1 + 100), copy=False)

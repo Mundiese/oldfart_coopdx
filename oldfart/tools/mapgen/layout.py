@@ -25,10 +25,7 @@ def inside(rect, outer, margin=0):
 def rect_of(piece):
     return cells.piece_rect(piece)
 def mirrored_x(thing):
-    out = dict(thing)
-    out["x"] = -out["x"]
-    out["yaw"] = (360 - out.get("yaw", 0)) % 360
-    return out
+    return v1.arenas_module().mirrored_x(thing)
 def _key(p):
     return tuple(sorted((k, str(v)) for k, v in p.items() if k != "tag"))
 class Sym:

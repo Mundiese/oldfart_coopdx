@@ -283,6 +283,9 @@ def export_mod(layout, mod, key, name, blurb=None, note=None):
     start = race_world(arena)
     if start is not None:
         arena["world"] = start
+    elif not arena.get("world"):
+        from .worldspawn import ensure
+        ensure(arena)
     face = painting_files(layout, mod, key, name)
     if face:
         arena["face"] = face

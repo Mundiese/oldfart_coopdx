@@ -312,6 +312,8 @@ def postprocess(arena, brief, sol):
         status = "placed" if vst in ("placed", "unverified") else vst
         lines.append((status, aid, "%s; %s" % (note, vnote) if vnote else note))
     merge_report(report, brief, sol, lines)
+    from .worldspawn import ensure
+    ensure(arena)
     return lines
 def merge_report(report, brief, sol, lines):
     mine = {aid for _, aid, _ in lines}

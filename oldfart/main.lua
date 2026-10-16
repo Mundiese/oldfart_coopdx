@@ -1,10 +1,10 @@
--- name: \\#FF0\\Old\\#FFF\\fart's Mod Menu \\#FF0\\v1.6.0 
+-- name: \\#FF0\\Old\\#FFF\\fart's Mod Menu \\#FF0\\v1.6.1 
 -- description: The ultimate host control mod menu for insanely fun, janky or challenging lobbies\n\n\\#FF5555\\This mod is WIP - expect bugs!\n\\#8C9EFF\\Join our Discord: \\#FFFFFF\\discord.gg/y66mkUjvY \\#DCDCDC\\(or type /dc)
 -- incompatible: gamemode cheats nametags
 -- pausable: true
 OF = OF or {}
 
-OF.VERSION = "1.6.0"
+OF.VERSION = "1.6.1"
 _G.OldfartModMenu = { version = OF.VERSION, warp = function(level, area, act)
     if OF.net == nil or type(OF.net.warp_local) ~= "function" then return false end
     return OF.net.warp_local(level, area, act) ~= false

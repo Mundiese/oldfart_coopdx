@@ -100,6 +100,9 @@ def prepared_arena(layout, key, name):
     start = race_world(arena)
     if start is not None:
         arena["world"] = start
+    elif not arena.get("world"):
+        from .worldspawn import ensure
+        ensure(arena)
     return arena
 def level_body(arena, script, bake_key):
     mvl = tool("make-venue-levels.py")

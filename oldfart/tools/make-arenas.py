@@ -276,10 +276,20 @@ def turned_point(point, quarters):
         out["x"], out["z"] = out["z"], -out["x"]
         out["yaw"] = (out.get("yaw", 0) + 90) % 360
     return out
+CORNER_KINDS = frozenset(("outer", "inner", "outerstairs", "innerstairs", "prism", "curve",
+                          "bank", "arcwall", "roundcorner", "uouter", "uinner",
+                          "wedgetipouter", "wedgetipinner"))
 def mirrored_z(thing):
     out = dict(thing)
     out["z"] = -out["z"]
-    out["yaw"] = (180 - out.get("yaw", 0)) % 360
+    yaw = out.get("yaw", 0)
+    out["yaw"] = ((90 if out.get("kind") in CORNER_KINDS else 180) - yaw) % 360
+    return out
+def mirrored_x(thing):
+    out = dict(thing)
+    out["x"] = -out["x"]
+    yaw = out.get("yaw", 0)
+    out["yaw"] = ((270 if out.get("kind") in CORNER_KINDS else 360) - yaw) % 360
     return out
 def footprint(piece):
     yaw = piece["yaw"] % 360
